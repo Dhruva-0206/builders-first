@@ -3,6 +3,9 @@
   load-repos   load data/cache/repos_*.csv into <GCP_PROJECT>.builders_first.repos (free load job)
   dryrun       dry-run every chunk and print bytes (no data read)
   gha          GH Archive: (ecosystem, month, login) per yearly chunk -> data/raw/gha/*.csv.gz
+  oct          NEAR logins active 2026-10-01..18 (daily tables) -> data/raw/gha/near_oct_prior.csv
+  prepare      raw chunks -> data/cache/activity.csv.gz (ecosystem, month, dev=sha256(login)[:12])
+               and data/cache/near_prior_oct.csv (hashed)
   near         NEAR deploys + unique deployers per month (yearly chunks) -> data/cache/near_deploys_monthly.csv
 
 Usage: python -m builders_first.ingest_bigquery [load-repos|dryrun|gha|near|all] [--approved-gb N]
@@ -10,6 +13,7 @@ Usage: python -m builders_first.ingest_bigquery [load-repos|dryrun|gha|near|all]
 from __future__ import annotations
 
 import argparse
+import hashlib
 import io
 from datetime import date
 
@@ -116,9 +120,40 @@ def near(approved_gb: float) -> None:
     print(f"near_deploys_monthly.csv: {len(m)} months")
 
 
+def dev_hash(login: str) -> str:
+    """Stable pseudonymous id for a GitHub login (lower-cased)."""
+    return hashlib.sha256(login.lower().encode("utf-8")).hexdigest()[:12]
+
+
+def oct_prior() -> None:
+    path = RAW / "gha" / "near_oct_prior.csv"
+    if path.exists():
+        print(f"skip cached {path.name}")
+        return
+    path.parent.mkdir(parents=True, exist_ok=True)
+    sql = bq.sql_text("gha_near_oct_prior", project=bq.project(), dataset=DATASET)
+    df, est, billed = bq.run(sql, "gha_near_oct_prior")
+    df.to_csv(path, index=False)
+    _check_overrun("gha_near_oct_prior", est, billed)
+
+
+def prepare() -> None:
+    files = sorted((RAW / "gha").glob("active_*.csv.gz"))
+    if len(files) != len(gha_chunks()):
+        raise SystemExit(f"expected {len(gha_chunks())} GH Archive chunks, found {len(files)}")
+    act = pd.concat([pd.read_csv(f, dtype=str, keep_default_na=False) for f in files])
+    act["month"] = act.month.str.slice(0, 4) + "-" + act.month.str.slice(4, 6)
+    act["dev"] = act.login.map(dev_hash)
+    act = act[["ecosystem", "month", "dev"]].drop_duplicates().sort_values(["ecosystem", "month", "dev"])
+    act.to_csv(CACHE / "activity.csv.gz", index=False, compression={"method": "gzip", "mtime": 0})
+    octp = pd.read_csv(RAW / "gha" / "near_oct_prior.csv", dtype=str, keep_default_na=False)
+    pd.DataFrame({"dev": sorted(set(octp.login.map(dev_hash)))}).to_csv(CACHE / "near_prior_oct.csv", index=False)
+    print(f"activity.csv.gz: {len(act)} rows; near_prior_oct.csv: {octp.login.nunique()} devs")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("step", nargs="?", default="all", choices=["load-repos", "dryrun", "gha", "near", "all"])
+    ap.add_argument("step", nargs="?", default="all", choices=["load-repos", "dryrun", "gha", "oct", "prepare", "near", "all"])
     ap.add_argument("--approved-gb", type=float, default=bq.ASK_LIMIT_GB)
     a = ap.parse_args()
     if a.step in ("load-repos", "all"):
@@ -127,8 +162,12 @@ def main() -> None:
         dryrun()
     if a.step in ("gha", "all"):
         gha(a.approved_gb)
+    if a.step in ("oct", "all"):
+        oct_prior()
     if a.step in ("near", "all"):
         near(a.approved_gb)
+    if a.step in ("prepare", "all"):
+        prepare()
 
 
 if __name__ == "__main__":
