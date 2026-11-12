@@ -48,7 +48,15 @@ Computed by code: **Bull** if at least 2 claims hold, **Neutral** if 1, **Bear**
 
 ## Methodology changes
 
-None yet.
+Logged in the order they were made. Each was decided before the developer-activity (GH Archive) data used by C1–C3 was downloaded, except where noted.
+
+1. **Ecosystem names (2026-11-12).** Open Dev Data names are `NEAR`, `Solana`, `Sui`, `Aptos`, `Base`; all sub-ecosystems are included. Base is present, so the EVM L2 peer is Base. The taxonomy is pinned to the commit recorded in `data/cache/ecosystems_meta.json`. The export uses the package's `taxonomy` module directly (same code path as `open-dev-data export`).
+2. **GH Archive window (2026-11-12).** History starts 2021-01, not 2019-01, to fit the BigQuery sandbox budget (dry-run costs in `sql/COSTS.md`). Consequence: a developer active before 2021 who returns in 2022 can be counted as "new" in early cohorts. Cohorts still start 2022-01, so every cohort has at least 12 months of look-back.
+3. **Developer identity and events (2026-11-12).** A developer is the GH Archive `actor.login` of a `PushEvent` or `PullRequestEvent` (any action) on an ecosystem repo. "Merged only" would require reading the large `payload` column for every month, which the budget does not allow. Electric Capital counts original commit authors, so absolute numbers differ from the Developer Report; trends are comparable. Bot logins are removed by pattern (`[bot]`, `-bot`, dependabot, github-actions, renovate).
+4. **NEAR deployments (2026-11-12).** Deployments come from `transaction_actions` (`action_kind = 'DEPLOY_CONTRACT'`, signed directly by an account), not `receipt_actions`, which would cost about 3× more to scan. Contracts created by factory contracts are therefore excluded. Unique deployers = distinct `signer_account_id`. The NEAR BigQuery dataset is current (max `block_date` 2026-11-12 at fetch time); no RPC back-fill was needed.
+5. **Incomplete months (2026-11-12).** The current calendar month is partial and is excluded from every monthly series and from cohort follow-up.
+6. **C3a threshold (2026-11-12, before GH Archive data was downloaded).** "Flat" was not defined numerically above. Fixed now: C3a holds only if mean monthly contracts-deployed-per-MAD from 2025-01 onward is more than 10% above the 2023-01–2024-12 mean. A Mann-Whitney test is reported alongside, but it is not part of the criterion.
+7. **C3b cohort (2026-11-12).** Repos come from nearhunt.xyz entries that link a GitHub repository; commits are from each repo's default branch since 2026-10-19T00:00Z, up to the fetch time. Commits whose author has no linked GitHub account are excluded from author counts but included in the AI-trailer share. "Prior NEAR activity" means the login appears in NEAR-ecosystem GH Archive activity from 2021-01 through 2026-10-18; October 2026 is resolved with the daily tables. The committed ecosystem-activity cache stores logins as unsalted SHA-256 prefixes, and the comparison is done on those hashes.
 
 ## Results
 
