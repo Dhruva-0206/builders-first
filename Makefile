@@ -9,18 +9,21 @@ else
 endif
 export PYTHONPATH := src
 
-.PHONY: setup data analysis site test all clean
+.PHONY: setup setup-data data analysis site test all clean
 
 setup:
 	$(BOOT) -m venv .venv
 	$(PY) -m pip install --upgrade pip
 	$(PY) -m pip install -r requirements.txt
 
+setup-data: setup
+	$(PY) -m pip install -r requirements-data.txt
+
 # Needs network + GITHUB_TOKEN, GCP_PROJECT, GOOGLE_APPLICATION_CREDENTIALS (see .env.example)
 data:
 	$(PY) -m builders_first.ingest_ecosystems
 	$(PY) -m builders_first.ingest_hackathon
-	$(PY) -m builders_first.ingest_bigquery
+	$(PY) -m builders_first.ingest_bigquery all --approved-gb 120
 	$(PY) -m builders_first.ingest_github
 
 analysis:

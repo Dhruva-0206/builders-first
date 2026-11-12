@@ -1,0 +1,24 @@
+# Reproducibility check: rebuild everything offline from data/cache on a clean Linux runner and
+# fail if any committed output (claims.json, site, THESIS.md/README.md generated blocks) differs.
+# No credentials, no BigQuery, no network beyond pip.
+name: rebuild
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: make setup
+        run: make setup
+      - name: make all (analysis + site + test, offline)
+        run: make all
+      - name: committed outputs match a fresh rebuild
+        run: git diff --exit-code -- data/cache site THESIS.md README.md

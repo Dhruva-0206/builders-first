@@ -1,9 +1,9 @@
-pandas>=2.2
-numpy>=1.26
-statsmodels>=0.14
-plotly>=5.20
-google-cloud-bigquery>=3.20
-requests>=2.31
-python-dotenv>=1.0
-pytest>=8.0
-open-dev-data
+# Offline path (make all): analysis, site, tests. Pinned so results reproduce byte-for-byte.
+pandas==2.3.3
+numpy==2.4.0
+scipy==1.17.1
+statsmodels==0.15.0
+plotly==6.8.0
+python-dotenv==1.2.4
+requests==2.34.2
+pytest==9.0.2
