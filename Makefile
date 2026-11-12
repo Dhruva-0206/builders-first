@@ -1,9 +1,10 @@
-# Builders First — run `make all` for the offline path (no credentials needed).
+# Builders First — run `make setup all` for the offline path (no credentials needed).
+# Override the interpreter with `make PY=python ...` to use an existing environment.
 ifeq ($(OS),Windows_NT)
-  PY := .venv/Scripts/python.exe
+  PY ?= .venv/Scripts/python.exe
   BOOT := python
 else
-  PY := .venv/bin/python
+  PY ?= .venv/bin/python
   BOOT := python3
 endif
 export PYTHONPATH := src

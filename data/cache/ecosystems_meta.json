@@ -1,0 +1,28 @@
+{
+  "source": "Open Dev Data by Electric Capital",
+  "url": "https://github.com/electric-capital/open-dev-data",
+  "license": "CC BY 4.0",
+  "commit": "d664cfa5e6804685df9061cf099bff5f32d3066c",
+  "ecosystems": {
+    "NEAR": {
+      "repos": 17454,
+      "sub_ecosystems": 108
+    },
+    "Solana": {
+      "repos": 109391,
+      "sub_ecosystems": 313
+    },
+    "Sui": {
+      "repos": 11765,
+      "sub_ecosystems": 43
+    },
+    "Aptos": {
+      "repos": 10105,
+      "sub_ecosystems": 61
+    },
+    "Base": {
+      "repos": 24920,
+      "sub_ecosystems": 124
+    }
+  }
+}

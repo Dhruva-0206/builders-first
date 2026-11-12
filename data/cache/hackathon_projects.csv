@@ -1,0 +1,679 @@
+id,official_id,name,tracks,repository_url,gh_owner,gh_repo
+nearhackathon-2026:0043dd1c-a6d8-4233-93fd-36941b1ad9d6,0043dd1c-a6d8-4233-93fd-36941b1ad9d6,AI Security & Defense (security),security,,,
+nearhackathon-2026:0078ca7e-2d32-45b6-8a60-2bb49bdbc623,0078ca7e-2d32-45b6-8a60-2bb49bdbc623,CodeCloak,privacy;swarms;security,,,
+nearhackathon-2026:008dcf6e-df4c-4fac-ba92-dccdeccff142,008dcf6e-df4c-4fac-ba92-dccdeccff142,SpendGuard AI,business;security;agents,,,
+nearhackathon-2026:00ed3eb4-ba45-405f-8567-58fd42a0f6a0,00ed3eb4-ba45-405f-8567-58fd42a0f6a0,AgentGuard,security;agents,https://github.com/Night-Etrenal/agentguard-near,Night-Etrenal,agentguard-near
+nearhackathon-2026:00fdaceb-0af0-483c-a759-a661d9a79704,00fdaceb-0af0-483c-a759-a661d9a79704,Petri,privacy;security;games;nfts;memecoins,,,
+nearhackathon-2026:018eac07-b635-43fb-85c8-b2b7b2633e1e,018eac07-b635-43fb-85c8-b2b7b2633e1e,Aegis Vault,business;security;agents;realworld,,,
+nearhackathon-2026:01d1ec5e-9ba4-49cb-88f8-8236c08285ea,01d1ec5e-9ba4-49cb-88f8-8236c08285ea,Agent Toll,security;agents,https://github.com/devx-agent/near-agent-toll,devx-agent,near-agent-toll
+nearhackathon-2026:01d2b5be-1787-4ab8-9536-787fdd5b9d16,01d2b5be-1787-4ab8-9536-787fdd5b9d16,Supply,privacy;realworld,https://github.com/chipsforbeer/near-supply-mcp,chipsforbeer,near-supply-mcp
+nearhackathon-2026:0328a53c-46b1-4ae4-a6be-c802af786094,0328a53c-46b1-4ae4-a6be-c802af786094,Q-day,games,https://github.com/valenciayuna/q-day,valenciayuna,q-day
+nearhackathon-2026:032a53d6-766f-4a0f-8a36-cbc252940b60,032a53d6-766f-4a0f-8a36-cbc252940b60,TITAN EXCUBAT,privacy;security,https://github.com/alnitak34/titan-excubat,alnitak34,titan-excubat
+nearhackathon-2026:0411b3ca-9a55-4545-911f-d2eb89e301a4,0411b3ca-9a55-4545-911f-d2eb89e301a4,IntentWatch,security;open,https://github.com/surs51/IntentWatch,surs51,IntentWatch
+nearhackathon-2026:041b93ac-79b6-4180-9c08-bba6f7f831da,041b93ac-79b6-4180-9c08-bba6f7f831da,RugGuard,security;agents,https://github.com/goingtoafter/rugguard,goingtoafter,rugguard
+nearhackathon-2026:0465d387-401d-41fc-909b-fc1863a2bb56,0465d387-401d-41fc-909b-fc1863a2bb56,Gideon,security,,,
+nearhackathon-2026:04749b49-1ec8-469d-91b8-4ee173e2bc9f,04749b49-1ec8-469d-91b8-4ee173e2bc9f,AgentGuard,business;security;agents,https://github.com/zaxcoraider/AgentGuard,zaxcoraider,AgentGuard
+nearhackathon-2026:0480260c-8d3e-477c-b081-ca8c034e1c96,0480260c-8d3e-477c-b081-ca8c034e1c96,DomainAgent,business,,,
+nearhackathon-2026:04ed6beb-1fe1-4079-811d-eb6264de4866,04ed6beb-1fe1-4079-811d-eb6264de4866,Agent Undercover,swarms;agents;games,,,
+nearhackathon-2026:050caed7-ac37-4af2-b6df-fe2af24da753,050caed7-ac37-4af2-b6df-fe2af24da753,"NEAR's agent economy, measured",thesis;agents;open,https://github.com/tenxagent/near-agent-economy,tenxagent,near-agent-economy
+nearhackathon-2026:0524afb3-1de9-4951-912e-482482cdf718,0524afb3-1de9-4951-912e-482482cdf718,ForgeProof,realworld,https://github.com/prometheanforgesynergies/forgeproof-near-intents,prometheanforgesynergies,forgeproof-near-intents
+nearhackathon-2026:05d6e2f2-4eac-4262-8ee0-9eca1a932b2c,05d6e2f2-4eac-4262-8ee0-9eca1a932b2c,PinPay,business;agents,https://github.com/Hothit1/pinpay,Hothit1,pinpay
+nearhackathon-2026:06deb0b5-807d-420a-9c8a-88a6884f0c10,06deb0b5-807d-420a-9c8a-88a6884f0c10,AgentTab,security;agents,,,
+nearhackathon-2026:074dd59c-447f-4675-aa8d-b6ae08144e30,074dd59c-447f-4675-aa8d-b6ae08144e30,ProofArena,security,https://github.com/azizyano/proofarena,azizyano,proofarena
+nearhackathon-2026:07b2f8cc-402a-4e5d-9fc9-4e0a8e7162c9,07b2f8cc-402a-4e5d-9fc9-4e0a8e7162c9,ProofPay,business;security;agents,,,
+nearhackathon-2026:07f41f33-2401-402b-9cd7-7acd09cde5da,07f41f33-2401-402b-9cd7-7acd09cde5da,Bountybot,security;agents,https://github.com/kontoru-agent/bountybot,kontoru-agent,bountybot
+nearhackathon-2026:080cff8f-bfd0-4f8c-92c9-1c244556b840,080cff8f-bfd0-4f8c-92c9-1c244556b840,NEAR: On The Evidence,thesis,,,
+nearhackathon-2026:09912d1f-af52-4f56-8840-f66f00a90710,09912d1f-af52-4f56-8840-f66f00a90710,Halter,security;agents,https://github.com/arashrahmaniii/halter,arashrahmaniii,halter
+nearhackathon-2026:09ab8743-6030-40f6-a817-d14da113de64,09ab8743-6030-40f6-a817-d14da113de64,Psephex,security;agents;open,https://github.com/UnityNodes/psephex,UnityNodes,psephex
+nearhackathon-2026:0a76ac32-6b4d-48f1-b46f-2be13d13dc80,0a76ac32-6b4d-48f1-b46f-2be13d13dc80,NearJar,realworld;social;open,,,
+nearhackathon-2026:0b1cdfcb-d589-4018-a833-2b14875ed854,0b1cdfcb-d589-4018-a833-2b14875ed854,Alphaforge,defi,,,
+nearhackathon-2026:0b1e8f4e-92fc-42e6-b791-1d1bfe8fc193,0b1e8f4e-92fc-42e6-b791-1d1bfe8fc193,Calydon,games;memecoins,https://github.com/ianlyoo/calydon,ianlyoo,calydon
+nearhackathon-2026:0b4d122b-b98e-4b8b-afc0-08e7c13a69e6,0b4d122b-b98e-4b8b-afc0-08e7c13a69e6,KEYFALL,games;memecoins,https://github.com/jenzylove/keyfall,jenzylove,keyfall
+nearhackathon-2026:0bc14688-974e-48bd-b2fe-281b220ff202,0bc14688-974e-48bd-b2fe-281b220ff202,Tollgate,agents;realworld,,,
+nearhackathon-2026:0c086611-ade4-44ff-9215-5853e1f049da,0c086611-ade4-44ff-9215-5853e1f049da,NearGuard,security,https://github.com/MarwanWidjaya/nearguard,MarwanWidjaya,nearguard
+nearhackathon-2026:0c4f64f1-58dc-4768-911b-c950002ab5c1,0c4f64f1-58dc-4768-911b-c950002ab5c1,SwarmCompute,swarms,,,
+nearhackathon-2026:0c633311-0739-4fb0-beb5-aac1f8039735,0c633311-0739-4fb0-beb5-aac1f8039735,ShowUp,realworld;social;open,https://github.com/Pritahi/showup-near,Pritahi,showup-near
+nearhackathon-2026:0de1795d-ae29-4b29-8289-09dd6ceb98ba,0de1795d-ae29-4b29-8289-09dd6ceb98ba,Approval Moment,security,https://github.com/minotorxbt/approval-moment,minotorxbt,approval-moment
+nearhackathon-2026:0e524d29-7c2a-429a-b924-f5b0f81221e0,0e524d29-7c2a-429a-b924-f5b0f81221e0,Meme Wars,memecoins,,,
+nearhackathon-2026:0f2e3793-1498-4517-a539-e26b994c2e29,0f2e3793-1498-4517-a539-e26b994c2e29,STYX,security;agents,https://github.com/vickman787/styx,vickman787,styx
+nearhackathon-2026:0fbd89e5-d81e-48ae-8ede-73dac94760c5,0fbd89e5-d81e-48ae-8ede-73dac94760c5,Writ,nfts,,,
+nearhackathon-2026:0fdc3944-7e09-4607-a08a-2590472db1ea,0fdc3944-7e09-4607-a08a-2590472db1ea,Meridian,swarms;agents;games;nfts;memecoins;social,https://github.com/efeaizesogie/meridian-town,efeaizesogie,meridian-town
+nearhackathon-2026:0fe6653b-f10b-4ceb-b541-131d39aa2590,0fe6653b-f10b-4ceb-b541-131d39aa2590,Revive,memecoins;social,,,
+nearhackathon-2026:10e6d4d9-d903-4de0-a4b3-06ac650af832,10e6d4d9-d903-4de0-a4b3-06ac650af832,Test,defi,,,
+nearhackathon-2026:11146863-2476-4490-8414-dae2119efc46,11146863-2476-4490-8414-dae2119efc46,Plumbline,business;security;agents,,,
+nearhackathon-2026:111ddcd3-8815-4ce1-bed6-226f523cab6c,111ddcd3-8815-4ce1-bed6-226f523cab6c,Farm Ajo,business;agents;realworld;social,https://github.com/Heisdave/farm-ajo,Heisdave,farm-ajo
+nearhackathon-2026:113cfb76-5188-4770-8f17-92003dabedb3,113cfb76-5188-4770-8f17-92003dabedb3,NEAR Agent Census,thesis,https://github.com/daodudestiny56-netizen/near-thesis-,daodudestiny56-netizen,near-thesis-
+nearhackathon-2026:113ecb11-f87d-4d1e-b4f4-c76fdfafdc2b,113ecb11-f87d-4d1e-b4f4-c76fdfafdc2b,SYLIC AI,privacy;security;nfts,,,
+nearhackathon-2026:11429113-f9c2-4fc2-a3a7-4d295ff2f26d,11429113-f9c2-4fc2-a3a7-4d295ff2f26d,MintGuard,security;agents;open,https://github.com/Feymarl/MintGuard,Feymarl,MintGuard
+nearhackathon-2026:114ae4bb-1b40-4004-a80f-80b89a0f585b,114ae4bb-1b40-4004-a80f-80b89a0f585b,PrivateDAO,defi;thesis;privacy;business;security;agents;realworld,,,
+nearhackathon-2026:115b2488-dcf6-4715-8f67-eaa70cc8afb3,115b2488-dcf6-4715-8f67-eaa70cc8afb3,Overclock,agents;games,https://github.com/Alvinagustus/Overclock,Alvinagustus,Overclock
+nearhackathon-2026:12eef00e-4daf-42c6-99eb-6574a1dc7797,12eef00e-4daf-42c6-99eb-6574a1dc7797,Onchain Suite,privacy,,,
+nearhackathon-2026:12ef1c9c-663a-4b26-9231-32b06f92601e,12ef1c9c-663a-4b26-9231-32b06f92601e,RunLatch,security;agents,https://github.com/Daveboss123/RunLatch,Daveboss123,RunLatch
+nearhackathon-2026:13320277-ad5c-44de-bbd0-65c898072ddf,13320277-ad5c-44de-bbd0-65c898072ddf,NearPocket,agents;realworld,https://github.com/mozoraID/nearpocket,mozoraID,nearpocket
+nearhackathon-2026:141642d1-ce6f-4005-a922-bfc5622a9e9d,141642d1-ce6f-4005-a922-bfc5622a9e9d,Antibody,privacy;security;agents,https://github.com/Himess/antibody,Himess,antibody
+nearhackathon-2026:14889793-9a9c-4d47-b20b-511f5b8415e3,14889793-9a9c-4d47-b20b-511f5b8415e3,Arcon: Your AI Architect Agent & Design Ecosystem,privacy;business;open,,,
+nearhackathon-2026:14c70946-d8de-4fed-8fc6-739886447220,14c70946-d8de-4fed-8fc6-739886447220,DeadDrop,privacy;realworld,https://github.com/Hothit1/deaddrop,Hothit1,deaddrop
+nearhackathon-2026:14d26e9c-261f-42a7-b6aa-4f911f250fdd,14d26e9c-261f-42a7-b6aa-4f911f250fdd,Petri Dish: a memecoin that is alive,swarms;games;nfts;memecoins;open,,,
+nearhackathon-2026:1562ae64-eb05-4f5d-846c-f9c0fbfaa059,1562ae64-eb05-4f5d-846c-f9c0fbfaa059,Wakeless,defi;privacy;security;agents,https://github.com/superskie/wakeless,superskie,wakeless
+nearhackathon-2026:1592bc0a-7e92-41ff-a0b3-c7f765ca291c,1592bc0a-7e92-41ff-a0b3-c7f765ca291c,Taskbond,swarms;security;agents,,,
+nearhackathon-2026:1628580c-c3fb-4edb-8785-4eaee7396b4e,1628580c-c3fb-4edb-8785-4eaee7396b4e,SpendTree,swarms;security;agents,https://github.com/neweraXX/spendtree,neweraXX,spendtree
+nearhackathon-2026:167dec4d-c0a0-4286-9fd4-de7bea0c6bbe,167dec4d-c0a0-4286-9fd4-de7bea0c6bbe,Sana Guard:Onchain Policy for AI Agents,security;agents,,,
+nearhackathon-2026:1715bb6b-148f-46f3-980b-459b06f6ca2e,1715bb6b-148f-46f3-980b-459b06f6ca2e,Semilla1 Guard,security;agents,,,
+nearhackathon-2026:171b08cc-8096-4605-928e-0dfbb4209e1a,171b08cc-8096-4605-928e-0dfbb4209e1a,Sentinel,security,,,
+nearhackathon-2026:1733fb7f-7696-4df7-ae93-b072e0bdaa51,1733fb7f-7696-4df7-ae93-b072e0bdaa51,Sentinel on NEAR,defi;security;agents,https://github.com/sawi57003-ops/near-sentinel,sawi57003-ops,near-sentinel
+nearhackathon-2026:17ad0701-1512-4907-ba5d-e5795a5aac37,17ad0701-1512-4907-ba5d-e5795a5aac37,SealedBounty,privacy;security,https://github.com/Jds-23/sealedbounty,Jds-23,sealedbounty
+nearhackathon-2026:187a9848-86c8-4e93-bca2-aa4f66cb40fc,187a9848-86c8-4e93-bca2-aa4f66cb40fc,Pixel Wayfarers,nfts,https://github.com/Gliana-Labs/pixel-wayfarers,Gliana-Labs,pixel-wayfarers
+nearhackathon-2026:187e3977-92b3-4011-b596-f7c47ffd3256,187e3977-92b3-4011-b596-f7c47ffd3256,Levee,defi;security,https://github.com/qvkare/levee,qvkare,levee
+nearhackathon-2026:18ee7a1b-2985-420e-80fa-9bcc96e536cd,18ee7a1b-2985-420e-80fa-9bcc96e536cd,Logen,nfts;open,,,
+nearhackathon-2026:18eed5bb-659a-4f97-8dff-ffbfc64896a4,18eed5bb-659a-4f97-8dff-ffbfc64896a4,Epoch,security;open,https://github.com/Techkeyy/epoch,Techkeyy,epoch
+nearhackathon-2026:19021f5f-cfcd-46e9-bad3-76625e82d8bb,19021f5f-cfcd-46e9-bad3-76625e82d8bb,Assay,swarms;security;agents,https://github.com/emer-eth/assay,emer-eth,assay
+nearhackathon-2026:19769764-c445-437e-8187-e0433b18c3da,19769764-c445-437e-8187-e0433b18c3da,NEAR SENTINEL,privacy;security;agents,,,
+nearhackathon-2026:19c48e37-d631-4127-98b4-55b6ea0ab72f,19c48e37-d631-4127-98b4-55b6ea0ab72f,Provable Alpha,defi;thesis;agents,https://github.com/chaboss-work/provable-alpha,chaboss-work,provable-alpha
+nearhackathon-2026:1a0c00ed-babe-43c0-9b94-eb04af104c7e,1a0c00ed-babe-43c0-9b94-eb04af104c7e,Clean Ledger,privacy;security;realworld,,,
+nearhackathon-2026:1a48435d-d9b3-4894-9a42-442ef79c0ccf,1a48435d-d9b3-4894-9a42-442ef79c0ccf,NEAR Sentinel: Did It Land?,security;agents;open,https://github.com/kariosg/near-sentinel,kariosg,near-sentinel
+nearhackathon-2026:1a6c7171-09e2-48e8-85b0-036de148a63d,1a6c7171-09e2-48e8-85b0-036de148a63d,Inari,agents,https://github.com/SIDDHUX9/Inari,SIDDHUX9,Inari
+nearhackathon-2026:1ae8de17-c640-4c70-963f-5018209719e9,1ae8de17-c640-4c70-963f-5018209719e9,Undo,privacy;security;realworld,https://github.com/agadape/undo,agadape,undo
+nearhackathon-2026:1b08f835-54be-40f9-8b7e-e52fd20deb63,1b08f835-54be-40f9-8b7e-e52fd20deb63,VillageBill,realworld;games;nfts,https://github.com/yyred-max/villagebill,yyred-max,villagebill
+nearhackathon-2026:1bcbf9df-adb3-479b-90b2-afaf6b3fa5e8,1bcbf9df-adb3-479b-90b2-afaf6b3fa5e8,Derelict,nfts,,,
+nearhackathon-2026:1c373cdd-06bc-45f8-8c2c-255caa791514,1c373cdd-06bc-45f8-8c2c-255caa791514,Farmverse,games;nfts,https://github.com/devarogundade/Farmverse,devarogundade,Farmverse
+nearhackathon-2026:1ca01819-1a03-4a49-81d7-eb5755db0fea,1ca01819-1a03-4a49-81d7-eb5755db0fea,VIGIL,business;realworld,,,
+nearhackathon-2026:1daa1537-1832-410a-9acd-cef07c225e13,1daa1537-1832-410a-9acd-cef07c225e13,Intercept,defi;privacy;security,,,
+nearhackathon-2026:1e8871bf-4a26-41cc-93dc-cc8678116f06,1e8871bf-4a26-41cc-93dc-cc8678116f06,ASGUARD,security,https://github.com/obahakim/asguard,obahakim,asguard
+nearhackathon-2026:1ea9d594-1b33-4c41-9d7d-d536ff0df573,1ea9d594-1b33-4c41-9d7d-d536ff0df573,near-thesis,thesis,https://github.com/rajeshmullippa-collab/near-thesis,rajeshmullippa-collab,near-thesis
+nearhackathon-2026:1ec8b31a-8ced-42b9-9774-3ea1af0e5a47,1ec8b31a-8ced-42b9-9774-3ea1af0e5a47,OpenNear,nfts,https://github.com/ONOSPETER/opennear-v2,ONOSPETER,opennear-v2
+nearhackathon-2026:1f21b0b8-0232-4954-a210-d8ff0e9c33b2,1f21b0b8-0232-4954-a210-d8ff0e9c33b2,Neat,defi;social;open,,,
+nearhackathon-2026:1f42c89b-67d7-4cf5-ad15-77d5eb9893c7,1f42c89b-67d7-4cf5-ad15-77d5eb9893c7,Setoff,realworld;open,https://github.com/elioz404/Setoff,elioz404,Setoff
+nearhackathon-2026:1f79c1b6-515b-4e28-b36a-199450ddbe45,1f79c1b6-515b-4e28-b36a-199450ddbe45,Memeproof,memecoins;open,https://github.com/dewebking/MemeProof,dewebking,MemeProof
+nearhackathon-2026:20c36cc7-a869-4f78-8f3b-512da545fdfd,20c36cc7-a869-4f78-8f3b-512da545fdfd,Private portfolio,defi;thesis;privacy,,,
+nearhackathon-2026:20df5127-8326-4810-8314-c068af25650b,20df5127-8326-4810-8314-c068af25650b,Foreman,business;swarms;security;agents,,,
+nearhackathon-2026:20fdc725-b01a-4f2a-89f3-9489da621c90,20fdc725-b01a-4f2a-89f3-9489da621c90,near,open,,,
+nearhackathon-2026:21847c17-1c1c-4344-b169-174f49cfda09,21847c17-1c1c-4344-b169-174f49cfda09,XYR Shield,defi;privacy;agents,https://github.com/rogermbenites/xyr-shield,rogermbenites,xyr-shield
+nearhackathon-2026:21996773-48fa-43e9-aedc-684fdd2e4425,21996773-48fa-43e9-aedc-684fdd2e4425,Veto: on-chain spending firewall for AI agents on NEAR,security;agents,https://github.com/Bronxydrone/Veto,Bronxydrone,Veto
+nearhackathon-2026:21b88ac4-20b2-4951-bb42-9b5e57695f5f,21b88ac4-20b2-4951-bb42-9b5e57695f5f,The Build City Hackathon,privacy,,,
+nearhackathon-2026:230eb981-1e52-49db-bf11-614605d187f2,230eb981-1e52-49db-bf11-614605d187f2,Tollgate,security;agents,https://github.com/kimdooo-a/tollgate,kimdooo-a,tollgate
+nearhackathon-2026:247640ff-7661-42ec-8275-b2fc8ada1a9a,247640ff-7661-42ec-8275-b2fc8ada1a9a,NDBOT,defi;memecoins;social;open,,,
+nearhackathon-2026:24ab3074-3cfd-46e9-b7e5-fc4922a7c66e,24ab3074-3cfd-46e9-b7e5-fc4922a7c66e,AgentGuard,defi;privacy;business;swarms;security;agents;realworld;social;open,,,
+nearhackathon-2026:24e3d259-5e06-4763-88c3-9101bac17f60,24e3d259-5e06-4763-88c3-9101bac17f60,Payrein,security;agents,,,
+nearhackathon-2026:254aecdf-6691-477b-ae60-e75059860d84,254aecdf-6691-477b-ae60-e75059860d84,Cascade,realworld;social,,,
+nearhackathon-2026:25e86b27-fbcd-438b-99ba-769046b4741c,25e86b27-fbcd-438b-99ba-769046b4741c,PROTEAN,defi;social;open,,,
+nearhackathon-2026:2633a774-80fe-4d9c-b813-0ebe292ad450,2633a774-80fe-4d9c-b813-0ebe292ad450,Cobra on NEAR,agents;realworld,https://github.com/5wt6fw45nt-design/cobra-near,5wt6fw45nt-design,cobra-near
+nearhackathon-2026:2652fe09-676c-4e5c-ab84-be6c2bb15464,2652fe09-676c-4e5c-ab84-be6c2bb15464,Orthrus Protocol,security;agents,,,
+nearhackathon-2026:2705e4be-45ed-4da7-87bd-e19a8b161941,2705e4be-45ed-4da7-87bd-e19a8b161941,Paygate,business;security;agents,,,
+nearhackathon-2026:270c2513-d072-4dad-9726-2b6191b39801,270c2513-d072-4dad-9726-2b6191b39801,BONFIRE,memecoins;social,,,
+nearhackathon-2026:2729da90-63b9-44e6-b484-9912ad4d704c,2729da90-63b9-44e6-b484-9912ad4d704c,TellTale,security,,,
+nearhackathon-2026:27ed2a89-1984-4bfa-8f35-59e1466e58c9,27ed2a89-1984-4bfa-8f35-59e1466e58c9,nearx402,privacy;security;agents,https://github.com/svmacc/nearx402,svmacc,nearx402
+nearhackathon-2026:287c0199-5dcd-42a9-86d8-0fa06123a8f3,287c0199-5dcd-42a9-86d8-0fa06123a8f3,ShowUp,realworld;open,,,
+nearhackathon-2026:287d08ef-3e56-4424-a00b-700e0f7d1bf9,287d08ef-3e56-4424-a00b-700e0f7d1bf9,"NEAR, on evidence",thesis,https://gitlab.com/orenrot/near-thesis,,
+nearhackathon-2026:28edadfc-7a18-4ce3-8ffd-127044e182ff,28edadfc-7a18-4ce3-8ffd-127044e182ff,Judge on NEAR,privacy;security;agents,https://github.com/vijaygopalbalasa/judge-near,vijaygopalbalasa,judge-near
+nearhackathon-2026:29b96d35-3fb4-4b17-98b5-2653ec354948,29b96d35-3fb4-4b17-98b5-2653ec354948,Narrax,thesis;security;open,,,
+nearhackathon-2026:29de48f9-e046-48b2-99ba-49aff3a09765,29de48f9-e046-48b2-99ba-49aff3a09765,Heimdall Cyber,security;realworld;open,https://gitlab.com/sri-krishna-batkeeri-the-nova-group/heimdall-cyber,,
+nearhackathon-2026:2a3c4c07-a62a-4b84-ae21-a77b3fd42e06,2a3c4c07-a62a-4b84-ae21-a77b3fd42e06,Safe Near,security,,,
+nearhackathon-2026:2a4526fe-ff0d-4b86-96dd-cffb506f2e10,2a4526fe-ff0d-4b86-96dd-cffb506f2e10,LinguaLedger,privacy;business;agents,,,
+nearhackathon-2026:2a6ee15f-f485-44d3-9431-6331ceb52367,2a6ee15f-f485-44d3-9431-6331ceb52367,Yield Optimizer Vault,defi;security;nfts,https://github.com/brandontomlin2/near-2026-hackathon,brandontomlin2,near-2026-hackathon
+nearhackathon-2026:2a722043-5c3c-4f92-ade4-989549be0261,2a722043-5c3c-4f92-ade4-989549be0261,Maven,security;games,https://github.com/majoseph2006-bot/Maven,majoseph2006-bot,Maven
+nearhackathon-2026:2ad377e6-2c7c-4532-a1c5-6312d34ce4f1,2ad377e6-2c7c-4532-a1c5-6312d34ce4f1,SCRIM,privacy;security;agents;realworld,,,
+nearhackathon-2026:2b198e26-7589-45a4-b6d9-0c838c248657,2b198e26-7589-45a4-b6d9-0c838c248657,Clear to Pay,privacy;business;agents;realworld,,,
+nearhackathon-2026:2bb5d330-9055-4064-9abf-3132e58bac4e,2bb5d330-9055-4064-9abf-3132e58bac4e,AgentGuard,business;swarms;security;agents;realworld,https://github.com/harshaljagdale0222/agent-guard,harshaljagdale0222,agent-guard
+nearhackathon-2026:2d67b079-7a2c-4640-9673-5a7cfaf9ef1a,2d67b079-7a2c-4640-9673-5a7cfaf9ef1a,NEAR Thesis Dashboard,thesis,https://github.com/l3ockydev/near-thesis-dashboard,l3ockydev,near-thesis-dashboard
+nearhackathon-2026:2db23e02-b7fd-47b0-aaed-f4d960785201,2db23e02-b7fd-47b0-aaed-f4d960785201,Ark of the Covenant,security;agents,,,
+nearhackathon-2026:2dc79d85-a032-49da-a708-89f6607d81bc,2dc79d85-a032-49da-a708-89f6607d81bc,Deed,business;security;nfts,https://github.com/ClaudeOpusPremiumAgent/deed,ClaudeOpusPremiumAgent,deed
+nearhackathon-2026:2e608b86-3e2c-4dbe-a438-8f30f4129e41,2e608b86-3e2c-4dbe-a438-8f30f4129e41,near-thesis: NEAR on the evidence,thesis,https://github.com/soldanoandrea/near-thesis,soldanoandrea,near-thesis
+nearhackathon-2026:2e64384f-215c-4111-9b02-f4b3073db265,2e64384f-215c-4111-9b02-f4b3073db265,DORKS,nfts;memecoins,,,
+nearhackathon-2026:2e7d759e-113e-4022-9fa7-f9ad7b656712,2e7d759e-113e-4022-9fa7-f9ad7b656712,Bila,business;security;agents,,,
+nearhackathon-2026:2ea813d4-d60e-4311-9dac-59b9463316c4,2ea813d4-d60e-4311-9dac-59b9463316c4,Gimbal,defi;security,,,
+nearhackathon-2026:2f6dea96-c753-40a2-ac98-e4e7639255b8,2f6dea96-c753-40a2-ac98-e4e7639255b8,StarFloor: Orbital Market Center & Zero-Gravity Colocation,defi;open,,,
+nearhackathon-2026:2fd429e5-a08f-4cf1-99be-ac5a9b2cd1f8,2fd429e5-a08f-4cf1-99be-ac5a9b2cd1f8,PROCTOR,privacy;security;agents,https://github.com/egbujor-emmanuel/proctor,egbujor-emmanuel,proctor
+nearhackathon-2026:2ff34858-5a81-4248-ade5-9894def5567e,2ff34858-5a81-4248-ade5-9894def5567e,Lantern Caravan,swarms;agents;games,,,
+nearhackathon-2026:303cdf12-2553-4787-b1a0-59e33f229823,303cdf12-2553-4787-b1a0-59e33f229823,Proposal X-Ray,security;social,https://github.com/bars26/near-proposal-xray,bars26,near-proposal-xray
+nearhackathon-2026:31986f08-4f30-4a7d-9539-97c90e0dbd5b,31986f08-4f30-4a7d-9539-97c90e0dbd5b,SecondEyes,security;agents,,,
+nearhackathon-2026:32c18d75-53bb-4f4d-b454-ac784023055d,32c18d75-53bb-4f4d-b454-ac784023055d,Safecell,security;agents;open,,,
+nearhackathon-2026:32c75be1-ea65-4bef-8607-1df599ae847e,32c75be1-ea65-4bef-8607-1df599ae847e,Aureus,defi;privacy;business;security;agents,,,
+nearhackathon-2026:3455e512-f65c-4bff-bc4e-a0653eecaf61,3455e512-f65c-4bff-bc4e-a0653eecaf61,NEAR Watchtower,agents,https://github.com/icallshelby/near-watchtower,icallshelby,near-watchtower
+nearhackathon-2026:3477772c-4c48-4196-a55d-7081b74e3954,3477772c-4c48-4196-a55d-7081b74e3954,Contri,privacy;realworld;nfts,,,
+nearhackathon-2026:3525d5b6-6bfb-47e7-81c7-71505f35702e,3525d5b6-6bfb-47e7-81c7-71505f35702e,Mihenk AI: pay per call on NEAR,agents,,,
+nearhackathon-2026:35f9f065-7c46-4190-b6d5-93203d7850e4,35f9f065-7c46-4190-b6d5-93203d7850e4,AgentGuard,security;agents,https://github.com/prasad-anandappa/agentguard,prasad-anandappa,agentguard
+nearhackathon-2026:3619c792-4e0a-496e-8b42-ef5fd6b91d4d,3619c792-4e0a-496e-8b42-ef5fd6b91d4d,ASGARD,defi,,,
+nearhackathon-2026:362055e6-2e3f-4d19-958c-8c3dd4cd8291,362055e6-2e3f-4d19-958c-8c3dd4cd8291,THE PIT,agents;memecoins;social;open,,,
+nearhackathon-2026:374770a8-ee59-4748-83c5-6c86b0944d44,374770a8-ee59-4748-83c5-6c86b0944d44,Lunearcy,games,,,
+nearhackathon-2026:3824ad53-8f26-426f-8239-99f5080ec3ca,3824ad53-8f26-426f-8239-99f5080ec3ca,CareRail,business;security;agents,,,
+nearhackathon-2026:38426453-a40e-4f55-8e74-db7b6e5c24b1,38426453-a40e-4f55-8e74-db7b6e5c24b1,RedactGate,privacy;security,https://github.com/ctmakc/redactgate,ctmakc,redactgate
+nearhackathon-2026:385ea3c8-bda5-4257-87b4-550bdfc33be6,385ea3c8-bda5-4257-87b4-550bdfc33be6,DiveMarket,agents;games,https://github.com/yuzuru99/divemarket,yuzuru99,divemarket
+nearhackathon-2026:38ce2f4a-99e0-4c4e-aec2-c9a835b68df8,38ce2f4a-99e0-4c4e-aec2-c9a835b68df8,Boundora,nfts,,,
+nearhackathon-2026:38de9d36-b5d0-4cf8-9e0b-aa6088913022,38de9d36-b5d0-4cf8-9e0b-aa6088913022,Redline,privacy;security;realworld,https://github.com/p2pmerc/redline,p2pmerc,redline
+nearhackathon-2026:38f7ce64-0414-46ce-b0b9-f40bd12374b6,38f7ce64-0414-46ce-b0b9-f40bd12374b6,presign-guard for NEAR,defi;security;agents,,,
+nearhackathon-2026:3a39f44c-033f-4a5e-ad4d-3bc902e5fd35,3a39f44c-033f-4a5e-ad4d-3bc902e5fd35,Nearfund,social,,,
+nearhackathon-2026:3b5ef8d3-509b-4b39-8efd-c7bde5ef0f2e,3b5ef8d3-509b-4b39-8efd-c7bde5ef0f2e,Umbra,defi;privacy;social,,,
+nearhackathon-2026:3bfa2738-b31d-4735-ab12-5bfcb8a657c9,3bfa2738-b31d-4735-ab12-5bfcb8a657c9,Chai Pot on NEAR,security;agents;social,,,
+nearhackathon-2026:3c93bf03-e823-4fab-b708-9d067a790162,3c93bf03-e823-4fab-b708-9d067a790162,C0-op,swarms;security;agents,,,
+nearhackathon-2026:3ca8385f-42b0-42ad-bec9-4d792b83be79,3ca8385f-42b0-42ad-bec9-4d792b83be79,BUMM Guard,swarms;security;open,https://github.com/GodBooster/bumm-guard,GodBooster,bumm-guard
+nearhackathon-2026:3caec19c-48c2-48b8-ac7d-db2a2f387b22,3caec19c-48c2-48b8-ac7d-db2a2f387b22,Rootbound,swarms;security;agents,,,
+nearhackathon-2026:3cbfb04e-1d0d-4407-8bd6-e06f77090106,3cbfb04e-1d0d-4407-8bd6-e06f77090106,Bazaar Sovereign,swarms;agents;games;nfts;open,,,
+nearhackathon-2026:3cc2bdaa-03a1-4759-84e8-08c3e5443b93,3cc2bdaa-03a1-4759-84e8-08c3e5443b93,VetoAgent,security;agents,,,
+nearhackathon-2026:3cfe4a31-395c-4ea7-b2aa-30f84cb8afef,3cfe4a31-395c-4ea7-b2aa-30f84cb8afef,Zero Tick,defi,https://github.com/blasrodri/zerotick,blasrodri,zerotick
+nearhackathon-2026:3d44dcae-ee40-4616-bbc5-7489ce0d360d,3d44dcae-ee40-4616-bbc5-7489ce0d360d,Writ: Who Pays When Your AI Agent Gets Fooled,security;agents;open,https://github.com/zuemen/writ,zuemen,writ
+nearhackathon-2026:3d6be0dc-68f7-4343-b479-cceb326ad7a1,3d6be0dc-68f7-4343-b479-cceb326ad7a1,openLID,security;realworld,,,
+nearhackathon-2026:3d9be24a-53f1-4755-8524-44d742c861b7,3d9be24a-53f1-4755-8524-44d742c861b7,Release Passport,security;nfts,https://github.com/emilhuseyn/release-passport,emilhuseyn,release-passport
+nearhackathon-2026:3dc94a19-7a27-4d6f-9f2e-a0b994436be6,3dc94a19-7a27-4d6f-9f2e-a0b994436be6,NEAR as a Cross-Chain Settlement Business — Investment Thesis,thesis,https://github.com/Topeseun/near-intents-investment-thesis,Topeseun,near-intents-investment-thesis
+nearhackathon-2026:3dd7c35e-6930-4b60-ad0a-7f569fcdacdc,3dd7c35e-6930-4b60-ad0a-7f569fcdacdc,Black box: a verifiable flight recorder for an AI agent's money,security;agents;open,https://github.com/tenxagent/blackbox,tenxagent,blackbox
+nearhackathon-2026:3dfb2344-8015-43d8-9389-9cf36bd8fbc2,3dfb2344-8015-43d8-9389-9cf36bd8fbc2,Shelflife,open,https://github.com/Savage27z/Shelflife,Savage27z,Shelflife
+nearhackathon-2026:3e07975d-4382-4f0a-8771-e71208a6960e,3e07975d-4382-4f0a-8771-e71208a6960e,Credence,defi;thesis;privacy;business;swarms,,,
+nearhackathon-2026:3e0a5372-942a-4618-b309-68cfa5c4d208,3e0a5372-942a-4618-b309-68cfa5c4d208,Launchline,open,,,
+nearhackathon-2026:3e4327e1-8ee3-435b-86d5-d61045b8e05e,3e4327e1-8ee3-435b-86d5-d61045b8e05e,Skarbnik,privacy;security;agents,https://github.com/pgreyy/skarbnik,pgreyy,skarbnik
+nearhackathon-2026:3ed8eea1-7333-49b6-a855-a55df8315374,3ed8eea1-7333-49b6-a855-a55df8315374,Cred402 — SpendGuard,defi;thesis;business;swarms;security;agents;realworld;social,,,
+nearhackathon-2026:3f86c8f9-811e-4de8-a500-ae345b737b2c,3f86c8f9-811e-4de8-a500-ae345b737b2c,NEAR Books,thesis;open,https://github.com/IhorMuliar/nearbooks,IhorMuliar,nearbooks
+nearhackathon-2026:3fcad2f5-4dc1-4dc8-8dd0-bd33bc845d23,3fcad2f5-4dc1-4dc8-8dd0-bd33bc845d23,EarnScout,security;agents;open,https://github.com/1Hustle/earnscout,1Hustle,earnscout
+nearhackathon-2026:40213a90-a924-4822-8476-fccc11821fa9,40213a90-a924-4822-8476-fccc11821fa9,Sentinel Registry — On-Chain Token Risk Attestations on NEAR,security;agents,https://github.com/taufik52/sentinel-registry-near,taufik52,sentinel-registry-near
+nearhackathon-2026:408e945f-c782-4a92-b9d0-565e6b5a1169,408e945f-c782-4a92-b9d0-565e6b5a1169,SafeRedline,privacy,https://github.com/oocoder/saferedline,oocoder,saferedline
+nearhackathon-2026:409c8751-d703-4eff-a8c4-f6a42a2a99b7,409c8751-d703-4eff-a8c4-f6a42a2a99b7,.Leash,security,,,
+nearhackathon-2026:40a5c9de-69dc-4f11-9973-b9c045eec2e3,40a5c9de-69dc-4f11-9973-b9c045eec2e3,NEAR Replay Lab,security,https://github.com/mosesfawole/near-replay-lab,mosesfawole,near-replay-lab
+nearhackathon-2026:40fe11d4-f8ee-4598-9518-c50153e7db7c,40fe11d4-f8ee-4598-9518-c50153e7db7c,NEAR Address Analyzer,security;open,,,
+nearhackathon-2026:4126642c-e4c0-4876-80c0-3f9729f1d81d,4126642c-e4c0-4876-80c0-3f9729f1d81d,Allowance,business;security;agents,https://github.com/sasindu-smart/allowance,sasindu-smart,allowance
+nearhackathon-2026:413dd679-48cf-4dce-adf3-36be20a9e739,413dd679-48cf-4dce-adf3-36be20a9e739,Kite,agents;realworld,,,
+nearhackathon-2026:4151103c-8802-4efc-a552-574373f46228,4151103c-8802-4efc-a552-574373f46228,Milestone Vault,privacy;security;agents;realworld,,,
+nearhackathon-2026:422f6a2e-9008-4883-ac35-a98ed9cbda89,422f6a2e-9008-4883-ac35-a98ed9cbda89,Agent3 Purser Relay,agents,,,
+nearhackathon-2026:4296638a-e11c-4d51-b72f-e449f6d99e06,4296638a-e11c-4d51-b72f-e449f6d99e06,DNA Confidential,privacy;realworld,https://github.com/indaga-ai/private-dna-reading,indaga-ai,private-dna-reading
+nearhackathon-2026:42a2f5ef-1476-44b5-8927-56b703fd7b36,42a2f5ef-1476-44b5-8927-56b703fd7b36,MilestonePay,realworld,,,
+nearhackathon-2026:42a410b7-5bac-46bf-8816-69c286905e39,42a410b7-5bac-46bf-8816-69c286905e39,Settleform,realworld,https://github.com/Sketchify-Dev/settleform,Sketchify-Dev,settleform
+nearhackathon-2026:42bc4236-548f-4b0c-83e3-e89303baf38a,42bc4236-548f-4b0c-83e3-e89303baf38a,HiveCast,privacy;swarms;agents,https://github.com/merayupi/hivecast,merayupi,hivecast
+nearhackathon-2026:42ec2a12-bf4e-40a0-8f23-dd9617e1d9ea,42ec2a12-bf4e-40a0-8f23-dd9617e1d9ea,NePu,thesis;open,https://github.com/Axlnd3r/NePu,Axlnd3r,NePu
+nearhackathon-2026:4363f191-af1b-479d-9656-50ff0812c1c0,4363f191-af1b-479d-9656-50ff0812c1c0,SunSwarm,business;swarms;realworld,,,
+nearhackathon-2026:438e5163-d314-44c0-9fcc-42d177d0718d,438e5163-d314-44c0-9fcc-42d177d0718d,Sealed Ledger,privacy,https://github.com/chaoticpunk/sealed-ledger,chaoticpunk,sealed-ledger
+nearhackathon-2026:439b9881-3a45-4f1a-8a16-6394de10b62d,439b9881-3a45-4f1a-8a16-6394de10b62d,AI Wallet Guardian,security,,,
+nearhackathon-2026:442b6492-df62-496b-9c1a-0dbd13543687,442b6492-df62-496b-9c1a-0dbd13543687,Sylic AI,privacy;security,,,
+nearhackathon-2026:44429927-7ac7-4068-92af-a3860bff045d,44429927-7ac7-4068-92af-a3860bff045d,Circuit Breaker,defi;security;agents,https://github.com/Zoltame/circuit-breaker,Zoltame,circuit-breaker
+nearhackathon-2026:449c9752-187a-4b1b-8d4a-c1b6c35ffe39,449c9752-187a-4b1b-8d4a-c1b6c35ffe39,STAG: the stag hunt coin,memecoins,https://github.com/ChrisTu117/staghunt,ChrisTu117,staghunt
+nearhackathon-2026:44b5ae7e-aa92-4927-97e8-e0eabf4cf379,44b5ae7e-aa92-4927-97e8-e0eabf4cf379,Orbit,defi,,,
+nearhackathon-2026:44ef1f47-384f-4473-9820-ad170c7b63c0,44ef1f47-384f-4473-9820-ad170c7b63c0,Keel,business;security;realworld;social,,,
+nearhackathon-2026:457e0ebc-a4ac-4ce8-9dc9-d0f8e0c1427d,457e0ebc-a4ac-4ce8-9dc9-d0f8e0c1427d,Agentguard,security;agents,https://github.com/tutnarezki5-dotcom/agentguard,tutnarezki5-dotcom,agentguard
+nearhackathon-2026:4589fe87-dac6-4b42-9218-13a7d2c8b5e6,4589fe87-dac6-4b42-9218-13a7d2c8b5e6,LeashPay,security;agents,https://github.com/hassaanraja282-lgtm/leashpay,hassaanraja282-lgtm,leashpay
+nearhackathon-2026:45c7258a-1a6d-4636-b025-28f9d3acad4d,45c7258a-1a6d-4636-b025-28f9d3acad4d,Faultline,thesis,https://github.com/Dare0x/Faultline,Dare0x,Faultline
+nearhackathon-2026:465b2038-aea8-46e9-a01e-2fc5a11fb6d5,465b2038-aea8-46e9-a01e-2fc5a11fb6d5,Priced In: prediction markets for facts,defi;privacy;swarms;agents;open,https://github.com/iamdflame/priced-in,iamdflame,priced-in
+nearhackathon-2026:46bc18be-e6f1-4a44-af0a-d6326d35b55b,46bc18be-e6f1-4a44-af0a-d6326d35b55b,Quant Agent,defi;business;security,https://github.com/jamesparser/quant-agent,jamesparser,quant-agent
+nearhackathon-2026:477e20ad-b9eb-4ca2-9e3d-a35e671831b3,477e20ad-b9eb-4ca2-9e3d-a35e671831b3,Provable AI Compliance,privacy;security;open,,,
+nearhackathon-2026:47c04261-0db8-4b5c-b515-021376cf3b71,47c04261-0db8-4b5c-b515-021376cf3b71,Nozy Agent Desk,privacy;security;agents,,,
+nearhackathon-2026:47cbc85d-6ab2-4d3f-9d91-7cc7e57eb3cf,47cbc85d-6ab2-4d3f-9d91-7cc7e57eb3cf,BEXLEY,defi;privacy;security,,,
+nearhackathon-2026:481cec5c-d9fc-41a4-9a72-b9e104915c77,481cec5c-d9fc-41a4-9a72-b9e104915c77,ZEDEC PQOS aka. TIAMAT,defi;thesis;privacy;business;swarms;security;agents;realworld;open,,,
+nearhackathon-2026:4858bd20-6b5b-49d2-8595-3e791bc3b7f3,4858bd20-6b5b-49d2-8595-3e791bc3b7f3,SealQuery,privacy;agents,,,
+nearhackathon-2026:4887a513-f1e8-49ed-80d4-2fb97e8ed415,4887a513-f1e8-49ed-80d4-2fb97e8ed415,MARGIN,agents,https://github.com/JohnyKucel/margin,JohnyKucel,margin
+nearhackathon-2026:489d9296-73a6-4b9a-850c-6a8204021540,489d9296-73a6-4b9a-850c-6a8204021540,Nexa research,business;agents,https://github.com/David35478/nexa-research,David35478,nexa-research
+nearhackathon-2026:4909e0ef-4a5e-40b6-bd68-b57b42436278,4909e0ef-4a5e-40b6-bd68-b57b42436278,Semilla1 NEAR Thesis,thesis,https://github.com/semilla1lab/semilla1-near-thesis,semilla1lab,semilla1-near-thesis
+nearhackathon-2026:493021e8-fb56-49ef-8be0-b1a1060d7784,493021e8-fb56-49ef-8be0-b1a1060d7784,Warrant,defi,https://github.com/emmanuelist/warrant,emmanuelist,warrant
+nearhackathon-2026:49563af4-b8b7-4c1e-a715-9d3148403610,49563af4-b8b7-4c1e-a715-9d3148403610,XAUConnect Gold Router,defi;agents;realworld,https://github.com/akhilexx/xauconnect-gold-router,akhilexx,xauconnect-gold-router
+nearhackathon-2026:4a4566f6-e525-4a5e-b0de-ba403c34a512,4a4566f6-e525-4a5e-b0de-ba403c34a512,Lifeguard,defi;security;agents,https://github.com/Timidan/lifeguard,Timidan,lifeguard
+nearhackathon-2026:4a7c5dc1-b0a7-4e43-beb1-2d1bc3b6f273,4a7c5dc1-b0a7-4e43-beb1-2d1bc3b6f273,CommonsOps,social,https://github.com/super-user-root/CommonsOps,super-user-root,CommonsOps
+nearhackathon-2026:4a9a7ae0-6943-4a34-b4e3-99198eeee530,4a9a7ae0-6943-4a34-b4e3-99198eeee530,Dragons Market,defi;swarms;agents;nfts;social,https://github.com/SHC-Labs/DragonsMarket,SHC-Labs,DragonsMarket
+nearhackathon-2026:4aaee984-92a7-4d4f-96f5-37642167fd6f,4aaee984-92a7-4d4f-96f5-37642167fd6f,PrivatePay Agent,privacy;agents,https://github.com/Nassami1/privatepay-agent,Nassami1,privatepay-agent
+nearhackathon-2026:4abd8001-d743-4037-9d76-e75d6febf7a3,4abd8001-d743-4037-9d76-e75d6febf7a3,Pactum,defi;open,,,
+nearhackathon-2026:4b1d7196-ba55-494a-8ccb-3daf0087744e,4b1d7196-ba55-494a-8ccb-3daf0087744e,Agent Vault,security,https://github.com/aselolee99/agent-vault,aselolee99,agent-vault
+nearhackathon-2026:4b48d357-0344-4364-aa48-42450f1f85bd,4b48d357-0344-4364-aa48-42450f1f85bd,Paya,defi;realworld,,,
+nearhackathon-2026:4b511cb3-cc90-41b1-9e8d-b337a0c8206f,4b511cb3-cc90-41b1-9e8d-b337a0c8206f,AgentLeash,security;agents,https://github.com/regeee123/agentleash,regeee123,agentleash
+nearhackathon-2026:4c16c5d9-7692-4ea6-a3f7-1497da497068,4c16c5d9-7692-4ea6-a3f7-1497da497068,Optionality,defi;thesis;agents;social;open,,,
+nearhackathon-2026:4c88b184-5c62-4718-92fe-149510a709cb,4c88b184-5c62-4718-92fe-149510a709cb,Handover,nfts,,,
+nearhackathon-2026:4cecaea4-961f-4734-b86d-e5fc9550d981,4cecaea4-961f-4734-b86d-e5fc9550d981,Antumbra,defi;privacy;open,,,
+nearhackathon-2026:4d3c9569-045d-4c44-bc7e-9141cfc68921,4d3c9569-045d-4c44-bc7e-9141cfc68921,Mesh,business;swarms;agents;realworld,,,
+nearhackathon-2026:4dbfa08c-f465-4800-8432-8228340a38d8,4dbfa08c-f465-4800-8432-8228340a38d8,"$YAP | Proof of yap, on NEAR.Social",memecoins;social;open,,,
+nearhackathon-2026:4de7a804-009f-4841-9908-010eed4b1abb,4de7a804-009f-4841-9908-010eed4b1abb,CareFund,realworld;social;open,https://github.com/sasindu-smart/carefund,sasindu-smart,carefund
+nearhackathon-2026:4e33510c-dd91-482a-ae5b-078578062e29,4e33510c-dd91-482a-ae5b-078578062e29,OpenGrasp,games;open,https://github.com/jusst01/opengrasp,jusst01,opengrasp
+nearhackathon-2026:4e50d9a7-3ef3-4a68-9307-01d46c96e184,4e50d9a7-3ef3-4a68-9307-01d46c96e184,Greed Machine,defi;business;swarms;security;agents;memecoins,https://github.com/greyw0rks/greed-machine,greyw0rks,greed-machine
+nearhackathon-2026:4f87bbfb-1dca-41b9-a230-80919a649933,4f87bbfb-1dca-41b9-a230-80919a649933,Mandate,business;security;agents,,,
+nearhackathon-2026:4f8d2c31-9e67-4f0a-8c2d-5b1e7a93c044,4f8d2c31-9e67-4f0a-8c2d-5b1e7a93c044,Outlive,business;nfts,,,
+nearhackathon-2026:4fd5587c-70b1-432c-bb9d-2fe5d79c2a2a,4fd5587c-70b1-432c-bb9d-2fe5d79c2a2a,Drip,business;security;agents,https://github.com/J4n4n/near-drip,J4n4n,near-drip
+nearhackathon-2026:50e6a343-ca00-4423-95a9-88d2ba74a4ac,50e6a343-ca00-4423-95a9-88d2ba74a4ac,Pelargo,realworld,https://github.com/BigWave45/Pelargo,BigWave45,Pelargo
+nearhackathon-2026:50efbb67-7e4a-45c7-a0d8-73427c6237bc,50efbb67-7e4a-45c7-a0d8-73427c6237bc,MintCheck,security;agents,https://github.com/ammardira/mintcheck-near,ammardira,mintcheck-near
+nearhackathon-2026:50fd3b4f-c601-4081-a463-9aa0944b7d00,50fd3b4f-c601-4081-a463-9aa0944b7d00,Measure,privacy;security,,,
+nearhackathon-2026:5115a8b3-a5ed-47ea-a2f9-1fd2af1aa6e3,5115a8b3-a5ed-47ea-a2f9-1fd2af1aa6e3,Vouch,security;agents;open,https://github.com/Oduwal/Vouch,Oduwal,Vouch
+nearhackathon-2026:51261916-2c0e-48df-9888-4c24f52dccd5,51261916-2c0e-48df-9888-4c24f52dccd5,Proof of Ship on NEAR,agents;realworld;social,,,
+nearhackathon-2026:51323ef0-6cd0-475c-8751-1ab992e1ef01,51323ef0-6cd0-475c-8751-1ab992e1ef01,VeilProof,privacy;agents,https://github.com/Otoyo4real/Veilproof-,Otoyo4real,Veilproof-
+nearhackathon-2026:5166b887-a496-428b-aed5-a392750471e5,5166b887-a496-428b-aed5-a392750471e5,HiveBid,defi;swarms;agents;open,https://github.com/ykbojak-alt/hivebid,ykbojak-alt,hivebid
+nearhackathon-2026:52131336-6eac-4599-bd2d-2dc3cd93cd7b,52131336-6eac-4599-bd2d-2dc3cd93cd7b,AgentPay AI,agents,https://github.com/karen10kazemi/agentpay-ai,karen10kazemi,agentpay-ai
+nearhackathon-2026:525cc516-1835-4082-a80e-97fe6669481c,525cc516-1835-4082-a80e-97fe6669481c,Sputnik Settlement Ledger,realworld;social,,,
+nearhackathon-2026:5278473e-6acf-40b2-a013-a2ff4236f176,5278473e-6acf-40b2-a013-a2ff4236f176,Presafe,realworld,,,
+nearhackathon-2026:529be7da-2cd5-48bc-941a-830b9f524759,529be7da-2cd5-48bc-941a-830b9f524759,Agent Guard,security;agents,,,
+nearhackathon-2026:52b1c613-598e-4015-aa9a-def15bceb1c2,52b1c613-598e-4015-aa9a-def15bceb1c2,Bursar,privacy;business;security;realworld,https://github.com/DCSteve96/Bursar,DCSteve96,Bursar
+nearhackathon-2026:5325e972-2bb9-4f7b-8b04-bfee3935963d,5325e972-2bb9-4f7b-8b04-bfee3935963d,RitualCoin,memecoins,https://github.com/regeee123/ritualcoin,regeee123,ritualcoin
+nearhackathon-2026:53bca15c-71a8-4b37-adfe-c2c262354d84,53bca15c-71a8-4b37-adfe-c2c262354d84,uprali,thesis;agents,,,
+nearhackathon-2026:53d9c309-ac4a-41d9-a31e-60ad073cf0c1,53d9c309-ac4a-41d9-a31e-60ad073cf0c1,NearBowl-Feed it or it Dies,memecoins;open,,,
+nearhackathon-2026:53ffa482-cfd4-4287-b750-af3cc336a11f,53ffa482-cfd4-4287-b750-af3cc336a11f,Ajo Onchain,realworld;social,,,
+nearhackathon-2026:54f5f088-26d2-4123-b11b-85297ae66e77,54f5f088-26d2-4123-b11b-85297ae66e77,Hat Tip,social,https://github.com/replaycourt/hat-tip,replaycourt,hat-tip
+nearhackathon-2026:55eb2652-5aee-4768-8800-22f5d6ee0b92,55eb2652-5aee-4768-8800-22f5d6ee0b92,NEAR SENTINEL,security,,,
+nearhackathon-2026:56274522-5749-427e-a444-fc23f1e4bb99,56274522-5749-427e-a444-fc23f1e4bb99,dareskro,business;agents;realworld,,,
+nearhackathon-2026:56a9d82f-710c-4239-924c-944e3b838cef,56a9d82f-710c-4239-924c-944e3b838cef,Paylink,realworld,https://github.com/RaphaelC4/Paylink,RaphaelC4,Paylink
+nearhackathon-2026:56d11a5f-7ee0-47f3-a500-0e725944b5af,56d11a5f-7ee0-47f3-a500-0e725944b5af,"Tape — The Machine, on NEAR",defi;security;agents,https://github.com/niravdesai7-1975/tape,niravdesai7-1975,tape
+nearhackathon-2026:56da0783-da22-446f-9ebe-4b49a6c88d00,56da0783-da22-446f-9ebe-4b49a6c88d00,OneShot,defi;security,https://github.com/Jr-kenny/oneshot,Jr-kenny,oneshot
+nearhackathon-2026:56dde30d-7c27-4c0b-91e7-6d45a01fa809,56dde30d-7c27-4c0b-91e7-6d45a01fa809,AgentFence,security;agents,https://github.com/lisaaai200/agent-fence,lisaaai200,agent-fence
+nearhackathon-2026:57131c18-0efc-45db-8fc5-2a212134f46d,57131c18-0efc-45db-8fc5-2a212134f46d,Crownfall,games;memecoins;social;open,,,
+nearhackathon-2026:576ee513-0c39-44f1-b3c0-dbc978503b28,576ee513-0c39-44f1-b3c0-dbc978503b28,Anyone Can Rug,memecoins,https://github.com/ebenbaruk/near-memecoin,ebenbaruk,near-memecoin
+nearhackathon-2026:5778e6eb-87c6-4b38-b856-f0732ed90f01,5778e6eb-87c6-4b38-b856-f0732ed90f01,CT Life: Metaverse Real Economy,realworld;games,,,
+nearhackathon-2026:57f439b0-dce0-4a49-98e9-8344dba6bb70,57f439b0-dce0-4a49-98e9-8344dba6bb70,Hivebuy,swarms;agents,,,
+nearhackathon-2026:57f6742f-006e-43f7-b2ec-20dd0e1cc09d,57f6742f-006e-43f7-b2ec-20dd0e1cc09d,cozy hood trails,games,,,
+nearhackathon-2026:587124fe-0c55-43fc-9350-71a45dc16f77,587124fe-0c55-43fc-9350-71a45dc16f77,Hangry Mochi,games;memecoins,https://github.com/wasimshekh00007-star/hangry-mochi,wasimshekh00007-star,hangry-mochi
+nearhackathon-2026:58825d9f-ae96-4b79-a276-8d42468c0dab,58825d9f-ae96-4b79-a276-8d42468c0dab,Nearagentpay,agents,https://github.com/Izecrypt/nearagentpay,Izecrypt,nearagentpay
+nearhackathon-2026:588cb0d7-3959-4d1b-b906-d550f24176e7,588cb0d7-3959-4d1b-b906-d550f24176e7,Warden,defi;privacy;business;swarms;security;agents;realworld,,,
+nearhackathon-2026:58b123bd-0d4c-4dce-8411-9a266894a1e1,58b123bd-0d4c-4dce-8411-9a266894a1e1,PayFold,privacy;business;open,https://github.com/Lakshay-Deol/payfold,Lakshay-Deol,payfold
+nearhackathon-2026:5969a3e0-e4d3-4fe1-a9b7-2d325fcb4969,5969a3e0-e4d3-4fe1-a9b7-2d325fcb4969,Agent Zero,business;swarms;security;agents,https://github.com/Muyideen-js/agent-zero,Muyideen-js,agent-zero
+nearhackathon-2026:59cfb2ff-3625-4421-912f-74b393e7d982,59cfb2ff-3625-4421-912f-74b393e7d982,HADES OMEGA — Multi-Agent Orchestration System,business;swarms;security,,,
+nearhackathon-2026:59db450d-bd91-4d3a-90c5-d1952fb8e906,59db450d-bd91-4d3a-90c5-d1952fb8e906,Lumen,privacy;realworld,https://github.com/Megacollins/lumen,Megacollins,lumen
+nearhackathon-2026:5a469ae8-b9ad-4746-a5d6-d4b8445c15aa,5a469ae8-b9ad-4746-a5d6-d4b8445c15aa,ProofAgent AI,business;agents,https://github.com/Adexberry1235/proofagent-ai-,Adexberry1235,proofagent-ai-
+nearhackathon-2026:5b8f7b21-05f4-439d-82aa-c70343d321d5,5b8f7b21-05f4-439d-82aa-c70343d321d5,CarPass,realworld,,,
+nearhackathon-2026:5b9a485e-baae-4ed9-86a4-2bc73cf944a8,5b9a485e-baae-4ed9-86a4-2bc73cf944a8,Torch,nfts,,,
+nearhackathon-2026:5be6af0d-024e-469d-8990-82e0311fabfe,5be6af0d-024e-469d-8990-82e0311fabfe,BAG HEIST,games;memecoins,,,
+nearhackathon-2026:5c3430c6-b69e-4bee-ada7-37f5f456e258,5c3430c6-b69e-4bee-ada7-37f5f456e258,Where's My ZEC,privacy;open,https://github.com/cryppit/wheres-my-zec,cryppit,wheres-my-zec
+nearhackathon-2026:5cc04588-f056-4c3e-96a1-fb956a10af44,5cc04588-f056-4c3e-96a1-fb956a10af44,Daykeeper,social;open,,,
+nearhackathon-2026:5d0a06c9-5bfa-4a3c-a701-19139bfb5c2e,5d0a06c9-5bfa-4a3c-a701-19139bfb5c2e,setllend,defi,,,
+nearhackathon-2026:5d0ee068-040f-4a9b-b53f-534008ae8aeb,5d0ee068-040f-4a9b-b53f-534008ae8aeb,PatchBond,privacy;security;agents;open,,,
+nearhackathon-2026:5d48ec5a-333e-4452-8a8d-c3d0720ca1b5,5d48ec5a-333e-4452-8a8d-c3d0720ca1b5,cipherwork,privacy;business;agents,https://github.com/wadadawadada/cipherwork,wadadawadada,cipherwork
+nearhackathon-2026:5f55a401-e97f-4c65-bfab-eca295c8a2d5,5f55a401-e97f-4c65-bfab-eca295c8a2d5,nearswaps agent kit,defi;security;agents,https://github.com/nearswaps/nearswaps-agents,nearswaps,nearswaps-agents
+nearhackathon-2026:601ec37e-da0b-4e26-92be-dddf7384821a,601ec37e-da0b-4e26-92be-dddf7384821a,NEAR Agent Fleet,business;agents,,,
+nearhackathon-2026:61039c61-0a07-4157-b1e8-bfd9502c12fc,61039c61-0a07-4157-b1e8-bfd9502c12fc,Ukemi,social;open,,,
+nearhackathon-2026:6168e9be-de21-413b-b9c7-6b101313ba2f,6168e9be-de21-413b-b9c7-6b101313ba2f,FairShare,social,https://github.com/fairshare54/fairshare,fairshare54,fairshare
+nearhackathon-2026:617e13c6-9bed-4c34-bbaa-f099fed53cb3,617e13c6-9bed-4c34-bbaa-f099fed53cb3,Tripwire,security,https://github.com/MacStian/tripwire,MacStian,tripwire
+nearhackathon-2026:61a86eb6-52b9-41d4-a2db-4583676d7cd2,61a86eb6-52b9-41d4-a2db-4583676d7cd2,GhostAgent,security;agents;realworld,,,
+nearhackathon-2026:6254e8e0-a8a3-4a19-a891-10067a78d535,6254e8e0-a8a3-4a19-a891-10067a78d535,Allowance,security,,,
+nearhackathon-2026:62715053-6cc5-4f69-8613-eaa46fe5c960,62715053-6cc5-4f69-8613-eaa46fe5c960,Hex Probabilistic Intelligence [PI],open,,,
+nearhackathon-2026:62c095d3-5c9c-485b-9426-4d674e67d25b,62c095d3-5c9c-485b-9426-4d674e67d25b,Trueque,defi;realworld;open,https://github.com/jafetchvdev/trueque,jafetchvdev,trueque
+nearhackathon-2026:62d32e18-80a2-4d2b-95be-0d4c99fb783b,62d32e18-80a2-4d2b-95be-0d4c99fb783b,Nearsay,security;agents;games,https://github.com/sirmos/nearsay,sirmos,nearsay
+nearhackathon-2026:634c48fd-5190-4c8d-ada2-75e19dc367c1,634c48fd-5190-4c8d-ada2-75e19dc367c1,ZeroFlux,defi;privacy;business;swarms;security;agents;memecoins;open,https://github.com/zerofluxprotocol/zeroflux,zerofluxprotocol,zeroflux
+nearhackathon-2026:64092c5f-df0f-41b0-98a5-697faad7314a,64092c5f-df0f-41b0-98a5-697faad7314a,NEARpedia,privacy;security;agents;open,https://github.com/UnityNodes/near-pedia,UnityNodes,near-pedia
+nearhackathon-2026:645b1dd2-5e78-4a02-a560-53aafc7206cb,645b1dd2-5e78-4a02-a560-53aafc7206cb,Morrowseal,privacy;open,https://github.com/zer0plugyut-afk/morrowseal,zer0plugyut-afk,morrowseal
+nearhackathon-2026:6483956b-bdac-412e-b9b8-1887687db7f6,6483956b-bdac-412e-b9b8-1887687db7f6,Pal,open,,,
+nearhackathon-2026:6536ea69-2b69-4e83-89c0-8811489df585,6536ea69-2b69-4e83-89c0-8811489df585,GetLeash,privacy;business;security;agents;realworld;open,https://github.com/Onasachi/Getleash,Onasachi,Getleash
+nearhackathon-2026:655ccb07-9788-4b73-9f5c-5f376c05f72f,655ccb07-9788-4b73-9f5c-5f376c05f72f,Undiluted,privacy;business;realworld;open,https://github.com/elioz404/Undiluted,elioz404,Undiluted
+nearhackathon-2026:65ee7b4d-ddc0-4519-959e-9d65c51deb59,65ee7b4d-ddc0-4519-959e-9d65c51deb59,Roomy,realworld;social;open,https://github.com/Ber254/roomy,Ber254,roomy
+nearhackathon-2026:665d4643-1468-4327-a7a5-31e1519f713f,665d4643-1468-4327-a7a5-31e1519f713f,VAULTRY,defi;privacy;security,https://github.com/rjrajput-web3/vaultguard,rjrajput-web3,vaultguard
+nearhackathon-2026:669c96f9-8857-4a49-a014-c8df41e71ee2,669c96f9-8857-4a49-a014-c8df41e71ee2,Spend Guard,security;agents,https://github.com/vulinh1704/spend-guard,vulinh1704,spend-guard
+nearhackathon-2026:66d42841-121e-414e-a047-1ce7cfa80782,66d42841-121e-414e-a047-1ce7cfa80782,iMeme,memecoins,,,
+nearhackathon-2026:686150b9-35a1-47df-b0fd-20a3c87eed4a,686150b9-35a1-47df-b0fd-20a3c87eed4a,Budget Broker MCP,security;agents,https://github.com/dwk601/near-budget-broker-mcp,dwk601,near-budget-broker-mcp
+nearhackathon-2026:688b3439-debc-4980-943e-285357ace6f5,688b3439-debc-4980-943e-285357ace6f5,NEAR Intents thesis: usage vs value capture,thesis,https://github.com/ErfanMoheb/near-intents-thesis,ErfanMoheb,near-intents-thesis
+nearhackathon-2026:68c95c14-4ef7-4f70-b128-a476742e4ddc,68c95c14-4ef7-4f70-b128-a476742e4ddc,Arkhe Guard,security;agents,https://github.com/rafael-arkhe/near-hackathon,rafael-arkhe,near-hackathon
+nearhackathon-2026:68e265ef-198e-4e20-abcd-7ad16a23e23c,68e265ef-198e-4e20-abcd-7ad16a23e23c,NEAR Intents Thesis — Tested,thesis,https://github.com/luongs3/near-intents-thesis,luongs3,near-intents-thesis
+nearhackathon-2026:6930cfcc-eed7-405b-9ec1-3eba610d16b2,6930cfcc-eed7-405b-9ec1-3eba610d16b2,Veto,privacy;business;security;agents;realworld;open,,,
+nearhackathon-2026:6a17a2b1-b46b-448e-9d51-5f8f78a96281,6a17a2b1-b46b-448e-9d51-5f8f78a96281,SpecLock,realworld,,,
+nearhackathon-2026:6b0d4c1e-2f6a-4d57-9a3e-7c1f8e2b5a90,6b0d4c1e-2f6a-4d57-9a3e-7c1f8e2b5a90,Footnote,security;agents,,,
+nearhackathon-2026:6b71235d-6bf2-4a7e-9147-b54e3b2160d0,6b71235d-6bf2-4a7e-9147-b54e3b2160d0,Terra matcher,defi;open,https://github.com/archtum66-dev/terra-matcher,archtum66-dev,terra-matcher
+nearhackathon-2026:6b7945d5-67fa-4ee0-8682-1c0e8bf670b5,6b7945d5-67fa-4ee0-8682-1c0e8bf670b5,Hushmark,privacy;security,,,
+nearhackathon-2026:6bfd034b-bdf4-41ae-a269-279fc50dc3ec,6bfd034b-bdf4-41ae-a269-279fc50dc3ec,ArchivePass,nfts,,,
+nearhackathon-2026:6cc579c6-4abc-4e72-b93a-20904b06e2bd,6cc579c6-4abc-4e72-b93a-20904b06e2bd,KeyLease,swarms;security;agents,https://github.com/metafrogmeme-droid/keylease,metafrogmeme-droid,keylease
+nearhackathon-2026:6ce4fa90-8531-475f-ae45-ff1ca2fe0bbe,6ce4fa90-8531-475f-ae45-ff1ca2fe0bbe,NEAR Payment Guard,security;agents,https://github.com/saltxd/near-payment-guard,saltxd,near-payment-guard
+nearhackathon-2026:6cf9c090-53ba-4ada-a86a-09824dd98eba,6cf9c090-53ba-4ada-a86a-09824dd98eba,Sealed Dossier,privacy,https://github.com/archtum66-dev/sealed-dossier,archtum66-dev,sealed-dossier
+nearhackathon-2026:6d6be589-4a36-4a66-94f4-4408c40c9057,6d6be589-4a36-4a66-94f4-4408c40c9057,ALTAR,agents;memecoins,,,
+nearhackathon-2026:6e2deee0-980c-429e-86d7-2b34ecd8e79b,6e2deee0-980c-429e-86d7-2b34ecd8e79b,Termwork,privacy;security;agents;social,https://github.com/Mramaran/termwork,Mramaran,termwork
+nearhackathon-2026:6e33f334-d94f-4655-84bf-9a462b7d1ae4,6e33f334-d94f-4655-84bf-9a462b7d1ae4,Yawrd,business;agents;social,https://github.com/vandigital/yawrd,vandigital,yawrd
+nearhackathon-2026:6e7be752-aa60-4da7-a729-09ce3f2d82d4,6e7be752-aa60-4da7-a729-09ce3f2d82d4,NEAR Usage Thesis,thesis,https://github.com/Raindess69/near-usage-thesis,Raindess69,near-usage-thesis
+nearhackathon-2026:6f3e7aa3-98c1-4321-bf9b-52324117cd17,6f3e7aa3-98c1-4321-bf9b-52324117cd17,Mint Scout for NEAR,security;agents;open,https://github.com/charry99/mint-scout-near,charry99,mint-scout-near
+nearhackathon-2026:71c0d142-809a-4ab3-9eef-33cd08b89fae,71c0d142-809a-4ab3-9eef-33cd08b89fae,Charter,defi;privacy;business;security;agents;open,https://github.com/Spagero763/charter,Spagero763,charter
+nearhackathon-2026:71dd6225-cfe1-4639-9fdb-4831629534d7,71dd6225-cfe1-4639-9fdb-4831629534d7,LastKey Bunker,defi;privacy;security;open,https://github.com/mastrophot/lastkey-bunker,mastrophot,lastkey-bunker
+nearhackathon-2026:71ed36e8-4c24-4135-8fa2-80b070cbbd64,71ed36e8-4c24-4135-8fa2-80b070cbbd64,Workcell,defi;security,,,
+nearhackathon-2026:722ede59-e2e6-4693-ac2c-15039142c84e,722ede59-e2e6-4693-ac2c-15039142c84e,Werracle: Intra-Block AI Shield for NEAR Intents & Aurora EVM,defi;security;agents,https://github.com/pCwOrM/werracle,pCwOrM,werracle
+nearhackathon-2026:72ad736a-250a-4369-92fd-271efdd60598,72ad736a-250a-4369-92fd-271efdd60598,Purser,swarms;security;agents,https://github.com/arjunamarcelino/purser,arjunamarcelino,purser
+nearhackathon-2026:735b6139-e210-44d2-9a0c-3dd305621d3c,735b6139-e210-44d2-9a0c-3dd305621d3c,Stashway,security,https://github.com/defiprince-bit/stashway,defiprince-bit,stashway
+nearhackathon-2026:73623146-ea42-4664-a0bf-3fea21c1dc82,73623146-ea42-4664-a0bf-3fea21c1dc82,Lot Passport,realworld;nfts,https://github.com/nauvalzuhdy/lot-passport,nauvalzuhdy,lot-passport
+nearhackathon-2026:73796d23-4bf6-4c00-a3e8-6c0211807d59,73796d23-4bf6-4c00-a3e8-6c0211807d59,NEAR Growth Intelligence,thesis,,,
+nearhackathon-2026:73aac154-b3fc-48e4-8089-79f73af7e7dd,73aac154-b3fc-48e4-8089-79f73af7e7dd,Agent Allowance Guard,security;agents,https://github.com/buahrasa01-hub/agent-allowance-guard,buahrasa01-hub,agent-allowance-guard
+nearhackathon-2026:73c3749b-4b1f-406e-b765-81db07c0e4c0,73c3749b-4b1f-406e-b765-81db07c0e4c0,NEAR on the Evidence,thesis,https://github.com/abdeldjalilchougui/NearThesis,abdeldjalilchougui,NearThesis
+nearhackathon-2026:74439305-e44b-4bc0-875a-5ce5dd7171d8,74439305-e44b-4bc0-875a-5ce5dd7171d8,SikaSend,security;agents;realworld,https://github.com/kwesitetteh2003-jpg/sikasend,kwesitetteh2003-jpg,sikasend
+nearhackathon-2026:754bc1d0-3596-44dd-9721-3f45eae3eeda,754bc1d0-3596-44dd-9721-3f45eae3eeda,NEARPORTAL,agents;realworld,,,
+nearhackathon-2026:75551d6c-ab19-419c-b2e3-3847d5fb6da4,75551d6c-ab19-419c-b2e3-3847d5fb6da4,near-agent-guard,security;agents,,,
+nearhackathon-2026:7556a73b-de05-4bfe-aa81-a3ae4d1e1c04,7556a73b-de05-4bfe-aa81-a3ae4d1e1c04,NairaRails,realworld,,,
+nearhackathon-2026:759c5597-8632-4578-a05b-8dc047cf2db8,759c5597-8632-4578-a05b-8dc047cf2db8,Leash,security;agents,https://github.com/hycorange/near-leash,hycorange,near-leash
+nearhackathon-2026:75fd541c-a9b4-48f5-853a-6bd778e2cdcd,75fd541c-a9b4-48f5-853a-6bd778e2cdcd,Azzle,business;swarms;security;agents,,,
+nearhackathon-2026:768bead2-5675-4167-92bd-4910d204f359,768bead2-5675-4167-92bd-4910d204f359,Agent Treasury,defi;business;security;agents;realworld,https://github.com/iskander-kudashev-13/agent-treasury,iskander-kudashev-13,agent-treasury
+nearhackathon-2026:76bf91c3-ef6a-4f83-8792-a8796019cbef,76bf91c3-ef6a-4f83-8792-a8796019cbef,ByLaw,security,,,
+nearhackathon-2026:77069aa4-6eb5-4770-8448-349169c99ee4,77069aa4-6eb5-4770-8448-349169c99ee4,PredicTEE,privacy,https://github.com/zhic49280-oss/predictee,zhic49280-oss,predictee
+nearhackathon-2026:776ba85a-a86b-4a1e-8ca7-ae31a019f4ef,776ba85a-a86b-4a1e-8ca7-ae31a019f4ef,Echoes,business;swarms;security;agents,https://github.com/xhanny6969/echoes,xhanny6969,echoes
+nearhackathon-2026:779185fc-dc4e-4508-ad58-8a66a3204968,779185fc-dc4e-4508-ad58-8a66a3204968,CareRail,realworld,,,
+nearhackathon-2026:77b28e32-e5dc-4c10-bf27-0c4f3d6ba2d8,77b28e32-e5dc-4c10-bf27-0c4f3d6ba2d8,everNEAR,privacy;business;agents;realworld;open,https://github.com/devluca999/evernear,devluca999,evernear
+nearhackathon-2026:77bdab21-29e6-453d-a868-9572ef1e2229,77bdab21-29e6-453d-a868-9572ef1e2229,Valet: a valet key for AI agents on NEAR,security;agents,https://github.com/195440/valet,195440,valet
+nearhackathon-2026:7926d8c7-d08a-4c7c-a9fd-1d00ae3a476b,7926d8c7-d08a-4c7c-a9fd-1d00ae3a476b,PATCHPAY,business;realworld,https://github.com/rjrajput-web3/patchpay,rjrajput-web3,patchpay
+nearhackathon-2026:7949582e-2890-42e4-aa54-b22a5676f836,7949582e-2890-42e4-aa54-b22a5676f836,Kring,realworld;social,https://github.com/PravinrajV/kring,PravinrajV,kring
+nearhackathon-2026:799309d0-3829-4082-bebe-88ca6a80139a,799309d0-3829-4082-bebe-88ca6a80139a,NEER,defi;security,,,
+nearhackathon-2026:79b57ff9-b521-470c-9a34-1d52da03f792,79b57ff9-b521-470c-9a34-1d52da03f792,Thesis Agent,agents,https://github.com/Alamutu1/near-thesis-tested,Alamutu1,near-thesis-tested
+nearhackathon-2026:7a2c3ff0-7771-4ae5-9994-fff4c7ac8f2a,7a2c3ff0-7771-4ae5-9994-fff4c7ac8f2a,Claw Guard: Signing Gate for AI Agents,security;agents,https://github.com/metafrogmeme-droid/claw-guard-near,metafrogmeme-droid,claw-guard-near
+nearhackathon-2026:7a911921-e6d0-430c-9e4b-cb762a526f11,7a911921-e6d0-430c-9e4b-cb762a526f11,Mandate: Fireable Agent Wallet,business;security;agents,https://github.com/Makabeez/mandate-near,Makabeez,mandate-near
+nearhackathon-2026:7b1795d1-6907-4d66-95bd-294aabdd470a,7b1795d1-6907-4d66-95bd-294aabdd470a,AD FONTES,swarms;games,,,
+nearhackathon-2026:7b7e0fcb-fffc-400e-82c5-b7ed941c25e3,7b7e0fcb-fffc-400e-82c5-b7ed941c25e3,Twinnear,realworld,https://github.com/0xward/Twinnear,0xward,Twinnear
+nearhackathon-2026:7c772095-71d1-4cac-a207-2d4feca6e4ff,7c772095-71d1-4cac-a207-2d4feca6e4ff,Tripwire,thesis,,,
+nearhackathon-2026:7cad9fe0-5642-43a2-848e-0ee1bcc3b142,7cad9fe0-5642-43a2-848e-0ee1bcc3b142,Agent shield,security,,,
+nearhackathon-2026:7cb11fbb-008c-4d44-a933-eb3d9e5ca222,7cb11fbb-008c-4d44-a933-eb3d9e5ca222,Leash,security;agents,https://github.com/talibot-agent/leash,talibot-agent,leash
+nearhackathon-2026:7da81c3b-7016-4353-a646-953edf768856,7da81c3b-7016-4353-a646-953edf768856,agent-pay,security;agents,https://github.com/tmdry4530/agent-pay-public,tmdry4530,agent-pay-public
+nearhackathon-2026:7db4528c-09fb-4a27-85d8-526aa2bc4ee4,7db4528c-09fb-4a27-85d8-526aa2bc4ee4,IntentGuard,defi,https://github.com/Feymarl/IntentGuard,Feymarl,IntentGuard
+nearhackathon-2026:7ddc2d4e-c9ec-4e9d-bf57-c6309930e8ba,7ddc2d4e-c9ec-4e9d-bf57-c6309930e8ba,NEARlyHuman - AI NPC NFT,games;nfts,,,
+nearhackathon-2026:7f8dff57-988e-4866-8dc0-a76d6ccaa659,7f8dff57-988e-4866-8dc0-a76d6ccaa659,Ash.,business;swarms;security;agents;realworld;social,https://github.com/festac-dev/Ash,festac-dev,Ash
+nearhackathon-2026:7fdb3314-94a8-4000-a57d-eadac57648c2,7fdb3314-94a8-4000-a57d-eadac57648c2,NearWarden,security;agents,https://github.com/nimrid/NearWarden,nimrid,NearWarden
+nearhackathon-2026:80daa4be-6a7d-48cd-b03b-3316ea3c7a5f,80daa4be-6a7d-48cd-b03b-3316ea3c7a5f,Proxim,realworld,,,
+nearhackathon-2026:81245941-74f3-49b1-a897-4524fec4f0bf,81245941-74f3-49b1-a897-4524fec4f0bf,$BEFEWER,games;memecoins,https://github.com/jamesOPJ/befewer,jamesOPJ,befewer
+nearhackathon-2026:815d312a-1f58-4d92-9b0b-5d94daf8a36f,815d312a-1f58-4d92-9b0b-5d94daf8a36f,NEAR by the Numbers,thesis,https://github.com/icallshelby/near-thesis-model,icallshelby,near-thesis-model
+nearhackathon-2026:818e61ce-940f-40bd-9a0b-719dd5be76b9,818e61ce-940f-40bd-9a0b-719dd5be76b9,Loomdesk,defi,,,
+nearhackathon-2026:81eec9be-7452-4b8f-b57f-c7b654447b96,81eec9be-7452-4b8f-b57f-c7b654447b96,NearHr,realworld,,,
+nearhackathon-2026:82821a03-0701-4e30-90e5-cdc42fbf8a03,82821a03-0701-4e30-90e5-cdc42fbf8a03,GhostSign,security;agents,https://github.com/nehaiqoo-source/GhostSign,nehaiqoo-source,GhostSign
+nearhackathon-2026:82878626-d007-4202-bbd8-bdc6305c7156,82878626-d007-4202-bbd8-bdc6305c7156,Kinwarden,privacy;security;agents;realworld,https://github.com/JahanzaibMohsin9/kinwarden,JahanzaibMohsin9,kinwarden
+nearhackathon-2026:8309262f-0ac4-44a9-8ca0-2b51b03d52d0,8309262f-0ac4-44a9-8ca0-2b51b03d52d0,Invoice Link,business;realworld,,,
+nearhackathon-2026:838de4eb-8adf-417f-aa68-f1036b6d8f4a,838de4eb-8adf-417f-aa68-f1036b6d8f4a,Ethics Keyless Trust: Raise a launch together. No one holds the vaults.,memecoins;open,https://github.com/0xjume/ethics-trust,0xjume,ethics-trust
+nearhackathon-2026:83934a84-5719-4197-bcea-e491d37ba7f3,83934a84-5719-4197-bcea-e491d37ba7f3,NEAR Payments for BTCPay Server,realworld,https://github.com/Salardx/btcpayserver-plugins,Salardx,btcpayserver-plugins
+nearhackathon-2026:846762b7-c3df-4018-98dc-a57e6e5a1428,846762b7-c3df-4018-98dc-a57e6e5a1428,OJA,business;agents;realworld;open,https://github.com/neezer28/OJAagent,neezer28,OJAagent
+nearhackathon-2026:849f9204-ed81-497b-8570-bd3ef00a21e2,849f9204-ed81-497b-8570-bd3ef00a21e2,Sealed Exploit,privacy;security;agents;open,https://github.com/edycutjong/sealed,edycutjong,sealed
+nearhackathon-2026:85211408-80b1-4e94-890f-2d5d5f23844a,85211408-80b1-4e94-890f-2d5d5f23844a,boreal.work,privacy;agents;realworld,https://github.com/raldblox/boreal-task-desk,raldblox,boreal-task-desk
+nearhackathon-2026:857da381-27f9-4e36-aed5-d1483f0dd154,857da381-27f9-4e36-aed5-d1483f0dd154,NEAR FeeLens,thesis,https://github.com/3Nerion7/near-feelens,3Nerion7,near-feelens
+nearhackathon-2026:8592d599-028d-48c8-8f73-8eb2ee96b183,8592d599-028d-48c8-8f73-8eb2ee96b183,Time-Locked Gifts,nfts,,,
+nearhackathon-2026:863a286f-1b9b-48b5-8303-1697b2b5a5f9,863a286f-1b9b-48b5-8303-1697b2b5a5f9,SwarmGuild,swarms;agents,,,
+nearhackathon-2026:885b6c2e-565c-480d-8691-ac431ab6afce,885b6c2e-565c-480d-8691-ac431ab6afce,Public Agent Coin (PAC),agents;memecoins,,,
+nearhackathon-2026:89c6d1bd-996c-4d9d-9e06-a44c6ce9946f,89c6d1bd-996c-4d9d-9e06-a44c6ce9946f,EMET (אמת),business;security;agents;realworld,,,
+nearhackathon-2026:8a5c6ffe-289c-4140-aea1-e96f420f3a19,8a5c6ffe-289c-4140-aea1-e96f420f3a19,Hindsight,privacy;security;realworld,https://github.com/Nnadijoshuac/hindsight,Nnadijoshuac,hindsight
+nearhackathon-2026:8ad3b968-e3ad-47f1-b1a9-b33581f616f6,8ad3b968-e3ad-47f1-b1a9-b33581f616f6,OneUp,defi;agents;nfts;open,https://github.com/ethboi/oneup,ethboi,oneup
+nearhackathon-2026:8b76f68d-db80-4dfa-b9a8-4ac4f352888a,8b76f68d-db80-4dfa-b9a8-4ac4f352888a,Pactsmith,business;agents;realworld;open,,,
+nearhackathon-2026:8b933a5b-2bae-413b-a96f-38b888dc0da4,8b933a5b-2bae-413b-a96f-38b888dc0da4,Ballast,defi;agents,https://github.com/olliechap/near-ballast,olliechap,near-ballast
+nearhackathon-2026:8ba03120-be2b-4be8-8474-b9e3f0afd444,8ba03120-be2b-4be8-8474-b9e3f0afd444,Loca,defi;business;swarms;security;agents,https://github.com/redaicodes/loca,redaicodes,loca
+nearhackathon-2026:8be0239a-d5ae-41aa-bf7b-8e8c5746b2c5,8be0239a-d5ae-41aa-bf7b-8e8c5746b2c5,NEARAIL,privacy;security;realworld;open,,,
+nearhackathon-2026:8bf2bb4f-b322-4970-9fd8-f954a131fd5e,8bf2bb4f-b322-4970-9fd8-f954a131fd5e,Buffer,business;security;agents,https://github.com/Chima30/buffer,Chima30,buffer
+nearhackathon-2026:8c1629ae-c5eb-40c6-baf6-b282662a7b78,8c1629ae-c5eb-40c6-baf6-b282662a7b78,AgentGauntlet,security,,,
+nearhackathon-2026:8c8755ea-2b40-409d-b8ef-43c7ae8b39c1,8c8755ea-2b40-409d-b8ef-43c7ae8b39c1,PromisePay,defi;realworld,,,
+nearhackathon-2026:8ce1e3a2-1bf0-4dc0-aeb3-0981afda5c60,8ce1e3a2-1bf0-4dc0-aeb3-0981afda5c60,PayPerCall on NEAR,business;agents;realworld,https://github.com/devx-agent/near-paypercall,devx-agent,near-paypercall
+nearhackathon-2026:8cee062c-f267-4762-b588-f132d18c30dc,8cee062c-f267-4762-b588-f132d18c30dc,"Kite - rebalancing, yield-earning vaults",defi;security;social,,,
+nearhackathon-2026:8cef41cd-d925-407f-8b7d-2bc587f40df1,8cef41cd-d925-407f-8b7d-2bc587f40df1,Allpilot,defi;realworld,,,
+nearhackathon-2026:8d2b87b4-2ff0-4d77-b590-73069b073cca,8d2b87b4-2ff0-4d77-b590-73069b073cca,Santa,open,https://github.com/0xNana/santa-on-near,0xNana,santa-on-near
+nearhackathon-2026:8ea8f57a-ecc0-4eb4-a246-cac9b00f141a,8ea8f57a-ecc0-4eb4-a246-cac9b00f141a,Agent Leash,security;agents,https://github.com/tab-for-akshay/agent-leash,tab-for-akshay,agent-leash
+nearhackathon-2026:8ebe3c12-687a-4399-a22f-7912d9f4f7b7,8ebe3c12-687a-4399-a22f-7912d9f4f7b7,Remiglo,business;agents;realworld,https://github.com/lildosnear/Remiglo,lildosnear,Remiglo
+nearhackathon-2026:8ec7bfd4-68b6-4886-8d00-a48c9a7186ef,8ec7bfd4-68b6-4886-8d00-a48c9a7186ef,Foreman,agents,https://github.com/aramexbit/foreman,aramexbit,foreman
+nearhackathon-2026:8f06285a-0cfb-40a5-b426-68e74cb37d3a,8f06285a-0cfb-40a5-b426-68e74cb37d3a,Torch,nfts;open,,,
+nearhackathon-2026:8fd18e12-d1b2-4620-88dc-1a54e8c30793,8fd18e12-d1b2-4620-88dc-1a54e8c30793,Skirm,swarms;agents;games;nfts,,,
+nearhackathon-2026:900812a5-e7f9-47ed-a836-b31ae918f84d,900812a5-e7f9-47ed-a836-b31ae918f84d,Kalfou Swap — Cross-Chain Desk,defi,https://github.com/Lwa-of-Crypto/cross-chain-desk,Lwa-of-Crypto,cross-chain-desk
+nearhackathon-2026:91212abf-bedd-4846-ac7b-7de71c071c64,91212abf-bedd-4846-ac7b-7de71c071c64,"BOSS: The first AI business that hires AIs, pays any chain",defi;thesis;privacy;swarms;agents;realworld;open,,,
+nearhackathon-2026:916f8fba-c86f-47b0-bcf0-1a70f3b4cf6d,916f8fba-c86f-47b0-bcf0-1a70f3b4cf6d,NearGuard,security;agents,,,
+nearhackathon-2026:92a088fc-9af6-4572-a4a9-f5924a4754c6,92a088fc-9af6-4572-a4a9-f5924a4754c6,Chaperone,defi;business;security;agents;realworld,,,
+nearhackathon-2026:935061a1-3491-423f-a320-43493074d31b,935061a1-3491-423f-a320-43493074d31b,Oiko,defi;security;agents;realworld,https://github.com/devIykee/oiko,devIykee,oiko
+nearhackathon-2026:94d69930-ab78-4ede-a6e3-8ab5f56bcf7f,94d69930-ab78-4ede-a6e3-8ab5f56bcf7f,NEAR Guardian,security,,,
+nearhackathon-2026:94ebd119-c710-4723-a93e-59b8a512eeaf,94ebd119-c710-4723-a93e-59b8a512eeaf,Slay the Bear,games;memecoins,https://github.com/vibe-code-guy/slay-the-bear,vibe-code-guy,slay-the-bear
+nearhackathon-2026:95a066eb-1268-4ab8-857d-4af8200c4611,95a066eb-1268-4ab8-857d-4af8200c4611,Worldo,games,,,
+nearhackathon-2026:9660c04c-9813-4352-a83d-98ea2f024645,9660c04c-9813-4352-a83d-98ea2f024645,OmniYield Protocol,defi;privacy;agents;realworld,https://github.com/GOSUN-CAPITAL/omniyield-protocol,GOSUN-CAPITAL,omniyield-protocol
+nearhackathon-2026:9678d215-8d1d-468b-b853-19e0e3a83eb8,9678d215-8d1d-468b-b853-19e0e3a83eb8,AgentSig,business;security;agents,,,
+nearhackathon-2026:96f3f1ef-ff25-4dde-8529-fd4e386b9b48,96f3f1ef-ff25-4dde-8529-fd4e386b9b48,Njangi,realworld;social,https://github.com/mbanyadev/njangi,mbanyadev,njangi
+nearhackathon-2026:97238a57-3689-4115-b9e7-28e91245aa99,97238a57-3689-4115-b9e7-28e91245aa99,NearAnyStake,defi;open,,,
+nearhackathon-2026:972da2bb-8d13-43d8-9ca5-9787cb409d86,972da2bb-8d13-43d8-9ca5-9787cb409d86,NearPay,business;realworld,https://github.com/ethcryptohub/nearpay-app,ethcryptohub,nearpay-app
+nearhackathon-2026:979ba7c1-a263-4ce2-88df-2328a0bcb698,979ba7c1-a263-4ce2-88df-2328a0bcb698,Robin Arcades,games;memecoins,,,
+nearhackathon-2026:98559cb5-0e12-4a35-969d-603abb1fbdcd,98559cb5-0e12-4a35-969d-603abb1fbdcd,Forge Relay,swarms;security,https://github.com/greg2718/forge-relay,greg2718,forge-relay
+nearhackathon-2026:9888f8dc-85bd-4c29-a0c2-e9b02db3a09d,9888f8dc-85bd-4c29-a0c2-e9b02db3a09d,Petty Cash,realworld;social,https://github.com/kasbsquall/petty-cash,kasbsquall,petty-cash
+nearhackathon-2026:98b0ab95-0cb2-4824-aac6-c97c6c8e6210,98b0ab95-0cb2-4824-aac6-c97c6c8e6210,BFA (Built For Agents),agents,https://github.com/PiNocPie/bfa,PiNocPie,bfa
+nearhackathon-2026:99166eec-0a56-40b7-b8dd-7f51759115f3,99166eec-0a56-40b7-b8dd-7f51759115f3,CartelBreaker,security;agents,https://github.com/KushnerykPavel/cartelbreaker,KushnerykPavel,cartelbreaker
+nearhackathon-2026:995f5329-9169-4d46-a933-82ab5a46eea5,995f5329-9169-4d46-a933-82ab5a46eea5,Seats,privacy;nfts;social,,,
+nearhackathon-2026:99804abc-4c86-410a-88c4-a5193b5b33fa,99804abc-4c86-410a-88c4-a5193b5b33fa,Near Onchain Gen Art,nfts,,,
+nearhackathon-2026:99ab3e76-e17c-4cdd-8baf-6eefb8cbfe7b,99ab3e76-e17c-4cdd-8baf-6eefb8cbfe7b,Four Horsemen of the Memepocalypse,memecoins,https://github.com/sparkplug604/four-horsemen-of-the-memepocalypse,sparkplug604,four-horsemen-of-the-memepocalypse
+nearhackathon-2026:99bf6ef4-b3cd-4092-86d6-555cdddd2e43,99bf6ef4-b3cd-4092-86d6-555cdddd2e43,AEGIS // COUNTERFACTUAL,security,,,
+nearhackathon-2026:9a4be398-2a3e-45b0-90d4-5adcc565e0f8,9a4be398-2a3e-45b0-90d4-5adcc565e0f8,DUEL,security;games;social,,,
+nearhackathon-2026:9b197e74-3178-417c-b763-782daa838e7a,9b197e74-3178-417c-b763-782daa838e7a,"Flow, Not Price — The $37B Decoupling",thesis,https://github.com/iamyerhyer/near-intents-signal,iamyerhyer,near-intents-signal
+nearhackathon-2026:9b38754c-b93e-4862-80b5-1798afab065f,9b38754c-b93e-4862-80b5-1798afab065f,$TRUE,swarms;memecoins;open,https://github.com/MuffinsThaCat/true-mine,MuffinsThaCat,true-mine
+nearhackathon-2026:9b6e7306-3017-4e70-b2d1-9181848d6275,9b6e7306-3017-4e70-b2d1-9181848d6275,Verity,swarms;agents;open,,,
+nearhackathon-2026:9b97f002-8d2a-4ad1-a764-147a863877c2,9b97f002-8d2a-4ad1-a764-147a863877c2,Airlock,privacy;security;open,,,
+nearhackathon-2026:9bc378c1-a69d-4a4e-9260-4d6142f36296,9bc378c1-a69d-4a4e-9260-4d6142f36296,Bounden,business;security;agents,,,
+nearhackathon-2026:9bdbf874-7986-49be-9c49-9a18d5c60758,9bdbf874-7986-49be-9c49-9a18d5c60758,Paper Trail,privacy,,,
+nearhackathon-2026:9c5956f1-5afe-4b02-8ce4-40a1f5259b78,9c5956f1-5afe-4b02-8ce4-40a1f5259b78,Tapproved,privacy;security;agents;open,https://github.com/manex-tech/tapproved,manex-tech,tapproved
+nearhackathon-2026:9c752114-5dd5-4236-8995-4543da6e905a,9c752114-5dd5-4236-8995-4543da6e905a,Nia,security;open,,,
+nearhackathon-2026:9c7e6205-219b-4fee-9f8d-557f4705e471,9c7e6205-219b-4fee-9f8d-557f4705e471,TaskForge AI,agents,,,
+nearhackathon-2026:9d90081c-23d1-44c5-96da-2efd6cc87c1e,9d90081c-23d1-44c5-96da-2efd6cc87c1e,Settled,security;agents;realworld,https://github.com/let-the-dreamers-rise/settled,let-the-dreamers-rise,settled
+nearhackathon-2026:9db102a5-37d3-40bb-9184-7c08b52dca88,9db102a5-37d3-40bb-9184-7c08b52dca88,Veridom Pay,privacy;security;realworld;nfts,https://github.com/khrisdidukh/veridom-pay,khrisdidukh,veridom-pay
+nearhackathon-2026:9dcf9ec6-b984-43d9-abf1-7c8a48cf32ca,9dcf9ec6-b984-43d9-abf1-7c8a48cf32ca,IntentAgent,defi;business;security;agents,https://github.com/Lacrade6/intent-agent,Lacrade6,intent-agent
+nearhackathon-2026:9e065139-90d2-4d7e-a638-525060236f00,9e065139-90d2-4d7e-a638-525060236f00,Standing Order,privacy;business;security;realworld;social,,,
+nearhackathon-2026:9e64cdb5-c4b1-4bc9-865b-02dc76b19e66,9e64cdb5-c4b1-4bc9-865b-02dc76b19e66,The Daily Swarm,business;swarms,https://github.com/chaoticpunk/the-daily-swarm,chaoticpunk,the-daily-swarm
+nearhackathon-2026:9e9b202f-6e61-4ea2-9edf-3476f3d3c954,9e9b202f-6e61-4ea2-9edf-3476f3d3c954,Calledit.game,defi,,,
+nearhackathon-2026:9f194fab-f6d3-4a71-b952-9260f8f23d3c,9f194fab-f6d3-4a71-b952-9260f8f23d3c,Caesura,privacy;security;agents;open,,,
+nearhackathon-2026:9f2fd9a3-7e91-403e-91d2-dae5ffb47cd2,9f2fd9a3-7e91-403e-91d2-dae5ffb47cd2,Sidelot,defi;agents;realworld;memecoins,,,
+nearhackathon-2026:9f3958ff-50c8-452f-b382-91cfe6a3a9d4,9f3958ff-50c8-452f-b382-91cfe6a3a9d4,AgentBond,business;security;agents,https://github.com/Zeketo1/agent-bond,Zeketo1,agent-bond
+nearhackathon-2026:9f4b3e21-8c74-4d2a-b81e-6c905e3a7104,9f4b3e21-8c74-4d2a-b81e-6c905e3a7104,GhostShift,privacy;business;swarms;security;agents;open,https://github.com/GGGODLIN/near-ghost-shift,GGGODLIN,near-ghost-shift
+nearhackathon-2026:9f6e4b85-ce62-4c40-b1bc-a62ac00f2d11,9f6e4b85-ce62-4c40-b1bc-a62ac00f2d11,Bolsillos,security;realworld;open,https://github.com/tuneupargentina/bolsillos,tuneupargentina,bolsillos
+nearhackathon-2026:a035056c-d267-49b3-8817-17f09f28bd14,a035056c-d267-49b3-8817-17f09f28bd14,Aftercall,privacy;business;security;agents;realworld,https://github.com/Don-Vicks/aftercall,Don-Vicks,aftercall
+nearhackathon-2026:a07b9397-00d2-4114-923c-b3121dceafc7,a07b9397-00d2-4114-923c-b3121dceafc7,OATH,memecoins,,,
+nearhackathon-2026:a085ef82-5e21-4a2b-8fc6-cf2d535e771c,a085ef82-5e21-4a2b-8fc6-cf2d535e771c,Readback,security;agents,https://github.com/2TheMoom/readback,2TheMoom,readback
+nearhackathon-2026:a0a3436e-c803-4b86-920f-0ce74cf270bf,a0a3436e-c803-4b86-920f-0ce74cf270bf,StreetMarket AI by GhostTech,business;swarms;agents;realworld,https://github.com/ghostdevol/Street-Market-A.i,ghostdevol,Street-Market-A.i
+nearhackathon-2026:a0c866ab-367c-4d78-954c-88cc328930a0,a0c866ab-367c-4d78-954c-88cc328930a0,AgentGuard,security,,,
+nearhackathon-2026:a0cc08b2-010c-4638-a2ff-7048be063228,a0cc08b2-010c-4638-a2ff-7048be063228,NEAR Private OTC,defi,https://github.com/Watchmeecryt/near-private-otc,Watchmeecryt,near-private-otc
+nearhackathon-2026:a0fa588f-442f-47a6-87bd-ca286faba510,a0fa588f-442f-47a6-87bd-ca286faba510,Tollgate,security;agents,https://github.com/dipo0x/tollgate,dipo0x,tollgate
+nearhackathon-2026:a10a54cf-669c-45b8-831a-82d9d8151e97,a10a54cf-669c-45b8-831a-82d9d8151e97,nearbags,defi;thesis,https://github.com/prakhar728/nearbags,prakhar728,nearbags
+nearhackathon-2026:a1b7211e-f7ad-499a-b10c-c30d34f19d13,a1b7211e-f7ad-499a-b10c-c30d34f19d13,Key proof,security,,,
+nearhackathon-2026:a1bf1936-7bdc-41a7-985f-c54c0ba3be85,a1bf1936-7bdc-41a7-985f-c54c0ba3be85,Pump Rider,games,,,
+nearhackathon-2026:a1c44172-2705-428c-96cb-e7096d06c0a1,a1c44172-2705-428c-96cb-e7096d06c0a1,PayShield-NEAR,security;agents,,,
+nearhackathon-2026:a2757faf-3453-4d4f-98dc-3c18598dcdf9,a2757faf-3453-4d4f-98dc-3c18598dcdf9,Quittance,defi;privacy;realworld;open,https://github.com/AustinChris1/quittance,AustinChris1,quittance
+nearhackathon-2026:a29ed9d6-a596-4918-a56b-aef5f6ee8484,a29ed9d6-a596-4918-a56b-aef5f6ee8484,NOVA Copy-Trading,privacy;security;agents,https://github.com/jcarbonnell/nova-copy-trading,jcarbonnell,nova-copy-trading
+nearhackathon-2026:a373a235-8a24-4f52-84bb-2668b7263d9a,a373a235-8a24-4f52-84bb-2668b7263d9a,LEASH,privacy;business;security;agents,,,
+nearhackathon-2026:a395a485-5c23-43ac-b1b5-5e27887c3124,a395a485-5c23-43ac-b1b5-5e27887c3124,Swarmpad,defi;swarms;agents;memecoins,https://github.com/kangmochi/Swarmpad,kangmochi,Swarmpad
+nearhackathon-2026:a3b2b90b-b618-4176-9e14-fa65d5f0d48c,a3b2b90b-b618-4176-9e14-fa65d5f0d48c,Give forward,realworld;social,,,
+nearhackathon-2026:a3d582e7-9e8b-493a-8257-5d077f167f98,a3d582e7-9e8b-493a-8257-5d077f167f98,Passpot,realworld;social,https://github.com/farazeool/Passpot,farazeool,Passpot
+nearhackathon-2026:a3e4c9d9-d587-4498-be6e-453a41003578,a3e4c9d9-d587-4498-be6e-453a41003578,Escrow Gate for Agent Work,open,https://github.com/nnyycc77-ship-it/trust-toll-near,nnyycc77-ship-it,trust-toll-near
+nearhackathon-2026:a43bb8d2-0958-442d-b1c1-9fa408b94a5f,a43bb8d2-0958-442d-b1c1-9fa408b94a5f,Sotechy,realworld;nfts;social;open,,,
+nearhackathon-2026:a45d441f-4a25-49a4-ab9f-df2e83da8a35,a45d441f-4a25-49a4-ab9f-df2e83da8a35,KINU LP Guardian,defi;security;agents,,,
+nearhackathon-2026:a4623a29-c81b-4b68-beaf-d4809ea70863,a4623a29-c81b-4b68-beaf-d4809ea70863,NexusGuard,business;swarms;security;agents,https://github.com/jigglu/nexusguard,jigglu,nexusguard
+nearhackathon-2026:a4fb47cc-2f16-49b9-92cd-b4fef4924e1d,a4fb47cc-2f16-49b9-92cd-b4fef4924e1d,AJO ON NEAR,realworld,https://github.com/HATWHY4041/ajo-on-near,HATWHY4041,ajo-on-near
+nearhackathon-2026:a5ef5b48-73d3-47c6-b13b-52ca5a25a5c7,a5ef5b48-73d3-47c6-b13b-52ca5a25a5c7,$GRIND - Agent Utility Memecoin,agents;memecoins,https://github.com/aoyamari/grind-token,aoyamari,grind-token
+nearhackathon-2026:a62b3db2-1ad8-4c1b-8948-250d8a2d71c8,a62b3db2-1ad8-4c1b-8948-250d8a2d71c8,Mnemon Payment Agent,privacy;security;agents;realworld,https://github.com/mlelikak/shareholder-registry,mlelikak,shareholder-registry
+nearhackathon-2026:a64d9e27-ed99-4e1e-b8dc-3a7a4c52df0b,a64d9e27-ed99-4e1e-b8dc-3a7a4c52df0b,ZiniPay,business;security;agents;realworld;social,,,
+nearhackathon-2026:a6afccf9-90b4-4938-9556-e08c468c3e41,a6afccf9-90b4-4938-9556-e08c468c3e41,NearSplit,realworld;social,,,
+nearhackathon-2026:a75772fe-1deb-415f-944c-7e38a14879ae,a75772fe-1deb-415f-944c-7e38a14879ae,Capybazaar,swarms;agents;games;nfts,https://github.com/chinesepowered/hack-nearhacks,chinesepowered,hack-nearhacks
+nearhackathon-2026:a832f6b8-b553-4e63-b996-91c082cc7417,a832f6b8-b553-4e63-b996-91c082cc7417,Mandate,business;security;agents,,,
+nearhackathon-2026:a87a5760-680c-4e98-ae4e-87fb1de04258,a87a5760-680c-4e98-ae4e-87fb1de04258,Rota,privacy;security;realworld;open,https://github.com/Akihiko-7/Rota,Akihiko-7,Rota
+nearhackathon-2026:a8a488e9-4993-4f37-afd0-15265073fdcc,a8a488e9-4993-4f37-afd0-15265073fdcc,Bizgent,business;security;realworld,https://github.com/bizgent-assist/bizgent,bizgent-assist,bizgent
+nearhackathon-2026:a96cded3-a635-4ea0-aa96-4a7339812289,a96cded3-a635-4ea0-aa96-4a7339812289,AI-Shtat Pay,business;agents;realworld,https://github.com/Dengel88/NEARHACKATON,Dengel88,NEARHACKATON
+nearhackathon-2026:aa60a3fd-686b-4da8-bb5d-1aaba29a5221,aa60a3fd-686b-4da8-bb5d-1aaba29a5221,Clausehold,swarms;security;agents;realworld;social,,,
+nearhackathon-2026:aab1bb9e-ab36-4d8c-920f-62487b5b7714,aab1bb9e-ab36-4d8c-920f-62487b5b7714,Allowance,security;agents,,,
+nearhackathon-2026:ab25271d-0c98-455d-b88e-a15523066068,ab25271d-0c98-455d-b88e-a15523066068,"Saku: an AI agent's budget, enforced on NEAR",security;agents,https://github.com/Gliana-Labs/gliana-near-x402,Gliana-Labs,gliana-near-x402
+nearhackathon-2026:ab3211b7-3bbd-4b2d-8a86-75e5c46a669d,ab3211b7-3bbd-4b2d-8a86-75e5c46a669d,Trope.fun,business;security;nfts;social;open,,,
+nearhackathon-2026:abe27d2f-1615-4025-9e0c-e78e28519207,abe27d2f-1615-4025-9e0c-e78e28519207,Allowance,business;security;agents,https://github.com/soldanoandrea/allowance,soldanoandrea,allowance
+nearhackathon-2026:ac7254d5-15e4-47cb-9eb9-c400486f9b49,ac7254d5-15e4-47cb-9eb9-c400486f9b49,Near Degen toolkit,defi,,,
+nearhackathon-2026:ac9f26f5-42aa-4027-ab2d-3c0b064fba85,ac9f26f5-42aa-4027-ab2d-3c0b064fba85,Feral,swarms;security;agents;games;nfts;memecoins,,,
+nearhackathon-2026:acbd537d-69d0-4ecf-b87b-8d63dce6619e,acbd537d-69d0-4ecf-b87b-8d63dce6619e,PayGuard,security;agents,https://github.com/krallkan/payguard,krallkan,payguard
+nearhackathon-2026:acbd7f76-f26a-487b-8a0c-45e5ebdc846f,acbd7f76-f26a-487b-8a0c-45e5ebdc846f,Kheer,agents;nfts,https://github.com/XohamOG/kheer,XohamOG,kheer
+nearhackathon-2026:acc5fdf7-9bbd-4d2e-97de-41e8463116f4,acc5fdf7-9bbd-4d2e-97de-41e8463116f4,TheRascalsDotFun,defi;agents;memecoins;social;open,,,
+nearhackathon-2026:adaab461-2220-4afb-b535-a3304b887709,adaab461-2220-4afb-b535-a3304b887709,Hearthmarket,business;swarms;security;agents;games,,,
+nearhackathon-2026:ae4fcc6b-beb2-47ca-9f04-75c840f9bea5,ae4fcc6b-beb2-47ca-9f04-75c840f9bea5,near-threshold-guardian,security,https://github.com/exocognosis/near-threshold-guardian,exocognosis,near-threshold-guardian
+nearhackathon-2026:ae705c2e-32e8-412c-afd9-9a3b04fa40d1,ae705c2e-32e8-412c-afd9-9a3b04fa40d1,x402-near,security;agents;realworld,https://github.com/alhassanmohammederc3643-cmyk/x402-near,alhassanmohammederc3643-cmyk,x402-near
+nearhackathon-2026:af66ae4f-7589-41c8-9c83-09841bdad7a5,af66ae4f-7589-41c8-9c83-09841bdad7a5,Buddies Blitz,games;nfts,,,
+nearhackathon-2026:af71df2a-6661-459d-a7a8-39a43a411270,af71df2a-6661-459d-a7a8-39a43a411270,Handoff,agents,https://github.com/Trish7891/handoff-escrow,Trish7891,handoff-escrow
+nearhackathon-2026:b075dd6e-2a1f-478e-b201-0d78f3f1e52a,b075dd6e-2a1f-478e-b201-0d78f3f1e52a,NEAR Thesis Scorecard,thesis,https://github.com/lvalentine16/near-thesis-indiciadesk,lvalentine16,near-thesis-indiciadesk
+nearhackathon-2026:b0f03077-7902-4704-a2bd-96611a7499fc,b0f03077-7902-4704-a2bd-96611a7499fc,Coop Tycoon,games;memecoins;social,,,
+nearhackathon-2026:b11fb494-3e91-48af-843e-9a8e6d20ff28,b11fb494-3e91-48af-843e-9a8e6d20ff28,HoldUp,security;realworld;open,https://github.com/sadrax4/holdup,sadrax4,holdup
+nearhackathon-2026:b1e981ab-2f74-4580-a887-9f70571fbd8a,b1e981ab-2f74-4580-a887-9f70571fbd8a,Flowmint,business;security;agents;open,https://github.com/petopen9-stack/flowmint,petopen9-stack,flowmint
+nearhackathon-2026:b256610a-41f1-4fa5-955a-c703b4530c98,b256610a-41f1-4fa5-955a-c703b4530c98,NEAR PHOENIX v5.0,security,https://github.com/Subash-2207/near-phoenix,Subash-2207,near-phoenix
+nearhackathon-2026:b2a653cd-5f26-44c0-a307-645615e23f39,b2a653cd-5f26-44c0-a307-645615e23f39,AllTrades,business;agents;realworld,https://github.com/nguyenhuulong2222/alltrades,nguyenhuulong2222,alltrades
+nearhackathon-2026:b2a799ca-eff3-4e24-98a7-66d03a920402,b2a799ca-eff3-4e24-98a7-66d03a920402,NEARAuth,privacy,,,
+nearhackathon-2026:b3c89a06-5736-4aef-a75c-9d2b40dbcd4a,b3c89a06-5736-4aef-a75c-9d2b40dbcd4a,Recall Wallet Agent,defi;business;security;agents,https://github.com/tydavid5/recall-wallet,tydavid5,recall-wallet
+nearhackathon-2026:b3dad4a2-4107-4ea5-8965-22a6c9c6a31a,b3dad4a2-4107-4ea5-8965-22a6c9c6a31a,Galeon,defi;swarms;agents,,,
+nearhackathon-2026:b4a31d89-6f52-4610-8662-8b63a9d355c4,b4a31d89-6f52-4610-8662-8b63a9d355c4,CONSUME,nfts;memecoins;open,https://github.com/ethboi/consume,ethboi,consume
+nearhackathon-2026:b53437ab-0092-48e0-9a0a-d1fc2d66f545,b53437ab-0092-48e0-9a0a-d1fc2d66f545,Lockstep,realworld;social,https://github.com/Marc-Dvci/lockstep,Marc-Dvci,lockstep
+nearhackathon-2026:b55b5319-6292-43ca-8651-747b04d11c4a,b55b5319-6292-43ca-8651-747b04d11c4a,NEAR Demand Ledger,thesis,https://github.com/hanafynst/near-demand-ledger,hanafynst,near-demand-ledger
+nearhackathon-2026:b5e7fe4a-fd7c-4a94-bcb4-2e6e1b8d2ab9,b5e7fe4a-fd7c-4a94-bcb4-2e6e1b8d2ab9,Leash,security;agents,https://github.com/halfabillion/near-leash,halfabillion,near-leash
+nearhackathon-2026:b5e92055-8e69-4edc-aab9-aa965d69d42d,b5e92055-8e69-4edc-aab9-aa965d69d42d,Swarm-for-Hire,swarms;agents,https://github.com/yunganas/near-swarm,yunganas,near-swarm
+nearhackathon-2026:b604fc35-3f7b-4a0b-8478-41243dcd4470,b604fc35-3f7b-4a0b-8478-41243dcd4470,Drakarys: AI Competition Platform,swarms;games;open,,,
+nearhackathon-2026:b72fd348-8834-4739-a29c-0a109798168c,b72fd348-8834-4739-a29c-0a109798168c,NEAR-Midnight Privacy Bridge,defi;privacy;realworld,,,
+nearhackathon-2026:b743bd60-eee7-46b1-b86d-81ca9f709ff5,b743bd60-eee7-46b1-b86d-81ca9f709ff5,Capgrate,business;security;agents,https://github.com/HusseinAdeiza/capgrate,HusseinAdeiza,capgrate
+nearhackathon-2026:b7631219-3f31-4dbc-be11-fc92574b89d4,b7631219-3f31-4dbc-be11-fc92574b89d4,Callsign,privacy;security,,,
+nearhackathon-2026:b7b2dda7-6b60-4eb8-8dee-b7b27aecd045,b7b2dda7-6b60-4eb8-8dee-b7b27aecd045,VRX,defi;privacy;business;realworld;open,,,
+nearhackathon-2026:b8b63a36-d57f-4178-9aeb-e7222bb02007,b8b63a36-d57f-4178-9aeb-e7222bb02007,KredoFi,defi;privacy;realworld,,,
+nearhackathon-2026:b96e9f4e-8b35-4cd3-9a0b-5df13491ee25,b96e9f4e-8b35-4cd3-9a0b-5df13491ee25,Plinth,defi;security;agents,,,
+nearhackathon-2026:b9dbbfb9-6c08-4651-bed2-ac657ae12164,b9dbbfb9-6c08-4651-bed2-ac657ae12164,DeepSea Hunter,games;nfts,https://github.com/kroto69/deep-sea-hunter,kroto69,deep-sea-hunter
+nearhackathon-2026:ba294e8d-7260-4812-bae1-a2fb80b03fba,ba294e8d-7260-4812-bae1-a2fb80b03fba,Purpose Money,security;realworld;social,,,
+nearhackathon-2026:ba5f7cf4-6faa-4f82-8d7f-48fe76a0472c,ba5f7cf4-6faa-4f82-8d7f-48fe76a0472c,Mandate Lab,security,,,
+nearhackathon-2026:ba9e160b-47b4-453d-8e09-aa99fbfabc74,ba9e160b-47b4-453d-8e09-aa99fbfabc74,Racer,defi;privacy;swarms,,,
+nearhackathon-2026:bb739197-c903-456a-b25c-4e97ffe5495f,bb739197-c903-456a-b25c-4e97ffe5495f,Tripwire,memecoins,,,
+nearhackathon-2026:bb93bc5f-eac7-4049-8c58-8e94cf73cb06,bb93bc5f-eac7-4049-8c58-8e94cf73cb06,Intented,privacy;security;agents,,,
+nearhackathon-2026:bcd11306-4a6c-46bc-98b9-333e0527820f,bcd11306-4a6c-46bc-98b9-333e0527820f,Nearverse,games,,,
+nearhackathon-2026:bdb7ff9f-4c40-4036-8e05-0e12e8be9f2b,bdb7ff9f-4c40-4036-8e05-0e12e8be9f2b,TEE Receipts,privacy;open,https://github.com/tmdry4530/tee-receipts,tmdry4530,tee-receipts
+nearhackathon-2026:bdb91e35-1235-4ad8-bedd-eb0faaa34c34,bdb91e35-1235-4ad8-bedd-eb0faaa34c34,Forwend,realworld,https://github.com/Forwend/forwend,Forwend,forwend
+nearhackathon-2026:bded2b2b-2963-45c4-8440-a3d9d905eb06,bded2b2b-2963-45c4-8440-a3d9d905eb06,LIFO,memecoins,https://github.com/Marc-Dvci/lifo,Marc-Dvci,lifo
+nearhackathon-2026:bf540568-d7a5-4255-822c-0863edb9c2d8,bf540568-d7a5-4255-822c-0863edb9c2d8,Vault Check,defi;security;open,https://github.com/lee2017-bit/near-vault-check,lee2017-bit,near-vault-check
+nearhackathon-2026:bf5a3e43-97c8-419e-97e3-01ba355c8d66,bf5a3e43-97c8-419e-97e3-01ba355c8d66,Bonded,business;security;agents,,,
+nearhackathon-2026:bfd74897-d0a2-4891-9f2c-0638a1a63331,bfd74897-d0a2-4891-9f2c-0638a1a63331,NearQuery,thesis,https://github.com/EmekaManuel/nearquery,EmekaManuel,nearquery
+nearhackathon-2026:c01bf5a6-5479-4126-88ad-4f31439fc248,c01bf5a6-5479-4126-88ad-4f31439fc248,NearScope,thesis,https://github.com/stanlr/nearscope,stanlr,nearscope
+nearhackathon-2026:c0773acd-3aaf-4a5c-8f77-48bf23480c9a,c0773acd-3aaf-4a5c-8f77-48bf23480c9a,Bonfire by replaycourt,memecoins,https://github.com/replaycourt/bonfire,replaycourt,bonfire
+nearhackathon-2026:c1705e3d-260d-41c1-9370-3cd561c6a920,c1705e3d-260d-41c1-9370-3cd561c6a920,Leash,security,https://github.com/d0txyz/leash,d0txyz,leash
+nearhackathon-2026:c1c7b574-850a-4f47-9af9-22a49339df07,c1c7b574-850a-4f47-9af9-22a49339df07,Grind District,games;open,https://github.com/0xzahra/Grind-district,0xzahra,Grind-district
+nearhackathon-2026:c1cdec4a-cf17-4391-9e2d-863076917cd0,c1cdec4a-cf17-4391-9e2d-863076917cd0,Hive,business;swarms;security;agents,https://github.com/Nnadijoshuac/hive,Nnadijoshuac,hive
+nearhackathon-2026:c3811444-35d2-4567-adc1-c93088436716,c3811444-35d2-4567-adc1-c93088436716,Relay,agents,https://github.com/SammyCodes1/Relay,SammyCodes1,Relay
+nearhackathon-2026:c3b9ce53-478a-4ebd-8fd1-a70c91ab9d40,c3b9ce53-478a-4ebd-8fd1-a70c91ab9d40,frenzypay,realworld,,,
+nearhackathon-2026:c3deca64-850b-4fb8-a614-251ca121fb69,c3deca64-850b-4fb8-a614-251ca121fb69,Zinc,nfts,,,
+nearhackathon-2026:c494cedf-c2e5-4d14-ba7e-35975183bc83,c494cedf-c2e5-4d14-ba7e-35975183bc83,NearJev,security;agents,https://github.com/leoresendedop-sys/nearjev,leoresendedop-sys,nearjev
+nearhackathon-2026:c4f4956e-02e4-4fd4-b6dd-6e8582b8020a,c4f4956e-02e4-4fd4-b6dd-6e8582b8020a,Mandate,swarms;security;agents,https://github.com/apostleofdesign/mandate-near-hackathon,apostleofdesign,mandate-near-hackathon
+nearhackathon-2026:c50680b6-192f-4ff0-8f10-fa6e87ed9429,c50680b6-192f-4ff0-8f10-fa6e87ed9429,Headcount,social,https://github.com/saltxd/headcount,saltxd,headcount
+nearhackathon-2026:c57bf7d4-36ea-4ac6-95b6-18de9b06874e,c57bf7d4-36ea-4ac6-95b6-18de9b06874e,Crucible,security;games,https://github.com/1momoh/crucible,1momoh,crucible
+nearhackathon-2026:c5996e1e-be9a-4805-aabf-1c975b68abcf,c5996e1e-be9a-4805-aabf-1c975b68abcf,Staffless,business;agents,https://github.com/adr1en360/Staffless,adr1en360,Staffless
+nearhackathon-2026:c5b7a2a3-1fb8-40c4-8474-c138a85cb588,c5b7a2a3-1fb8-40c4-8474-c138a85cb588,Kimaex,defi;realworld;memecoins,,,
+nearhackathon-2026:c5ec5006-2ccc-4d63-ac26-e3003124e68e,c5ec5006-2ccc-4d63-ac26-e3003124e68e,Zcastor,defi;privacy;business;swarms;security;agents;open,,,
+nearhackathon-2026:c6b6afc6-50c7-4f17-b9b3-9435ed964d75,c6b6afc6-50c7-4f17-b9b3-9435ed964d75,Tontine,defi;thesis;business;swarms;security;agents,,,
+nearhackathon-2026:c6e0eae6-af9a-45ff-b262-9dc722f6a979,c6e0eae6-af9a-45ff-b262-9dc722f6a979,Infinito Absoluto — The Business That Audits Itself,business;agents,https://github.com/pagannifernando890-afk/infinito-absoluto-verified-research,pagannifernando890-afk,infinito-absoluto-verified-research
+nearhackathon-2026:c74ea7aa-a1d6-4d4d-94e6-87bac2985137,c74ea7aa-a1d6-4d4d-94e6-87bac2985137,Bridgen,defi;realworld,,,
+nearhackathon-2026:c7810584-8e1d-4024-a18e-68af0b52394e,c7810584-8e1d-4024-a18e-68af0b52394e,Policy Signer,security;agents,,,
+nearhackathon-2026:c7db48a2-b63b-4486-9ea7-7e05d97eae30,c7db48a2-b63b-4486-9ea7-7e05d97eae30,ClearSend Intents,realworld,https://github.com/dukemawex/clearsend-near,dukemawex,clearsend-near
+nearhackathon-2026:c84b87e6-7df0-4dc0-80a5-854a851ee916,c84b87e6-7df0-4dc0-80a5-854a851ee916,MIRA,memecoins,https://github.com/daodudestiny56-netizen/near-memcoin,daodudestiny56-netizen,near-memcoin
+nearhackathon-2026:c8696c03-b917-46ae-b98a-541f3dd7fb20,c8696c03-b917-46ae-b98a-541f3dd7fb20,Squeek Market — Squeek Bird + NEAR Economy,games,,,
+nearhackathon-2026:c87aa7e6-2d26-490a-8e5b-29b268d1828b,c87aa7e6-2d26-490a-8e5b-29b268d1828b,Incorpr,business;security;agents;nfts,,,
+nearhackathon-2026:c8b4d257-6657-46fd-9511-a1f8bd1d54d8,c8b4d257-6657-46fd-9511-a1f8bd1d54d8,Krypt,security;agents,https://github.com/Valorian0108/krypt,Valorian0108,krypt
+nearhackathon-2026:c94136e5-eaeb-4cb1-94ea-a71cfe5f11d0,c94136e5-eaeb-4cb1-94ea-a71cfe5f11d0,SETTLENEAR,defi;business;swarms;agents,https://github.com/folarihn/settle,folarihn,settle
+nearhackathon-2026:c9b94b3a-218d-44db-a04e-46b2f9822235,c9b94b3a-218d-44db-a04e-46b2f9822235,AgentVault,agents,,,
+nearhackathon-2026:ca0fa8a1-c97c-4a2e-a2d1-bbb24c3f97bd,ca0fa8a1-c97c-4a2e-a2d1-bbb24c3f97bd,ÁUREA CONTRACT FOR PRIVACY,privacy,https://github.com/dckwai-lab/aurea-contract,dckwai-lab,aurea-contract
+nearhackathon-2026:ca889cc5-5780-4b78-8eaa-fd8b386b1f79,ca889cc5-5780-4b78-8eaa-fd8b386b1f79,Fiatwallet,defi;realworld,,,
+nearhackathon-2026:cb2c6cc5-6f0d-4c19-8c29-a6a9be1b1425,cb2c6cc5-6f0d-4c19-8c29-a6a9be1b1425,PipTradeDex Private Intent,defi;privacy;security,https://github.com/codedforum/piptradedex,codedforum,piptradedex
+nearhackathon-2026:cb88c8e8-5724-40f8-a0b9-842a562c324b,cb88c8e8-5724-40f8-a0b9-842a562c324b,$HACK,security;agents;memecoins,https://github.com/jamesparser/hack-near,jamesparser,hack-near
+nearhackathon-2026:cbe3ec14-568f-4944-b4d9-b9efede91dfb,cbe3ec14-568f-4944-b4d9-b9efede91dfb,Tidepool,open,https://github.com/Watchmeecryt/tidepool,Watchmeecryt,tidepool
+nearhackathon-2026:cc23b126-2a61-4135-845d-480234a84773,cc23b126-2a61-4135-845d-480234a84773,Private Preflight,privacy;security,https://github.com/elsoul/near-private-preflight,elsoul,near-private-preflight
+nearhackathon-2026:cc6e7b0e-d946-49f6-8e3a-84c974ffff01,cc6e7b0e-d946-49f6-8e3a-84c974ffff01,OddsHedge,defi;agents,https://github.com/Folorunso800/oddshedge,Folorunso800,oddshedge
+nearhackathon-2026:cc936172-28bf-4063-9fa8-8969e59023ee,cc936172-28bf-4063-9fa8-8969e59023ee,Hasp,business;agents;realworld,https://github.com/thesithunyein/hasp,thesithunyein,hasp
+nearhackathon-2026:cd2d2645-ba45-4dde-929d-1a2dcb06e87a,cd2d2645-ba45-4dde-929d-1a2dcb06e87a,Rescue Room,security;agents;social,,,
+nearhackathon-2026:cd9582b9-fe1a-46a4-b595-1d30597bd48c,cd9582b9-fe1a-46a4-b595-1d30597bd48c,GhosterDex,privacy;agents,,,
+nearhackathon-2026:ce16019c-3270-43c2-9c4e-12ec3c59cfad,ce16019c-3270-43c2-9c4e-12ec3c59cfad,BastionKey,security,,,
+nearhackathon-2026:cf21f377-dfbe-41f2-a493-c1256effba69,cf21f377-dfbe-41f2-a493-c1256effba69,NEAR Thesis Lab,thesis,,,
+nearhackathon-2026:cf37357e-ba05-4992-bbdc-2ff8858bd71e,cf37357e-ba05-4992-bbdc-2ff8858bd71e,Settl,defi;realworld;open,https://github.com/ZSP111/settl,ZSP111,settl
+nearhackathon-2026:cfd1da7e-73ec-4a22-b0e1-801c87952e27,cfd1da7e-73ec-4a22-b0e1-801c87952e27,Ashes of the Ninth Heaven,agents;games;nfts;open,,,
+nearhackathon-2026:d01a3b13-a62b-412c-a6f8-f86f59850c5e,d01a3b13-a62b-412c-a6f8-f86f59850c5e,Aegis,open,https://github.com/Alvinagustus/aegis,Alvinagustus,aegis
+nearhackathon-2026:d02472d3-65c0-462c-acaf-cedf13da00f8,d02472d3-65c0-462c-acaf-cedf13da00f8,Kyrona,security;agents,,,
+nearhackathon-2026:d06bb20e-e7da-4d89-9be4-9de3d707e7ca,d06bb20e-e7da-4d89-9be4-9de3d707e7ca,Dues,security;agents;realworld,,,
+nearhackathon-2026:d0be7cbf-8e1b-4ca0-9346-7e41b52023d3,d0be7cbf-8e1b-4ca0-9346-7e41b52023d3,Banbo,privacy;security;agents;open,,,
+nearhackathon-2026:d101d790-a77d-4feb-93cc-a95f038c2f1f,d101d790-a77d-4feb-93cc-a95f038c2f1f,"Near2Cash — your NEAR, in your local currency",realworld,,,
+nearhackathon-2026:d22dfe73-a2cc-4c9a-8770-3651e3b84e4a,d22dfe73-a2cc-4c9a-8770-3651e3b84e4a,LatchGuard,security,https://github.com/rahaman786mys/latchguard,rahaman786mys,latchguard
+nearhackathon-2026:d2675571-004a-490c-9693-217b4d018bae,d2675571-004a-490c-9693-217b4d018bae,x402Interop,business;agents;realworld;open,https://github.com/the3rdweblabs/x402interop,the3rdweblabs,x402interop
+nearhackathon-2026:d2db35be-04a2-496c-9585-920c97676f72,d2db35be-04a2-496c-9585-920c97676f72,Boyun,privacy;swarms;social;open,,,
+nearhackathon-2026:d32938c4-f4c7-467d-ae21-49b021324f7e,d32938c4-f4c7-467d-ae21-49b021324f7e,Bound Wallet,business;security;agents,https://github.com/blocknbull/bound-wallet,blocknbull,bound-wallet
+nearhackathon-2026:d338fbf1-1897-4684-80a0-077109bf776c,d338fbf1-1897-4684-80a0-077109bf776c,Gateflow,privacy;security;realworld,https://github.com/avelex/gateflow,avelex,gateflow
+nearhackathon-2026:d3bb0acb-0529-4c30-9955-ba1de0f62567,d3bb0acb-0529-4c30-9955-ba1de0f62567,TAINT,privacy;security;realworld,https://github.com/shane2512/TAINT,shane2512,TAINT
+nearhackathon-2026:d4b7fede-d382-47f6-ba50-6c20674a418e,d4b7fede-d382-47f6-ba50-6c20674a418e,Marks,defi;thesis;privacy;realworld;nfts;social;open,https://github.com/amdonatusprince/Marks-on-Near,amdonatusprince,Marks-on-Near
+nearhackathon-2026:d544680a-48f4-411f-9073-f12eff207af7,d544680a-48f4-411f-9073-f12eff207af7,LisDao,security;agents;social,,,
+nearhackathon-2026:d56cc76d-871b-445d-ba3c-db891f8ff43e,d56cc76d-871b-445d-ba3c-db891f8ff43e,AgentEscrow,security;agents,,,
+nearhackathon-2026:d69c576e-7283-4636-b282-b17611eab088,d69c576e-7283-4636-b282-b17611eab088,Leash,security;agents,,,
+nearhackathon-2026:d7468e54-2c34-4138-8613-a587af2d3f1b,d7468e54-2c34-4138-8613-a587af2d3f1b,Potluck,social,,,
+nearhackathon-2026:d77c18bd-46e3-4de2-8bcd-ad98669843ab,d77c18bd-46e3-4de2-8bcd-ad98669843ab,Tune Up Research Desk,thesis;agents,https://github.com/tuneupargentina/tuneup-research-desk,tuneupargentina,tuneup-research-desk
+nearhackathon-2026:d787ccb0-efaa-463f-a6d1-958b18f7ad4a,d787ccb0-efaa-463f-a6d1-958b18f7ad4a,nearswaps checkout,realworld;open,,,
+nearhackathon-2026:d7b06ad9-a662-4d99-97d7-ae8125b319f3,d7b06ad9-a662-4d99-97d7-ae8125b319f3,Tripwire,security;agents,https://github.com/Afar88/tripwire,Afar88,tripwire
+nearhackathon-2026:d7b5e9e4-bb7e-4ce9-8e0a-10359193c4e5,d7b5e9e4-bb7e-4ce9-8e0a-10359193c4e5,Scam Guardian,security,,,
+nearhackathon-2026:d8e4c912-5faf-4591-98fe-dc8c9c285b39,d8e4c912-5faf-4591-98fe-dc8c9c285b39,X PrimeFlow: cross-chain trading with NEAR Intents,defi,https://github.com/BonyNode/xprimeflow-near-intents,BonyNode,xprimeflow-near-intents
+nearhackathon-2026:d8fe089c-2931-4055-84ad-5bd613d45d60,d8fe089c-2931-4055-84ad-5bd613d45d60,Pull Up,realworld,https://github.com/Benito3262/pull-up,Benito3262,pull-up
+nearhackathon-2026:d917daa9-bb54-4051-a5a3-3ba8e9dd3322,d917daa9-bb54-4051-a5a3-3ba8e9dd3322,Bridle,business;security;agents,,,
+nearhackathon-2026:d96eb111-3fb9-4840-9047-4cfaf8249ee0,d96eb111-3fb9-4840-9047-4cfaf8249ee0,FlashFirm,business;swarms;security;agents,https://github.com/0xcaptain888/flashfirm,0xcaptain888,flashfirm
+nearhackathon-2026:d98c7de0-daf9-4fc4-9277-b2bc52f99a1a,d98c7de0-daf9-4fc4-9277-b2bc52f99a1a,Fixseal,security;open,https://github.com/MorikiKamio/fixseal,MorikiKamio,fixseal
+nearhackathon-2026:d9905453-4216-49f9-b100-d6a7268b9ed9,d9905453-4216-49f9-b100-d6a7268b9ed9,Unpair,defi;privacy,https://github.com/unpairxyz/unpair,unpairxyz,unpair
+nearhackathon-2026:d9eafab3-18e9-4c8f-9676-143d13df9289,d9eafab3-18e9-4c8f-9676-143d13df9289,Emporium,business;swarms;security;agents;realworld;open,,,
+nearhackathon-2026:da0d6965-a1e5-4b6c-8c26-057feffcdacc,da0d6965-a1e5-4b6c-8c26-057feffcdacc,Logline,defi,https://github.com/chipsforbeer/loglines,chipsforbeer,loglines
+nearhackathon-2026:da5deb59-ae0c-4b08-8511-75360f4a0a17,da5deb59-ae0c-4b08-8511-75360f4a0a17,NEAR Investment Thesis: the evidence,thesis,https://github.com/ridakalam52-design/near-investment-thesis,ridakalam52-design,near-investment-thesis
+nearhackathon-2026:da66e1e4-d49e-421e-a73f-2b8b1b6fbfa9,da66e1e4-d49e-421e-a73f-2b8b1b6fbfa9,Intents Desk,thesis;privacy;agents;realworld;open,https://github.com/DataBlock-Labs/intents-desk-public,DataBlock-Labs,intents-desk-public
+nearhackathon-2026:db0af9eb-789a-405b-9950-a299453f30e5,db0af9eb-789a-405b-9950-a299453f30e5,PFWA,defi;realworld;open,,,
+nearhackathon-2026:db861ff6-9f1a-49d4-9be7-2ba0e2c55d93,db861ff6-9f1a-49d4-9be7-2ba0e2c55d93,nearagent,defi;privacy;security;open,https://github.com/meliksahbarsbay/nearagent,meliksahbarsbay,nearagent
+nearhackathon-2026:dbedb794-5294-4c07-a914-074eead64668,dbedb794-5294-4c07-a914-074eead64668,SealedSwarm,privacy;business;swarms;security;agents;open,,,
+nearhackathon-2026:dcdde902-6fe8-4634-9668-fd0ce223ab97,dcdde902-6fe8-4634-9668-fd0ce223ab97,TokenGo,games,https://github.com/ebenbaruk/TokenGo,ebenbaruk,TokenGo
+nearhackathon-2026:dd0fea75-b29a-4ad1-b2d3-bdc1ae456fd1,dd0fea75-b29a-4ad1-b2d3-bdc1ae456fd1,PROVEN,open,,,
+nearhackathon-2026:dd592d8d-7291-444a-a939-68f24b469a13,dd592d8d-7291-444a-a939-68f24b469a13,Bag worker,nfts,https://github.com/Jadenprosper/perp-agent-nft,Jadenprosper,perp-agent-nft
+nearhackathon-2026:ddc424b3-7716-4138-b9fd-3fbabc37c0d6,ddc424b3-7716-4138-b9fd-3fbabc37c0d6,Correlation,swarms;security,https://github.com/routebuilderdev/correlation,routebuilderdev,correlation
+nearhackathon-2026:de2b5217-8d85-4052-a0d2-0e8e8066c2a5,de2b5217-8d85-4052-a0d2-0e8e8066c2a5,Aegis,security,https://github.com/Rainyy99/aegis,Rainyy99,aegis
+nearhackathon-2026:def55673-2bc5-491f-b85c-ed7d267164e3,def55673-2bc5-491f-b85c-ed7d267164e3,Jurat,privacy;realworld,,,
+nearhackathon-2026:e0358b10-9c10-4860-9412-6c12228aa560,e0358b10-9c10-4860-9412-6c12228aa560,Satchel: membership cards that are wallets,nfts,https://github.com/ChrisTu117/satchel,ChrisTu117,satchel
+nearhackathon-2026:e0770ba5-ecaf-4ebd-8df7-08eb68b4e837,e0770ba5-ecaf-4ebd-8df7-08eb68b4e837,Taply.,realworld,,,
+nearhackathon-2026:e0d4e5a0-7b7d-40d4-9530-4bbd6412d844,e0d4e5a0-7b7d-40d4-9530-4bbd6412d844,Sumplus CATS Service Pass,security;agents,,,
+nearhackathon-2026:e0f7582b-c257-425d-9f4c-3dea19be71ba,e0f7582b-c257-425d-9f4c-3dea19be71ba,TabWrit,security;agents;realworld,https://github.com/Lesnak1/tabwrit,Lesnak1,tabwrit
+nearhackathon-2026:e11d68a3-2e49-42c5-ad25-9f7e91039300,e11d68a3-2e49-42c5-ad25-9f7e91039300,Tripwire,security;agents,,,
+nearhackathon-2026:e20ab0f1-86d0-438b-bd77-0859ffb3b934,e20ab0f1-86d0-438b-bd77-0859ffb3b934,AllTogether,social,https://github.com/aarash-mohsin/alltogether-live,aarash-mohsin,alltogether-live
+nearhackathon-2026:e21768e9-1fdd-4b16-8d8b-80a1f27fac35,e21768e9-1fdd-4b16-8d8b-80a1f27fac35,rector-arena,security;agents;open,,,
+nearhackathon-2026:e29480a7-0c0e-46da-b577-263a26e549b9,e29480a7-0c0e-46da-b577-263a26e549b9,Phylaxtag,realworld;nfts;open,https://github.com/kangmochi/Phylaxtag,kangmochi,Phylaxtag
+nearhackathon-2026:e2eda711-0154-4560-bcee-2504e4152ac2,e2eda711-0154-4560-bcee-2504e4152ac2,SCOGÉ Universe,games;nfts;open,,,
+nearhackathon-2026:e2f5775a-449c-4deb-966c-352dd948e431,e2f5775a-449c-4deb-966c-352dd948e431,whoami,privacy;security;open,,,
+nearhackathon-2026:e3848b30-81f4-4865-98fb-434e7cf08798,e3848b30-81f4-4865-98fb-434e7cf08798,Penstock,privacy;realworld,https://github.com/ace-coderr/penstock,ace-coderr,penstock
+nearhackathon-2026:e3a70e67-8135-41c9-b2db-7a80b9fb42ab,e3a70e67-8135-41c9-b2db-7a80b9fb42ab,Autonomous Treasury Mesh (TreasuryMesh),business;security;agents,https://github.com/gm456789123-code/NEAR-HACKATHON,gm456789123-code,NEAR-HACKATHON
+nearhackathon-2026:e3abfe5a-e38f-479d-85e9-e68f3caa0221,e3abfe5a-e38f-479d-85e9-e68f3caa0221,SpactVault,defi;security;agents,https://github.com/0xileri/SpactVault,0xileri,SpactVault
+nearhackathon-2026:e408ca93-5786-4c45-b538-8ddf51f84f7e,e408ca93-5786-4c45-b538-8ddf51f84f7e,Throughput Treasury,privacy;business;security;agents,https://github.com/khrisdidukh/throughput-treasury,khrisdidukh,throughput-treasury
+nearhackathon-2026:e4224cb4-eefc-40ab-bfdd-25880c05c09e,e4224cb4-eefc-40ab-bfdd-25880c05c09e,BlindBench,privacy,,,
+nearhackathon-2026:e4a1b9c2-5f38-4d67-9a81-2c4e7b8d9012,e4a1b9c2-5f38-4d67-9a81-2c4e7b8d9012,Afterlight,games;nfts,https://github.com/GGGODLIN/near-afterlight,GGGODLIN,near-afterlight
+nearhackathon-2026:e4af217b-7468-46c3-a756-fde5900c550b,e4af217b-7468-46c3-a756-fde5900c550b,Agent Allowance Guard,security,https://github.com/asosa933/agent-allowance-guard,asosa933,agent-allowance-guard
+nearhackathon-2026:e57ee21f-4601-4fad-878b-d81519dc8a4f,e57ee21f-4601-4fad-878b-d81519dc8a4f,Agent Crash Lab,security,https://github.com/aierosite/agent-crash-lab,aierosite,agent-crash-lab
+nearhackathon-2026:e5be6759-eaf7-4884-aa75-b0d135f30f96,e5be6759-eaf7-4884-aa75-b0d135f30f96,Tijar app,business,,,
+nearhackathon-2026:e5e9f0d6-16a4-483d-937d-4287b66a01c9,e5e9f0d6-16a4-483d-937d-4287b66a01c9,ReelOS Studio,agents;realworld;open,,,
+nearhackathon-2026:e5f93118-da83-4ff4-bdbc-c83116f011b1,e5f93118-da83-4ff4-bdbc-c83116f011b1,Scion,defi;thesis;privacy;business;security;agents;open,,,
+nearhackathon-2026:e6948038-61ac-44e4-b4a2-a948767e48b3,e6948038-61ac-44e4-b4a2-a948767e48b3,BACKED,defi;security;open,,,
+nearhackathon-2026:e7cfc31a-e944-4f49-92ba-eb95e4165a98,e7cfc31a-e944-4f49-92ba-eb95e4165a98,NEAR Intents Value Accrual Thesis,thesis,https://github.com/Apihpih96/near-intents-thesis,Apihpih96,near-intents-thesis
+nearhackathon-2026:e7d4c287-3945-4aa6-8b17-f85e0bfe71ce,e7d4c287-3945-4aa6-8b17-f85e0bfe71ce,KAVREN,security;agents,https://github.com/lahdlahd/kavren,lahdlahd,kavren
+nearhackathon-2026:e8887d91-2536-4322-9890-6c9e5f4533f4,e8887d91-2536-4322-9890-6c9e5f4533f4,Project L1 Prime on Near,defi;privacy;games;nfts,,,
+nearhackathon-2026:e8a069fd-8960-4ced-bba6-ff37b36162ea,e8a069fd-8960-4ced-bba6-ff37b36162ea,Dark Vault: Pay Anywhere,privacy,https://github.com/GodlyDeveloper1/DarkVault,GodlyDeveloper1,DarkVault
+nearhackathon-2026:e8d8d832-2a1f-4026-afba-111e6bd7316b,e8d8d832-2a1f-4026-afba-111e6bd7316b,NEAR Claim Check,open,,,
+nearhackathon-2026:ea024787-2260-40d2-95ce-210633f0bfb5,ea024787-2260-40d2-95ce-210633f0bfb5,Skyll,privacy,https://github.com/FalkramHQ/skyll-private-grading,FalkramHQ,skyll-private-grading
+nearhackathon-2026:ea1c1594-d16c-4ce2-8087-3d788cbd97f9,ea1c1594-d16c-4ce2-8087-3d788cbd97f9,AgentGuard,security,https://github.com/johnnydepp1992/AgentGuard,johnnydepp1992,AgentGuard
+nearhackathon-2026:ea335fdf-95f0-43e7-bff1-0f1f91fb678c,ea335fdf-95f0-43e7-bff1-0f1f91fb678c,Herald,social,,,
+nearhackathon-2026:ea3b249b-220f-4435-9f9a-67c2929384c7,ea3b249b-220f-4435-9f9a-67c2929384c7,BountyGuard,security;agents,,,
+nearhackathon-2026:ea4a5728-aa32-43d0-b63b-4c57128c624e,ea4a5728-aa32-43d0-b63b-4c57128c624e,Byline,defi;agents;nfts,,,
+nearhackathon-2026:eaab06b8-2ec0-41d5-ab11-be1d4cc37f0f,eaab06b8-2ec0-41d5-ab11-be1d4cc37f0f,AL-AMANAH FORTRESS,security;agents,,,
+nearhackathon-2026:eaf765d1-81d6-499d-99ca-ff50729648da,eaf765d1-81d6-499d-99ca-ff50729648da,OwnGround,social,,,
+nearhackathon-2026:ebacde79-c454-41c4-b5ef-27917cf242e3,ebacde79-c454-41c4-b5ef-27917cf242e3,Patch Fund,security;social,https://github.com/emilhuseyn/patch-fund,emilhuseyn,patch-fund
+nearhackathon-2026:ec6015e5-1030-4d41-9b6d-0e9901bccb05,ec6015e5-1030-4d41-9b6d-0e9901bccb05,Leash: on-chain spending limits for AI agents,security,https://github.com/dnakhla/leash,dnakhla,leash
+nearhackathon-2026:eca1f579-9dc4-412c-9250-c1aedbe6e2fe,eca1f579-9dc4-412c-9250-c1aedbe6e2fe,ProofPay,business;agents;realworld,https://github.com/DevBash1/proofpay,DevBash1,proofpay
+nearhackathon-2026:ecbdc52c-d6b7-480b-8e56-65e554ede735,ecbdc52c-d6b7-480b-8e56-65e554ede735,Glassbox,security,,,
+nearhackathon-2026:edf8d564-61d8-4c64-936f-2e9ca88cadf7,edf8d564-61d8-4c64-936f-2e9ca88cadf7,SwarmShop,business;swarms;agents,https://github.com/mohammedfirdouss/swarmshop,mohammedfirdouss,swarmshop
+nearhackathon-2026:eecf45ed-abe3-4e3b-8326-41448de21783,eecf45ed-abe3-4e3b-8326-41448de21783,Payproof Global,business;realworld;open,https://github.com/0xdavid01/Payproof-Global,0xdavid01,Payproof-Global
+nearhackathon-2026:eedd8b7b-6dd4-4d6d-b07f-3307d89a7496,eedd8b7b-6dd4-4d6d-b07f-3307d89a7496,AgentGuard,security;agents,,,
+nearhackathon-2026:ef2f6858-ddf3-43c4-8148-5f29e67fdb7a,ef2f6858-ddf3-43c4-8148-5f29e67fdb7a,Merit,nfts;social,https://github.com/Isaiah-54/merit,Isaiah-54,merit
+nearhackathon-2026:ef521e2d-d7e2-48a5-93b2-4168e856435d,ef521e2d-d7e2-48a5-93b2-4168e856435d,Intent Firewall,defi;security,https://github.com/luecria/intent-firewall,luecria,intent-firewall
+nearhackathon-2026:ef546624-dbb8-427b-bb03-5ecd4b8bc3ec,ef546624-dbb8-427b-bb03-5ecd4b8bc3ec,SwarmBid,business;swarms;agents,https://github.com/puredan824-hub/swarmbid,puredan824-hub,swarmbid
+nearhackathon-2026:ef56a5ba-a33e-4738-8494-b61169e34ed8,ef56a5ba-a33e-4738-8494-b61169e34ed8,Gachard,games;nfts;open,https://github.com/Gihasy/gachard-near,Gihasy,gachard-near
+nearhackathon-2026:efc28b7c-f550-4ac8-919d-9989674e5e6f,efc28b7c-f550-4ac8-919d-9989674e5e6f,RunOva,business,,,
+nearhackathon-2026:efc90a1e-09d2-4cbb-b216-2fc0b6ca2fac,efc90a1e-09d2-4cbb-b216-2fc0b6ca2fac,SafeSpend,security;agents,https://bitbucket.org/dualrail-builder/near-safespend,,
+nearhackathon-2026:f0dc8734-b89a-4a8a-a94a-47220007bb2b,f0dc8734-b89a-4a8a-a94a-47220007bb2b,Agent-Receipt,business;security;agents,,,
+nearhackathon-2026:f106d27f-984e-4890-85bb-991e23956fcb,f106d27f-984e-4890-85bb-991e23956fcb,Intents Watchtower,defi;security;open,https://github.com/Theophilus20/intents-watchtower,Theophilus20,intents-watchtower
+nearhackathon-2026:f1445a66-2304-40a0-8949-0e0e9f0338e1,f1445a66-2304-40a0-8949-0e0e9f0338e1,ZeroDelta,defi;business;swarms;security,https://github.com/g4stein/zerodelta,g4stein,zerodelta
+nearhackathon-2026:f154b2eb-0d25-48d4-8f91-ea960751077c,f154b2eb-0d25-48d4-8f91-ea960751077c,Coinsel,privacy;business;security;realworld;social,https://github.com/Veetor4x/Coinsel,Veetor4x,Coinsel
+nearhackathon-2026:f1605e5a-23ce-4b4f-9985-c10079441806,f1605e5a-23ce-4b4f-9985-c10079441806,Blast Radius Zero — Agent Wallet Edition,security,https://github.com/Hantsuo/near-agent-wallet,Hantsuo,near-agent-wallet
+nearhackathon-2026:f1b09ee0-bca5-4336-9a0b-8cc6a258cbf1,f1b09ee0-bca5-4336-9a0b-8cc6a258cbf1,Agent NFT,security;nfts,,,
+nearhackathon-2026:f206fa10-94e3-4537-a8e6-912a712697a9,f206fa10-94e3-4537-a8e6-912a712697a9,NEXUS AiOS,swarms;security;agents,,,
+nearhackathon-2026:f25d92c9-acf5-406e-8a59-a70befb2ca4a,f25d92c9-acf5-406e-8a59-a70befb2ca4a,Take The L,social;open,https://github.com/0xZiggy19/take-the-l,0xZiggy19,take-the-l
+nearhackathon-2026:f4139235-358b-42af-be21-c382a9b023dd,f4139235-358b-42af-be21-c382a9b023dd,"The Bear Case, Run Live",thesis;security;open,https://github.com/Revaaa28/near-bear-case,Revaaa28,near-bear-case
+nearhackathon-2026:f500fb94-a1e7-4dd2-9e80-b9702686d9d2,f500fb94-a1e7-4dd2-9e80-b9702686d9d2,Delivered,security;agents;open,,,
+nearhackathon-2026:f51768cc-80ac-4be3-a71c-dde94ad0f494,f51768cc-80ac-4be3-a71c-dde94ad0f494,TreasureHunt,games,,,
+nearhackathon-2026:f5845a0c-9142-4572-904e-a4f58403af50,f5845a0c-9142-4572-904e-a4f58403af50,it-depends-909,business;security;agents,,,
+nearhackathon-2026:f5be5a9d-66da-450f-a96d-0e5c419dc6e7,f5be5a9d-66da-450f-a96d-0e5c419dc6e7,GRIP,memecoins,https://github.com/farhanqaz/grip-memecoin,farhanqaz,grip-memecoin
+nearhackathon-2026:f5c2e9b1-0815-40a9-8aa5-0bd97523170e,f5c2e9b1-0815-40a9-8aa5-0bd97523170e,NEAR Spending Vault,security,https://github.com/ProMartY/near-spending-vault,ProMartY,near-spending-vault
+nearhackathon-2026:f5d25a2e-6b32-4145-a151-837b33c73002,f5d25a2e-6b32-4145-a151-837b33c73002,Forseti,defi;privacy;open,,,
+nearhackathon-2026:f614d7ab-6eaa-47ac-bf38-85039209468f,f614d7ab-6eaa-47ac-bf38-85039209468f,Payee lock,security;realworld,,,
+nearhackathon-2026:f629c466-eaae-4763-a4f7-bbd9b4b9cc0c,f629c466-eaae-4763-a4f7-bbd9b4b9cc0c,Weave,realworld;open,,,
+nearhackathon-2026:f63cc81d-53d4-43ab-934b-8d9caa66e690,f63cc81d-53d4-43ab-934b-8d9caa66e690,Accord,privacy;business;swarms;security;agents,https://github.com/Adityaakr/accord,Adityaakr,accord
+nearhackathon-2026:f6bd2d41-873e-4b16-90a7-8500590c8051,f6bd2d41-873e-4b16-90a7-8500590c8051,Realsies,privacy;games;memecoins,,,
+nearhackathon-2026:f6f03337-2cc5-4529-9285-94354029deaf,f6f03337-2cc5-4529-9285-94354029deaf,KratonOS,defi;privacy;security;agents,https://github.com/jubayir-hub-69/KratonOS,jubayir-hub-69,KratonOS
+nearhackathon-2026:f759b731-d170-4556-9e17-f6c4c83804c2,f759b731-d170-4556-9e17-f6c4c83804c2,arif,privacy,https://github.com/ariefms/taskbounty,ariefms,taskbounty
+nearhackathon-2026:f7e0b566-0b2c-499e-8c4e-c2945beb1a7b,f7e0b566-0b2c-499e-8c4e-c2945beb1a7b,Clean Exit,security;agents,https://github.com/boycisco/clean-exit,boycisco,clean-exit
+nearhackathon-2026:f82bca91-89a5-4f03-9f35-7d2dc73ec3c3,f82bca91-89a5-4f03-9f35-7d2dc73ec3c3,NEAR Usage Thesis,thesis,https://github.com/lisaaai200/near-usage-thesis,lisaaai200,near-usage-thesis
+nearhackathon-2026:f85c82df-dba7-4415-bdbf-e6b480ca6f0e,f85c82df-dba7-4415-bdbf-e6b480ca6f0e,NEAR Agent,security;agents,https://github.com/junison10/near-agent,junison10,near-agent
+nearhackathon-2026:f876d5e2-ed83-4671-9950-88d7bc03d843,f876d5e2-ed83-4671-9950-88d7bc03d843,Trezo,games;nfts,https://github.com/TeevincsCrypt/Trezo,TeevincsCrypt,Trezo
+nearhackathon-2026:f8ed5c05-2ce8-4599-b263-2384b923797d,f8ed5c05-2ce8-4599-b263-2384b923797d,Heir,realworld;open,https://github.com/ZSP111/Heir,ZSP111,Heir
+nearhackathon-2026:f99af62b-0c12-4b7f-a50c-7da4825b5e6a,f99af62b-0c12-4b7f-a50c-7da4825b5e6a,CapFare,defi;realworld;open,https://github.com/thomasdevving/capfare,thomasdevving,capfare
+nearhackathon-2026:f9b3e1db-59fb-4161-917a-39c28d6861c9,f9b3e1db-59fb-4161-917a-39c28d6861c9,Intent Sentinel,defi;security;open,https://github.com/cryppit/intent-sentinel,cryppit,intent-sentinel
+nearhackathon-2026:f9cc9a89-f50a-4513-aa2a-da289aedf0e3,f9cc9a89-f50a-4513-aa2a-da289aedf0e3,Laurel,privacy;agents;open,https://github.com/agadape/laurel,agadape,laurel
+nearhackathon-2026:fa098f68-cb10-4fcb-971f-09824e36fa11,fa098f68-cb10-4fcb-971f-09824e36fa11,Pactora,privacy;business;swarms;security;agents;realworld;games,,,
+nearhackathon-2026:fa6703a5-2e4c-4721-9bdb-8f22915922f5,fa6703a5-2e4c-4721-9bdb-8f22915922f5,Flock,swarms;agents,https://github.com/ClaudeOpusPremiumAgent/flock,ClaudeOpusPremiumAgent,flock
+nearhackathon-2026:fa9b456e-4566-4731-85c5-05a906a51c02,fa9b456e-4566-4731-85c5-05a906a51c02,Hallmark,defi;security,,,
+nearhackathon-2026:fab81a4b-9c1f-4434-a1cc-cc0933f8d37f,fab81a4b-9c1f-4434-a1cc-cc0933f8d37f,IntentGuard,security,https://github.com/tim963852741/intentguard,tim963852741,intentguard
+nearhackathon-2026:fba141a8-62bf-4588-8280-f6bc091f6d33,fba141a8-62bf-4588-8280-f6bc091f6d33,Tenor,defi;security,https://github.com/avishrakshe/Tenor,avishrakshe,Tenor
+nearhackathon-2026:fc0f38b0-882c-41be-87c3-5dfd213b7b71,fc0f38b0-882c-41be-87c3-5dfd213b7b71,Payday,business;realworld,,,
+nearhackathon-2026:fc122909-2cd5-4d03-ae5d-7df09aa93f1d,fc122909-2cd5-4d03-ae5d-7df09aa93f1d,IntentFolio,defi;open,,,
+nearhackathon-2026:fc49123b-2dfc-4089-9fed-1de6a22c4aec,fc49123b-2dfc-4089-9fed-1de6a22c4aec,NEAR Easy,open,,,
+nearhackathon-2026:fc7ad669-fe67-48e1-b82d-c9f8efdb20c0,fc7ad669-fe67-48e1-b82d-c9f8efdb20c0,NEARShield – AI-Powered Traffic Attack Detection,security,,,
+nearhackathon-2026:fcac65b4-91e0-4602-bf36-dc6a1b53aa78,fcac65b4-91e0-4602-bf36-dc6a1b53aa78,Ratify,security,,,
+nearhackathon-2026:fccff195-e468-4424-a5f0-6bf8785f051a,fccff195-e468-4424-a5f0-6bf8785f051a,EarnPatch,realworld;open,,,
+nearhackathon-2026:fd1fed10-78bf-4255-b44f-bbcdcd5c40c1,fd1fed10-78bf-4255-b44f-bbcdcd5c40c1,MannyFi,defi;realworld,https://github.com/davieslennox0/mannyfi,davieslennox0,mannyfi
+nearhackathon-2026:fd751e55-7d14-44d1-8eb9-7a354ee46007,fd751e55-7d14-44d1-8eb9-7a354ee46007,NEAR Agent Spend Guard,business;security;agents,https://github.com/mubudot/near-agent-spend-guard,mubudot,near-agent-spend-guard
+nearhackathon-2026:fd8bbe1a-b3fd-4188-80cc-d07f9c601037,fd8bbe1a-b3fd-4188-80cc-d07f9c601037,FUTURESCOUT AI,defi;business;swarms;security;agents,,,
+nearhackathon-2026:fda85f72-004a-44cd-a28f-525b91ed0053,fda85f72-004a-44cd-a28f-525b91ed0053,Leash,security,,,
+nearhackathon-2026:fde9ac19-13da-4b0f-84e7-8e9bc19c63ef,fde9ac19-13da-4b0f-84e7-8e9bc19c63ef,SpendGuard,business;security;agents,,,
+nearhackathon-2026:fe292050-bdfa-482d-ab08-4d1355e49f3f,fe292050-bdfa-482d-ab08-4d1355e49f3f,Nims,games,,,
+nearhackathon-2026:fe3ad6ca-dc32-486e-a00f-87af1cc1f8d7,fe3ad6ca-dc32-486e-a00f-87af1cc1f8d7,QuorumGuard,security;social;open,https://github.com/Ankith-m1006/quorumguard,Ankith-m1006,quorumguard
+nearhackathon-2026:fe82d60a-5665-4c90-95c8-ce1d7405897a,fe82d60a-5665-4c90-95c8-ce1d7405897a,Payables,security;realworld;social,https://github.com/bigdann09/Payables,bigdann09,Payables
+nearhackathon-2026:fe8a03ca-439a-4f14-ac20-2a84c925d84c,fe8a03ca-439a-4f14-ac20-2a84c925d84c,Near-LEASH,security,https://github.com/soze-ki/Near-LEASH,soze-ki,Near-LEASH
+nearhackathon-2026:fe99e55a-7b7e-4f55-8029-73c2a4ddfce9,fe99e55a-7b7e-4f55-8029-73c2a4ddfce9,nearbi,thesis;business,,,
+nearhackathon-2026:fea85fb1-5eea-4414-abc8-5d60a913cfac,fea85fb1-5eea-4414-abc8-5d60a913cfac,Digi Swarm Treasury,business;swarms;security;agents,https://github.com/saidtalib/digi-swarm-treasury,saidtalib,digi-swarm-treasury
+nearhackathon-2026:ff4096e0-82f9-468d-8592-ea13a28fb4c4,ff4096e0-82f9-468d-8592-ea13a28fb4c4,AgentGuard,privacy;business;security;agents,https://github.com/CodeMasterLabs/agentguard,CodeMasterLabs,agentguard
+nearhackathon-2026:ffdac293-b24f-442f-9c52-b76feb505788,ffdac293-b24f-442f-9c52-b76feb505788,AgentPay Guard,security;agents,,,

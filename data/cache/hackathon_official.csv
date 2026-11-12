@@ -1,0 +1,765 @@
+id,project_name,tracks
+0043dd1c-a6d8-4233-93fd-36941b1ad9d6,AI Security & Defense (security),security
+0078ca7e-2d32-45b6-8a60-2bb49bdbc623,CodeCloak,privacy;swarms;security
+008dcf6e-df4c-4fac-ba92-dccdeccff142,SpendGuard AI,business;security;agents
+00ed3eb4-ba45-405f-8567-58fd42a0f6a0,AgentGuard,security;agents
+00fdaceb-0af0-483c-a759-a661d9a79704,Petri,privacy;security;games;nfts;memecoins
+012471ae-3f46-41af-bb4d-a4573175db5e,STEWARD,privacy;business;security;realworld
+018eac07-b635-43fb-85c8-b2b7b2633e1e,Aegis Vault,business;security;agents;realworld
+01d1ec5e-9ba4-49cb-88f8-8236c08285ea,Agent Toll,security;agents
+01d2b5be-1787-4ab8-9536-787fdd5b9d16,Supply,privacy;realworld
+0328a53c-46b1-4ae4-a6be-c802af786094,Q-day,games
+032a53d6-766f-4a0f-8a36-cbc252940b60,TITAN EXCUBAT,privacy;security
+0411b3ca-9a55-4545-911f-d2eb89e301a4,IntentWatch,security;open
+041b93ac-79b6-4180-9c08-bba6f7f831da,RugGuard,security;agents
+0465d387-401d-41fc-909b-fc1863a2bb56,Gideon,security
+04749b49-1ec8-469d-91b8-4ee173e2bc9f,AgentGuard,business;security;agents
+0480260c-8d3e-477c-b081-ca8c034e1c96,DomainAgent,business
+04ed6beb-1fe1-4079-811d-eb6264de4866,Agent Undercover,swarms;agents;games
+050caed7-ac37-4af2-b6df-fe2af24da753,"NEAR's agent economy, measured",thesis;agents;open
+0524afb3-1de9-4951-912e-482482cdf718,ForgeProof,realworld
+05d6e2f2-4eac-4262-8ee0-9eca1a932b2c,PinPay,business;agents
+06deb0b5-807d-420a-9c8a-88a6884f0c10,AgentTab,security;agents
+074dd59c-447f-4675-aa8d-b6ae08144e30,ProofArena,security
+07b2f8cc-402a-4e5d-9fc9-4e0a8e7162c9,ProofPay,business;security;agents
+07f41f33-2401-402b-9cd7-7acd09cde5da,Bountybot,security;agents
+080cff8f-bfd0-4f8c-92c9-1c244556b840,NEAR: On The Evidence,thesis
+09912d1f-af52-4f56-8840-f66f00a90710,Halter,security;agents
+09ab8743-6030-40f6-a817-d14da113de64,Psephex,security;agents;open
+0a76ac32-6b4d-48f1-b46f-2be13d13dc80,NearJar,realworld;social;open
+0b1cdfcb-d589-4018-a833-2b14875ed854,Alphaforge,defi
+0b1e8f4e-92fc-42e6-b791-1d1bfe8fc193,Calydon,games;memecoins
+0b491295-55af-4c04-b138-ca3bac3684f6,Bouncer,privacy;security;games
+0b4d122b-b98e-4b8b-afc0-08e7c13a69e6,KEYFALL,games;memecoins
+0bc14688-974e-48bd-b2fe-281b220ff202,Tollgate,agents;realworld
+0c086611-ade4-44ff-9215-5853e1f049da,NearGuard,security
+0c4d7381-7b29-426b-9f1c-bc7ea79aed30,ClawMaven Spend Desk (NEAR rail),business;security;agents
+0c4f64f1-58dc-4768-911b-c950002ab5c1,SwarmCompute,swarms
+0c633311-0739-4fb0-beb5-aac1f8039735,ShowUp,realworld;social;open
+0cf9a786-2a6f-4975-bbf1-7799feb34778,Penny,defi;privacy;swarms;agents;realworld;social;open
+0de1795d-ae29-4b29-8289-09dd6ceb98ba,Approval Moment,security
+0e121ace-8f33-49dc-bf29-196e2f4e0e0f,NEAR PayMandate,security;realworld
+0e524d29-7c2a-429a-b924-f5b0f81221e0,Meme Wars,memecoins
+0f2e3793-1498-4517-a539-e26b994c2e29,STYX,security;agents
+0fbd89e5-d81e-48ae-8ede-73dac94760c5,Writ,nfts
+0fdc3944-7e09-4607-a08a-2590472db1ea,Meridian,swarms;agents;games;nfts;memecoins;social
+0fe6653b-f10b-4ceb-b541-131d39aa2590,Revive,memecoins;social
+10e6d4d9-d903-4de0-a4b3-06ac650af832,Test,defi
+10f0d72f-1188-4b8c-bdb6-a5064c0558cb,Asylia,privacy;security;open
+11146863-2476-4490-8414-dae2119efc46,Plumbline,business;security;agents
+111ddcd3-8815-4ce1-bed6-226f523cab6c,Farm Ajo,business;agents;realworld;social
+113cfb76-5188-4770-8f17-92003dabedb3,NEAR Agent Census,thesis
+113ecb11-f87d-4d1e-b4f4-c76fdfafdc2b,SYLIC AI,privacy;security;nfts
+11429113-f9c2-4fc2-a3a7-4d295ff2f26d,MintGuard,security;agents;open
+114ae4bb-1b40-4004-a80f-80b89a0f585b,PrivateDAO,defi;thesis;privacy;business;security;agents;realworld
+115b2488-dcf6-4715-8f67-eaa70cc8afb3,Overclock,agents;games
+12eef00e-4daf-42c6-99eb-6574a1dc7797,Onchain Suite,privacy
+12ef1c9c-663a-4b26-9231-32b06f92601e,RunLatch,security;agents
+13320277-ad5c-44de-bbd0-65c898072ddf,NearPocket,agents;realworld
+141642d1-ce6f-4005-a922-bfc5622a9e9d,Antibody,privacy;security;agents
+14889793-9a9c-4d47-b20b-511f5b8415e3,Arcon: Your AI Architect Agent & Design Ecosystem,privacy;business;open
+14c70946-d8de-4fed-8fc6-739886447220,DeadDrop,privacy;realworld
+14d26e9c-261f-42a7-b6aa-4f911f250fdd,Petri Dish: a memecoin that is alive,swarms;games;nfts;memecoins;open
+1562ae64-eb05-4f5d-846c-f9c0fbfaa059,Wakeless,defi;privacy;security;agents
+1574aae2-259f-48a0-8ce4-4761eea32534,AgSurance - Insurance for AI agents,security
+1592bc0a-7e92-41ff-a0b3-c7f765ca291c,Taskbond,swarms;security;agents
+1628580c-c3fb-4edb-8785-4eaee7396b4e,SpendTree,swarms;security;agents
+167dec4d-c0a0-4286-9fd4-de7bea0c6bbe,Sana Guard:Onchain Policy for AI Agents,security;agents
+1715bb6b-148f-46f3-980b-459b06f6ca2e,Semilla1 Guard,security;agents
+171b08cc-8096-4605-928e-0dfbb4209e1a,Sentinel,security
+1733fb7f-7696-4df7-ae93-b072e0bdaa51,Sentinel on NEAR,defi;security;agents
+17ad0701-1512-4907-ba5d-e5795a5aac37,SealedBounty,privacy;security
+17d5471a-31be-439d-a945-a2b508555c2b,PayPerCall,agents
+187a9848-86c8-4e93-bca2-aa4f66cb40fc,Pixel Wayfarers,nfts
+187e3977-92b3-4011-b596-f7c47ffd3256,Levee,defi;security
+18ee7a1b-2985-420e-80fa-9bcc96e536cd,Logen,nfts;open
+18eed5bb-659a-4f97-8dff-ffbfc64896a4,Epoch,security;open
+19021f5f-cfcd-46e9-bad3-76625e82d8bb,Assay,swarms;security;agents
+19769764-c445-437e-8187-e0433b18c3da,NEAR SENTINEL,privacy;security;agents
+19c48e37-d631-4127-98b4-55b6ea0ab72f,Provable Alpha,defi;thesis;agents
+1a0c00ed-babe-43c0-9b94-eb04af104c7e,Clean Ledger,privacy;security;realworld
+1a48435d-d9b3-4894-9a42-442ef79c0ccf,NEAR Sentinel: Did It Land?,security;agents;open
+1a6c7171-09e2-48e8-85b0-036de148a63d,Inari,agents
+1ae8de17-c640-4c70-963f-5018209719e9,Undo,privacy;security;realworld
+1b08f835-54be-40f9-8b7e-e52fd20deb63,VillageBill,realworld;games;nfts
+1bcbf9df-adb3-479b-90b2-afaf6b3fa5e8,Derelict,nfts
+1c373cdd-06bc-45f8-8c2c-255caa791514,Farmverse,games;nfts
+1ca01819-1a03-4a49-81d7-eb5755db0fea,VIGIL,business;realworld
+1daa1537-1832-410a-9acd-cef07c225e13,Intercept,defi;privacy;security
+1e8871bf-4a26-41cc-93dc-cc8678116f06,ASGUARD,security
+1ea9d594-1b33-4c41-9d7d-d536ff0df573,near-thesis,thesis
+1ec8b31a-8ced-42b9-9774-3ea1af0e5a47,OpenNear,nfts
+1f0c1a53-2bd8-40a7-9050-3dbfd415408c,Probarion,privacy;business;security;agents;realworld
+1f21b0b8-0232-4954-a210-d8ff0e9c33b2,Neat,defi;social;open
+1f42c89b-67d7-4cf5-ad15-77d5eb9893c7,Setoff,realworld;open
+1f5f5c79-67ec-4bf3-9974-83e503882417,Copper Acorn,games
+1f5f881d-dbbc-419e-a049-2f84da4a9cf1,NEAR CLEARLOOP,realworld
+1f79c1b6-515b-4e28-b36a-199450ddbe45,Memeproof,memecoins;open
+20c36cc7-a869-4f78-8f3b-512da545fdfd,Private portfolio,defi;thesis;privacy
+20df5127-8326-4810-8314-c068af25650b,Foreman,business;swarms;security;agents
+20fdc725-b01a-4f2a-89f3-9489da621c90,near,open
+21847c17-1c1c-4344-b169-174f49cfda09,XYR Shield,defi;privacy;agents
+21996773-48fa-43e9-aedc-684fdd2e4425,Veto: on-chain spending firewall for AI agents on NEAR,security;agents
+21b88ac4-20b2-4951-bb42-9b5e57695f5f,The Build City Hackathon,privacy
+22433e60-5bd6-4eff-b640-016947a51475,Agent Guard,security;agents
+230eb981-1e52-49db-bf11-614605d187f2,Tollgate,security;agents
+245760ab-6b48-437f-88d3-b8528e7f9601,OmniRebalance AI,defi
+247640ff-7661-42ec-8275-b2fc8ada1a9a,NDBOT,defi;memecoins;social;open
+24ab3074-3cfd-46e9-b7e5-fc4922a7c66e,AgentGuard,defi;privacy;business;swarms;security;agents;realworld;social;open
+24e3d259-5e06-4763-88c3-9101bac17f60,Payrein,security;agents
+250f313e-7edb-4fa3-90f2-0e6cc082db38,StateRift,open
+254aecdf-6691-477b-ae60-e75059860d84,Cascade,realworld;social
+25e86b27-fbcd-438b-99ba-769046b4741c,PROTEAN,defi;social;open
+2633a774-80fe-4d9c-b813-0ebe292ad450,Cobra on NEAR,agents;realworld
+2652fe09-676c-4e5c-ab84-be6c2bb15464,Orthrus Protocol,security;agents
+2705e4be-45ed-4da7-87bd-e19a8b161941,Paygate,business;security;agents
+270c2513-d072-4dad-9726-2b6191b39801,BONFIRE,memecoins;social
+2729da90-63b9-44e6-b484-9912ad4d704c,TellTale,security
+27b0daae-fb97-437e-871c-21bba778dab5,Sunset,nfts;social;open
+27ed2a89-1984-4bfa-8f35-59e1466e58c9,nearx402,privacy;security;agents
+287c0199-5dcd-42a9-86d8-0fa06123a8f3,ShowUp,realworld;open
+287d08ef-3e56-4424-a00b-700e0f7d1bf9,"NEAR, on evidence",thesis
+28edadfc-7a18-4ce3-8ffd-127044e182ff,Judge on NEAR,privacy;security;agents
+292edeb0-0e1a-4e89-83b5-5376743226ae,pursestrings,business;security;agents;social
+29b96d35-3fb4-4b17-98b5-2653ec354948,Narrax,thesis;security;open
+29de48f9-e046-48b2-99ba-49aff3a09765,Heimdall Cyber,security;realworld;open
+2a3c4c07-a62a-4b84-ae21-a77b3fd42e06,Safe Near,security
+2a4526fe-ff0d-4b86-96dd-cffb506f2e10,LinguaLedger,privacy;business;agents
+2a6ee15f-f485-44d3-9431-6331ceb52367,Yield Optimizer Vault,defi;security;nfts
+2a722043-5c3c-4f92-ade4-989549be0261,Maven,security;games
+2ad377e6-2c7c-4532-a1c5-6312d34ce4f1,SCRIM,privacy;security;agents;realworld
+2b198e26-7589-45a4-b6d9-0c838c248657,Clear to Pay,privacy;business;agents;realworld
+2bb5d330-9055-4064-9abf-3132e58bac4e,AgentGuard,business;swarms;security;agents;realworld
+2d67b079-7a2c-4640-9673-5a7cfaf9ef1a,NEAR Thesis Dashboard,thesis
+2db23e02-b7fd-47b0-aaed-f4d960785201,Ark of the Covenant,security;agents
+2dc79d85-a032-49da-a708-89f6607d81bc,Deed,business;security;nfts
+2e608b86-3e2c-4dbe-a438-8f30f4129e41,near-thesis: NEAR on the evidence,thesis
+2e64384f-215c-4111-9b02-f4b3073db265,DORKS,nfts;memecoins
+2e7d759e-113e-4022-9fa7-f9ad7b656712,Bila,business;security;agents
+2ea813d4-d60e-4311-9dac-59b9463316c4,Gimbal,defi;security
+2f6dea96-c753-40a2-ac98-e4e7639255b8,StarFloor: Orbital Market Center & Zero-Gravity Colocation,defi;open
+2fd429e5-a08f-4cf1-99be-ac5a9b2cd1f8,PROCTOR,privacy;security;agents
+2ff34858-5a81-4248-ade5-9894def5567e,Lantern Caravan,swarms;agents;games
+303cdf12-2553-4787-b1a0-59e33f229823,Proposal X-Ray,security;social
+304b42d1-54aa-44a9-a166-1e93e839056b,Tummo,memecoins
+31826940-a6fe-469f-928e-9dcaf7391f3a,Zilium Protocol,privacy;business;agents;memecoins
+31986f08-4f30-4a7d-9539-97c90e0dbd5b,SecondEyes,security;agents
+32c18d75-53bb-4f4d-b454-ac784023055d,Safecell,security;agents;open
+32c75be1-ea65-4bef-8607-1df599ae847e,Aureus,defi;privacy;business;security;agents
+3455e512-f65c-4bff-bc4e-a0653eecaf61,NEAR Watchtower,agents
+3477772c-4c48-4196-a55d-7081b74e3954,Contri,privacy;realworld;nfts
+3525d5b6-6bfb-47e7-81c7-71505f35702e,Mihenk AI: pay per call on NEAR,agents
+35f9f065-7c46-4190-b6d5-93203d7850e4,AgentGuard,security;agents
+3619c792-4e0a-496e-8b42-ef5fd6b91d4d,ASGARD,defi
+362055e6-2e3f-4d19-958c-8c3dd4cd8291,THE PIT,agents;memecoins;social;open
+374770a8-ee59-4748-83c5-6c86b0944d44,Lunearcy,games
+3824ad53-8f26-426f-8239-99f5080ec3ca,CareRail,business;security;agents
+38426453-a40e-4f55-8e74-db7b6e5c24b1,RedactGate,privacy;security
+385ea3c8-bda5-4257-87b4-550bdfc33be6,DiveMarket,agents;games
+387c4c92-2e4c-4840-a0fc-d08bab9de6e3,SLA Sentinel,realworld
+38ce2f4a-99e0-4c4e-aec2-c9a835b68df8,Boundora,nfts
+38de9d36-b5d0-4cf8-9e0b-aa6088913022,Redline,privacy;security;realworld
+38f7ce64-0414-46ce-b0b9-f40bd12374b6,presign-guard for NEAR,defi;security;agents
+3a39f44c-033f-4a5e-ad4d-3bc902e5fd35,Nearfund,social
+3a9c2332-e0d5-48cb-a04d-389adc065bc3,Yellow Hands,defi;social;open
+3b5ef8d3-509b-4b39-8efd-c7bde5ef0f2e,Umbra,defi;privacy;social
+3bfa2738-b31d-4735-ab12-5bfcb8a657c9,Chai Pot on NEAR,security;agents;social
+3c93bf03-e823-4fab-b708-9d067a790162,C0-op,swarms;security;agents
+3ca8385f-42b0-42ad-bec9-4d792b83be79,BUMM Guard,swarms;security;open
+3caec19c-48c2-48b8-ac7d-db2a2f387b22,Rootbound,swarms;security;agents
+3cbfb04e-1d0d-4407-8bd6-e06f77090106,Bazaar Sovereign,swarms;agents;games;nfts;open
+3cc2bdaa-03a1-4759-84e8-08c3e5443b93,VetoAgent,security;agents
+3cfe4a31-395c-4ea7-b2aa-30f84cb8afef,Zero Tick,defi
+3d44dcae-ee40-4616-bbc5-7489ce0d360d,Writ: Who Pays When Your AI Agent Gets Fooled,security;agents;open
+3d6be0dc-68f7-4343-b479-cceb326ad7a1,openLID,security;realworld
+3d891e8d-50b6-42e2-a0ad-88090a5b2b91,Web3Edu,open
+3d9be24a-53f1-4755-8524-44d742c861b7,Release Passport,security;nfts
+3dc94a19-7a27-4d6f-9f2e-a0b994436be6,NEAR as a Cross-Chain Settlement Business — Investment Thesis,thesis
+3dd7c35e-6930-4b60-ad0a-7f569fcdacdc,Black box: a verifiable flight recorder for an AI agent's money,security;agents;open
+3dfb2344-8015-43d8-9389-9cf36bd8fbc2,Shelflife,open
+3e07975d-4382-4f0a-8771-e71208a6960e,Credence,defi;thesis;privacy;business;swarms
+3e0a5372-942a-4618-b309-68cfa5c4d208,Launchline,open
+3e4327e1-8ee3-435b-86d5-d61045b8e05e,Skarbnik,privacy;security;agents
+3ed8eea1-7333-49b6-a855-a55df8315374,Cred402 — SpendGuard,defi;thesis;business;swarms;security;agents;realworld;social
+3f7c1b2a-9d54-4e0b-8c6a-1b2e0f4a7d91,Private Tickets,nfts
+3f86c8f9-811e-4de8-a500-ae345b737b2c,NEAR Books,thesis;open
+3fcad2f5-4dc1-4dc8-8dd0-bd33bc845d23,EarnScout,security;agents;open
+40213a90-a924-4822-8476-fccc11821fa9,Sentinel Registry — On-Chain Token Risk Attestations on NEAR,security;agents
+408e945f-c782-4a92-b9d0-565e6b5a1169,SafeRedline,privacy
+409c8751-d703-4eff-a8c4-f6a42a2a99b7,.Leash,security
+40a5c9de-69dc-4f11-9973-b9c045eec2e3,NEAR Replay Lab,security
+40fe11d4-f8ee-4598-9518-c50153e7db7c,NEAR Address Analyzer,security;open
+4126642c-e4c0-4876-80c0-3f9729f1d81d,Allowance,business;security;agents
+413dd679-48cf-4dce-adf3-36be20a9e739,Kite,agents;realworld
+414e8d74-fcd2-463b-a319-fe4e894566cf,Attested Arena,privacy;security;agents;games;open
+4151103c-8802-4efc-a552-574373f46228,Milestone Vault,privacy;security;agents;realworld
+422c062b-b89a-444d-bdef-ab3e6596ae59,Agent Raised,privacy
+422f6a2e-9008-4883-ac35-a98ed9cbda89,Agent3 Purser Relay,agents
+4296638a-e11c-4d51-b72f-e449f6d99e06,DNA Confidential,privacy;realworld
+42a2f5ef-1476-44b5-8927-56b703fd7b36,MilestonePay,realworld
+42a410b7-5bac-46bf-8816-69c286905e39,Settleform,realworld
+42bc4236-548f-4b0c-83e3-e89303baf38a,HiveCast,privacy;swarms;agents
+42ec2a12-bf4e-40a0-8f23-dd9617e1d9ea,NePu,thesis;open
+4359caef-9dde-4452-ba71-e6f54ad2d7b9,Roda,realworld;social
+4363f191-af1b-479d-9656-50ff0812c1c0,SunSwarm,business;swarms;realworld
+438e5163-d314-44c0-9fcc-42d177d0718d,Sealed Ledger,privacy
+43957c3d-fb38-4661-ac47-facc6179b69a,AgentGate,business;swarms;security;agents
+439b9881-3a45-4f1a-8a16-6394de10b62d,AI Wallet Guardian,security
+442b6492-df62-496b-9c1a-0dbd13543687,Sylic AI,privacy;security
+44429927-7ac7-4068-92af-a3860bff045d,Circuit Breaker,defi;security;agents
+449c9752-187a-4b1b-8d4a-c1b6c35ffe39,STAG: the stag hunt coin,memecoins
+44b5ae7e-aa92-4927-97e8-e0eabf4cf379,Orbit,defi
+44ef1f47-384f-4473-9820-ad170c7b63c0,Keel,business;security;realworld;social
+457e0ebc-a4ac-4ce8-9dc9-d0f8e0c1427d,Agentguard,security;agents
+4589fe87-dac6-4b42-9218-13a7d2c8b5e6,LeashPay,security;agents
+45c7258a-1a6d-4636-b025-28f9d3acad4d,Faultline,thesis
+465b2038-aea8-46e9-a01e-2fc5a11fb6d5,Priced In: prediction markets for facts,defi;privacy;swarms;agents;open
+46bc18be-e6f1-4a44-af0a-d6326d35b55b,Quant Agent,defi;business;security
+471dd817-71da-442e-9b06-a9387b17c9f7,$ROT — the coin that spoils,memecoins
+477e20ad-b9eb-4ca2-9e3d-a35e671831b3,Provable AI Compliance,privacy;security;open
+47c04261-0db8-4b5c-b515-021376cf3b71,Nozy Agent Desk,privacy;security;agents
+47cbc85d-6ab2-4d3f-9d91-7cc7e57eb3cf,BEXLEY,defi;privacy;security
+481cec5c-d9fc-41a4-9a72-b9e104915c77,ZEDEC PQOS aka. TIAMAT,defi;thesis;privacy;business;swarms;security;agents;realworld;open
+48213d9e-b43c-4afd-8090-73bf067ca224,Docket,security;social;open
+4858bd20-6b5b-49d2-8595-3e791bc3b7f3,SealQuery,privacy;agents
+4887a513-f1e8-49ed-80d4-2fb97e8ed415,MARGIN,agents
+489d9296-73a6-4b9a-850c-6a8204021540,Nexa research,business;agents
+4909e0ef-4a5e-40b6-bd68-b57b42436278,Semilla1 NEAR Thesis,thesis
+493021e8-fb56-49ef-8be0-b1a1060d7784,Warrant,defi
+49563af4-b8b7-4c1e-a715-9d3148403610,XAUConnect Gold Router,defi;agents;realworld
+4a4566f6-e525-4a5e-b0de-ba403c34a512,Lifeguard,defi;security;agents
+4a7c5dc1-b0a7-4e43-beb1-2d1bc3b6f273,CommonsOps,social
+4a9a7ae0-6943-4a34-b4e3-99198eeee530,Dragons Market,defi;swarms;agents;nfts;social
+4aaee984-92a7-4d4f-96f5-37642167fd6f,PrivatePay Agent,privacy;agents
+4abd8001-d743-4037-9d76-e75d6febf7a3,Pactum,defi;open
+4b1d7196-ba55-494a-8ccb-3daf0087744e,Agent Vault,security
+4b48d357-0344-4364-aa48-42450f1f85bd,Paya,defi;realworld
+4b511cb3-cc90-41b1-9e8d-b337a0c8206f,AgentLeash,security;agents
+4c16c5d9-7692-4ea6-a3f7-1497da497068,Optionality,defi;thesis;agents;social;open
+4c5e0794-3c41-44fd-92f7-11fe12d6ca78,CabalMesh,privacy;business;agents;open
+4c88b184-5c62-4718-92fe-149510a709cb,Handover,nfts
+4cecaea4-961f-4734-b86d-e5fc9550d981,Antumbra,defi;privacy;open
+4d3c9569-045d-4c44-bc7e-9141cfc68921,Mesh,business;swarms;agents;realworld
+4dbfa08c-f465-4800-8432-8228340a38d8,"$YAP | Proof of yap, on NEAR.Social",memecoins;social;open
+4de7a804-009f-4841-9908-010eed4b1abb,CareFund,realworld;social;open
+4e33510c-dd91-482a-ae5b-078578062e29,OpenGrasp,games;open
+4e50d9a7-3ef3-4a68-9307-01d46c96e184,Greed Machine,defi;business;swarms;security;agents;memecoins
+4f87bbfb-1dca-41b9-a230-80919a649933,Mandate,business;security;agents
+4f8d2c31-9e67-4f0a-8c2d-5b1e7a93c044,Outlive,business;nfts
+4fd5587c-70b1-432c-bb9d-2fe5d79c2a2a,Drip,business;security;agents
+50e6a343-ca00-4423-95a9-88d2ba74a4ac,Pelargo,realworld
+50efbb67-7e4a-45c7-a0d8-73427c6237bc,MintCheck,security;agents
+50fd3b4f-c601-4081-a463-9aa0944b7d00,Measure,privacy;security
+5115a8b3-a5ed-47ea-a2f9-1fd2af1aa6e3,Vouch,security;agents;open
+51261916-2c0e-48df-9888-4c24f52dccd5,Proof of Ship on NEAR,agents;realworld;social
+51323ef0-6cd0-475c-8751-1ab992e1ef01,VeilProof,privacy;agents
+5166b887-a496-428b-aed5-a392750471e5,HiveBid,defi;swarms;agents;open
+52131336-6eac-4599-bd2d-2dc3cd93cd7b,AgentPay AI,agents
+525cc516-1835-4082-a80e-97fe6669481c,Sputnik Settlement Ledger,realworld;social
+5278473e-6acf-40b2-a013-a2ff4236f176,Presafe,realworld
+529be7da-2cd5-48bc-941a-830b9f524759,Agent Guard,security;agents
+52b1c613-598e-4015-aa9a-def15bceb1c2,Bursar,privacy;business;security;realworld
+52c5c261-be98-42a8-8c2a-aa0710058252,NEAR Thesis Lab,thesis
+5325e972-2bb9-4f7b-8b04-bfee3935963d,RitualCoin,memecoins
+53bca15c-71a8-4b37-adfe-c2c262354d84,uprali,thesis;agents
+53d9c309-ac4a-41d9-a31e-60ad073cf0c1,NearBowl-Feed it or it Dies,memecoins;open
+53ffa482-cfd4-4287-b750-af3cc336a11f,Ajo Onchain,realworld;social
+54f5f088-26d2-4123-b11b-85297ae66e77,Hat Tip,social
+55eb2652-5aee-4768-8800-22f5d6ee0b92,NEAR SENTINEL,security
+56274522-5749-427e-a444-fc23f1e4bb99,dareskro,business;agents;realworld
+56a9d82f-710c-4239-924c-944e3b838cef,Paylink,realworld
+56d11a5f-7ee0-47f3-a500-0e725944b5af,"Tape — The Machine, on NEAR",defi;security;agents
+56da0783-da22-446f-9ebe-4b49a6c88d00,OneShot,defi;security
+56dde30d-7c27-4c0b-91e7-6d45a01fa809,AgentFence,security;agents
+57131c18-0efc-45db-8fc5-2a212134f46d,Crownfall,games;memecoins;social;open
+576ee513-0c39-44f1-b3c0-dbc978503b28,Anyone Can Rug,memecoins
+5778e6eb-87c6-4b38-b856-f0732ed90f01,CT Life: Metaverse Real Economy,realworld;games
+579b650e-1176-4e5f-b639-1bcd4ccd785a,Yupland Heroes,agents;games;nfts;memecoins;open
+57f439b0-dce0-4a49-98e9-8344dba6bb70,Hivebuy,swarms;agents
+57f6742f-006e-43f7-b2ec-20dd0e1cc09d,cozy hood trails,games
+587124fe-0c55-43fc-9350-71a45dc16f77,Hangry Mochi,games;memecoins
+58825d9f-ae96-4b79-a276-8d42468c0dab,Nearagentpay,agents
+588cb0d7-3959-4d1b-b906-d550f24176e7,Warden,defi;privacy;business;swarms;security;agents;realworld
+58b123bd-0d4c-4dce-8411-9a266894a1e1,PayFold,privacy;business;open
+5904ebda-53ba-4749-9fb9-9f9b6a7476f5,IntentsExecutionDesk,defi
+5969a3e0-e4d3-4fe1-a9b7-2d325fcb4969,Agent Zero,business;swarms;security;agents
+59cfb2ff-3625-4421-912f-74b393e7d982,HADES OMEGA — Multi-Agent Orchestration System,business;swarms;security
+59db450d-bd91-4d3a-90c5-d1952fb8e906,Lumen,privacy;realworld
+5a469ae8-b9ad-4746-a5d6-d4b8445c15aa,ProofAgent AI,business;agents
+5b60133d-153c-4470-b308-04ea72c422e9,EmbryoGuard,open
+5b8f7b21-05f4-439d-82aa-c70343d321d5,CarPass,realworld
+5b9a485e-baae-4ed9-86a4-2bc73cf944a8,Torch,nfts
+5be6af0d-024e-469d-8990-82e0311fabfe,BAG HEIST,games;memecoins
+5c3430c6-b69e-4bee-ada7-37f5f456e258,Where's My ZEC,privacy;open
+5cc04588-f056-4c3e-96a1-fb956a10af44,Daykeeper,social;open
+5d0a06c9-5bfa-4a3c-a701-19139bfb5c2e,setllend,defi
+5d0ee068-040f-4a9b-b53f-534008ae8aeb,PatchBond,privacy;security;agents;open
+5d48ec5a-333e-4452-8a8d-c3d0720ca1b5,cipherwork,privacy;business;agents
+5f55a401-e97f-4c65-bfab-eca295c8a2d5,nearswaps agent kit,defi;security;agents
+601ec37e-da0b-4e26-92be-dddf7384821a,NEAR Agent Fleet,business;agents
+61039c61-0a07-4157-b1e8-bfd9502c12fc,Ukemi,social;open
+6168e9be-de21-413b-b9c7-6b101313ba2f,FairShare,social
+617e13c6-9bed-4c34-bbaa-f099fed53cb3,Tripwire,security
+61a86eb6-52b9-41d4-a2db-4583676d7cd2,GhostAgent,security;agents;realworld
+6254e8e0-a8a3-4a19-a891-10067a78d535,Allowance,security
+62715053-6cc5-4f69-8613-eaa46fe5c960,Hex Probabilistic Intelligence [PI],open
+62c095d3-5c9c-485b-9426-4d674e67d25b,Trueque,defi;realworld;open
+62d32e18-80a2-4d2b-95be-0d4c99fb783b,Nearsay,security;agents;games
+634c48fd-5190-4c8d-ada2-75e19dc367c1,ZeroFlux,defi;privacy;business;swarms;security;agents;memecoins;open
+64092c5f-df0f-41b0-98a5-697faad7314a,NEARpedia,privacy;security;agents;open
+645b1dd2-5e78-4a02-a560-53aafc7206cb,Morrowseal,privacy;open
+6483956b-bdac-412e-b9b8-1887687db7f6,Pal,open
+6536ea69-2b69-4e83-89c0-8811489df585,GetLeash,privacy;business;security;agents;realworld;open
+655ccb07-9788-4b73-9f5c-5f376c05f72f,Undiluted,privacy;business;realworld;open
+65e1da43-31d1-4efb-817e-4de06d43290f,Blindroll,privacy;realworld
+65ee7b4d-ddc0-4519-959e-9d65c51deb59,Roomy,realworld;social;open
+65f52480-6aad-4f52-904a-60ffed3c0416,Key Doctor,security;social
+665d4643-1468-4327-a7a5-31e1519f713f,VAULTRY,defi;privacy;security
+669c96f9-8857-4a49-a014-c8df41e71ee2,Spend Guard,security;agents
+66d42841-121e-414e-a047-1ce7cfa80782,iMeme,memecoins
+686150b9-35a1-47df-b0fd-20a3c87eed4a,Budget Broker MCP,security;agents
+688b3439-debc-4980-943e-285357ace6f5,NEAR Intents thesis: usage vs value capture,thesis
+68c95c14-4ef7-4f70-b128-a476742e4ddc,Arkhe Guard,security;agents
+68e265ef-198e-4e20-abcd-7ad16a23e23c,NEAR Intents Thesis — Tested,thesis
+68ea4ce8-2607-4fc2-8e83-d35405486953,Mandate,security
+6930cfcc-eed7-405b-9ec1-3eba610d16b2,Veto,privacy;business;security;agents;realworld;open
+6a17a2b1-b46b-448e-9d51-5f8f78a96281,SpecLock,realworld
+6a769d7b-374a-4213-a1bd-977e9eed1b5b,Clavis,privacy
+6b0d4c1e-2f6a-4d57-9a3e-7c1f8e2b5a90,Footnote,security;agents
+6b280e50-68bc-400d-a3de-eca871be2709,Genesis,business;agents;nfts
+6b71235d-6bf2-4a7e-9147-b54e3b2160d0,Terra matcher,defi;open
+6b7945d5-67fa-4ee0-8682-1c0e8bf670b5,Hushmark,privacy;security
+6bfd034b-bdf4-41ae-a269-279fc50dc3ec,ArchivePass,nfts
+6cc579c6-4abc-4e72-b93a-20904b06e2bd,KeyLease,swarms;security;agents
+6ce4fa90-8531-475f-ae45-ff1ca2fe0bbe,NEAR Payment Guard,security;agents
+6cf9c090-53ba-4ada-a86a-09824dd98eba,Sealed Dossier,privacy
+6d6be589-4a36-4a66-94f4-4408c40c9057,ALTAR,agents;memecoins
+6e2deee0-980c-429e-86d7-2b34ecd8e79b,Termwork,privacy;security;agents;social
+6e33f334-d94f-4655-84bf-9a462b7d1ae4,Yawrd,business;agents;social
+6e7be752-aa60-4da7-a729-09ce3f2d82d4,NEAR Usage Thesis,thesis
+6f3e7aa3-98c1-4321-bf9b-52324117cd17,Mint Scout for NEAR,security;agents;open
+71c0d142-809a-4ab3-9eef-33cd08b89fae,Charter,defi;privacy;business;security;agents;open
+71dd6225-cfe1-4639-9fdb-4831629534d7,LastKey Bunker,defi;privacy;security;open
+71ed36e8-4c24-4135-8fa2-80b070cbbd64,Workcell,defi;security
+722ede59-e2e6-4693-ac2c-15039142c84e,Werracle: Intra-Block AI Shield for NEAR Intents & Aurora EVM,defi;security;agents
+72ad736a-250a-4369-92fd-271efdd60598,Purser,swarms;security;agents
+735b6139-e210-44d2-9a0c-3dd305621d3c,Stashway,security
+73623146-ea42-4664-a0bf-3fea21c1dc82,Lot Passport,realworld;nfts
+73796d23-4bf6-4c00-a3e8-6c0211807d59,NEAR Growth Intelligence,thesis
+73aac154-b3fc-48e4-8089-79f73af7e7dd,Agent Allowance Guard,security;agents
+73c3749b-4b1f-406e-b765-81db07c0e4c0,NEAR on the Evidence,thesis
+74439305-e44b-4bc0-875a-5ce5dd7171d8,SikaSend,security;agents;realworld
+7546d008-eef6-4a4d-ab97-925c31229fd7,Ledgerly,privacy;realworld
+754bc1d0-3596-44dd-9721-3f45eae3eeda,NEARPORTAL,agents;realworld
+75551d6c-ab19-419c-b2e3-3847d5fb6da4,near-agent-guard,security;agents
+7556a73b-de05-4bfe-aa81-a3ae4d1e1c04,NairaRails,realworld
+759c5597-8632-4578-a05b-8dc047cf2db8,Leash,security;agents
+75fd541c-a9b4-48f5-853a-6bd778e2cdcd,Azzle,business;swarms;security;agents
+768bead2-5675-4167-92bd-4910d204f359,Agent Treasury,defi;business;security;agents;realworld
+76bf91c3-ef6a-4f83-8792-a8796019cbef,ByLaw,security
+77069aa4-6eb5-4770-8448-349169c99ee4,PredicTEE,privacy
+776ba85a-a86b-4a1e-8ca7-ae31a019f4ef,Echoes,business;swarms;security;agents
+779185fc-dc4e-4508-ad58-8a66a3204968,CareRail,realworld
+77b28e32-e5dc-4c10-bf27-0c4f3d6ba2d8,everNEAR,privacy;business;agents;realworld;open
+77bdab21-29e6-453d-a868-9572ef1e2229,Valet: a valet key for AI agents on NEAR,security;agents
+78629b57-b6e0-4e0a-8a87-9d5b2ae545b6,AOTrust NEAR Merkle Anchor,agents;open
+7926d8c7-d08a-4c7c-a9fd-1d00ae3a476b,PATCHPAY,business;realworld
+7949582e-2890-42e4-aa54-b22a5676f836,Kring,realworld;social
+799309d0-3829-4082-bebe-88ca6a80139a,NEER,defi;security
+79b57ff9-b521-470c-9a34-1d52da03f792,Thesis Agent,agents
+7a2c3ff0-7771-4ae5-9994-fff4c7ac8f2a,Claw Guard: Signing Gate for AI Agents,security;agents
+7a911921-e6d0-430c-9e4b-cb762a526f11,Mandate: Fireable Agent Wallet,business;security;agents
+7b1795d1-6907-4d66-95bd-294aabdd470a,AD FONTES,swarms;games
+7b7e0fcb-fffc-400e-82c5-b7ed941c25e3,Twinnear,realworld
+7bddc375-d6d5-46c1-9b93-56db2f1d7a7e,ChainPayroll,realworld
+7c772095-71d1-4cac-a207-2d4feca6e4ff,Tripwire,thesis
+7cad9fe0-5642-43a2-848e-0ee1bcc3b142,Agent shield,security
+7cb11fbb-008c-4d44-a933-eb3d9e5ca222,Leash,security;agents
+7da81c3b-7016-4353-a646-953edf768856,agent-pay,security;agents
+7db4528c-09fb-4a27-85d8-526aa2bc4ee4,IntentGuard,defi
+7ddc2d4e-c9ec-4e9d-bf57-c6309930e8ba,NEARlyHuman - AI NPC NFT,games;nfts
+7f8dff57-988e-4866-8dc0-a76d6ccaa659,Ash.,business;swarms;security;agents;realworld;social
+7fdb3314-94a8-4000-a57d-eadac57648c2,NearWarden,security;agents
+80daa4be-6a7d-48cd-b03b-3316ea3c7a5f,Proxim,realworld
+81245941-74f3-49b1-a897-4524fec4f0bf,$BEFEWER,games;memecoins
+81554e1e-6e04-4b32-bad9-b6eed055904a,Norr,defi;privacy;security;agents
+815d312a-1f58-4d92-9b0b-5d94daf8a36f,NEAR by the Numbers,thesis
+818e61ce-940f-40bd-9a0b-719dd5be76b9,Loomdesk,defi
+81eec9be-7452-4b8f-b57f-c7b654447b96,NearHr,realworld
+82821a03-0701-4e30-90e5-cdc42fbf8a03,GhostSign,security;agents
+82878626-d007-4202-bbd8-bdc6305c7156,Kinwarden,privacy;security;agents;realworld
+8309262f-0ac4-44a9-8ca0-2b51b03d52d0,Invoice Link,business;realworld
+838de4eb-8adf-417f-aa68-f1036b6d8f4a,Ethics Keyless Trust: Raise a launch together. No one holds the vaults.,memecoins;open
+83934a84-5719-4197-bcea-e491d37ba7f3,NEAR Payments for BTCPay Server,realworld
+846762b7-c3df-4018-98dc-a57e6e5a1428,OJA,business;agents;realworld;open
+849f9204-ed81-497b-8570-bd3ef00a21e2,Sealed Exploit,privacy;security;agents;open
+85211408-80b1-4e94-890f-2d5d5f23844a,boreal.work,privacy;agents;realworld
+857da381-27f9-4e36-aed5-d1483f0dd154,NEAR FeeLens,thesis
+8592d599-028d-48c8-8f73-8eb2ee96b183,Time-Locked Gifts,nfts
+85eb1ce6-597c-4759-a183-36b30709bc86,Clearance,security;agents
+863a286f-1b9b-48b5-8303-1697b2b5a5f9,SwarmGuild,swarms;agents
+8704cadd-fa89-4a19-beb7-2e7c1a4c575e,Signal Protocol,privacy;open
+885b6c2e-565c-480d-8691-ac431ab6afce,Public Agent Coin (PAC),agents;memecoins
+8872fdb7-542d-4777-9df1-de092b4d9a68,CTO: the memecoin where anyone can take over,memecoins
+89c6d1bd-996c-4d9d-9e06-a44c6ce9946f,EMET (אמת),business;security;agents;realworld
+8a029083-39ad-4dec-b36e-c21ee6dbb6fb,Handova,realworld;nfts
+8a5c6ffe-289c-4140-aea1-e96f420f3a19,Hindsight,privacy;security;realworld
+8ad3b968-e3ad-47f1-b1a9-b33581f616f6,OneUp,defi;agents;nfts;open
+8b76f68d-db80-4dfa-b9a8-4ac4f352888a,Pactsmith,business;agents;realworld;open
+8b933a5b-2bae-413b-a96f-38b888dc0da4,Ballast,defi;agents
+8ba03120-be2b-4be8-8474-b9e3f0afd444,Loca,defi;business;swarms;security;agents
+8be0239a-d5ae-41aa-bf7b-8e8c5746b2c5,NEARAIL,privacy;security;realworld;open
+8bf2bb4f-b322-4970-9fd8-f954a131fd5e,Buffer,business;security;agents
+8c1629ae-c5eb-40c6-baf6-b282662a7b78,AgentGauntlet,security
+8c8755ea-2b40-409d-b8ef-43c7ae8b39c1,PromisePay,defi;realworld
+8ce1e3a2-1bf0-4dc0-aeb3-0981afda5c60,PayPerCall on NEAR,business;agents;realworld
+8cee062c-f267-4762-b588-f132d18c30dc,"Kite - rebalancing, yield-earning vaults",defi;security;social
+8cef41cd-d925-407f-8b7d-2bc587f40df1,Allpilot,defi;realworld
+8d2b87b4-2ff0-4d77-b590-73069b073cca,Santa,open
+8ea8f57a-ecc0-4eb4-a246-cac9b00f141a,Agent Leash,security;agents
+8ebe3c12-687a-4399-a22f-7912d9f4f7b7,Remiglo,business;agents;realworld
+8ec7bfd4-68b6-4886-8d00-a48c9a7186ef,Foreman,agents
+8ee5f2c2-a105-40e7-82f3-c304f25a04c7,Cluemarket,defi;security;agents;realworld;open
+8f06285a-0cfb-40a5-b426-68e74cb37d3a,Torch,nfts;open
+8f428b4f-fa6d-4b1e-a9cd-a909c6c1cf6e,Chainmind,open
+8fd18e12-d1b2-4620-88dc-1a54e8c30793,Skirm,swarms;agents;games;nfts
+900812a5-e7f9-47ed-a836-b31ae918f84d,Kalfou Swap — Cross-Chain Desk,defi
+90994af1-d99e-4aa9-bb22-0610bd639b4c,Tideline,thesis
+91212abf-bedd-4846-ac7b-7de71c071c64,"BOSS: The first AI business that hires AIs, pays any chain",defi;thesis;privacy;swarms;agents;realworld;open
+916f8fba-c86f-47b0-bcf0-1a70f3b4cf6d,NearGuard,security;agents
+91ca86dd-7285-4f48-bf5e-8b3c6d2c6f4f,KeyBack,realworld
+92a088fc-9af6-4572-a4a9-f5924a4754c6,Chaperone,defi;business;security;agents;realworld
+935061a1-3491-423f-a320-43493074d31b,Oiko,defi;security;agents;realworld
+948198bc-439e-40b4-9bd9-a549ce192698,NEAR by the Numbers,thesis
+94d69930-ab78-4ede-a6e3-8ab5f56bcf7f,NEAR Guardian,security
+94ebd119-c710-4723-a93e-59b8a512eeaf,Slay the Bear,games;memecoins
+95a066eb-1268-4ab8-857d-4af8200c4611,Worldo,games
+9660c04c-9813-4352-a83d-98ea2f024645,OmniYield Protocol,defi;privacy;agents;realworld
+9678d215-8d1d-468b-b853-19e0e3a83eb8,AgentSig,business;security;agents
+96f3f1ef-ff25-4dde-8529-fd4e386b9b48,Njangi,realworld;social
+97238a57-3689-4115-b9e7-28e91245aa99,NearAnyStake,defi;open
+972da2bb-8d13-43d8-9ca5-9787cb409d86,NearPay,business;realworld
+979ba7c1-a263-4ce2-88df-2328a0bcb698,Robin Arcades,games;memecoins
+98559cb5-0e12-4a35-969d-603abb1fbdcd,Forge Relay,swarms;security
+9888f8dc-85bd-4c29-a0c2-e9b02db3a09d,Petty Cash,realworld;social
+98b0ab95-0cb2-4824-aac6-c97c6c8e6210,BFA (Built For Agents),agents
+99166eec-0a56-40b7-b8dd-7f51759115f3,CartelBreaker,security;agents
+995f5329-9169-4d46-a933-82ab5a46eea5,Seats,privacy;nfts;social
+99804abc-4c86-410a-88c4-a5193b5b33fa,Near Onchain Gen Art,nfts
+99ab3e76-e17c-4cdd-8baf-6eefb8cbfe7b,Four Horsemen of the Memepocalypse,memecoins
+99bf6ef4-b3cd-4092-86d6-555cdddd2e43,AEGIS // COUNTERFACTUAL,security
+9a4be398-2a3e-45b0-90d4-5adcc565e0f8,DUEL,security;games;social
+9b197e74-3178-417c-b763-782daa838e7a,"Flow, Not Price — The $37B Decoupling",thesis
+9b38754c-b93e-4862-80b5-1798afab065f,$TRUE,swarms;memecoins;open
+9b6e7306-3017-4e70-b2d1-9181848d6275,Verity,swarms;agents;open
+9b97f002-8d2a-4ad1-a764-147a863877c2,Airlock,privacy;security;open
+9bc378c1-a69d-4a4e-9260-4d6142f36296,Bounden,business;security;agents
+9bdbf874-7986-49be-9c49-9a18d5c60758,Paper Trail,privacy
+9c5956f1-5afe-4b02-8ce4-40a1f5259b78,Tapproved,privacy;security;agents;open
+9c752114-5dd5-4236-8995-4543da6e905a,Nia,security;open
+9c7e6205-219b-4fee-9f8d-557f4705e471,TaskForge AI,agents
+9d90081c-23d1-44c5-96da-2efd6cc87c1e,Settled,security;agents;realworld
+9db102a5-37d3-40bb-9184-7c08b52dca88,Veridom Pay,privacy;security;realworld;nfts
+9dcf9ec6-b984-43d9-abf1-7c8a48cf32ca,IntentAgent,defi;business;security;agents
+9e065139-90d2-4d7e-a638-525060236f00,Standing Order,privacy;business;security;realworld;social
+9e64cdb5-c4b1-4bc9-865b-02dc76b19e66,The Daily Swarm,business;swarms
+9e9b202f-6e61-4ea2-9edf-3476f3d3c954,Calledit.game,defi
+9f194fab-f6d3-4a71-b952-9260f8f23d3c,Caesura,privacy;security;agents;open
+9f2fd9a3-7e91-403e-91d2-dae5ffb47cd2,Sidelot,defi;agents;realworld;memecoins
+9f3958ff-50c8-452f-b382-91cfe6a3a9d4,AgentBond,business;security;agents
+9f4b3e21-8c74-4d2a-b81e-6c905e3a7104,GhostShift,privacy;business;swarms;security;agents;open
+9f6e4b85-ce62-4c40-b1bc-a62ac00f2d11,Bolsillos,security;realworld;open
+9f8f61fc-4bbb-49e1-a010-5f3ed58c42b2,Endline,defi;open
+a035056c-d267-49b3-8817-17f09f28bd14,Aftercall,privacy;business;security;agents;realworld
+a07b9397-00d2-4114-923c-b3121dceafc7,OATH,memecoins
+a085ef82-5e21-4a2b-8fc6-cf2d535e771c,Readback,security;agents
+a0a3436e-c803-4b86-920f-0ce74cf270bf,StreetMarket AI by GhostTech,business;swarms;agents;realworld
+a0c866ab-367c-4d78-954c-88cc328930a0,AgentGuard,security
+a0cc08b2-010c-4638-a2ff-7048be063228,NEAR Private OTC,defi
+a0fa588f-442f-47a6-87bd-ca286faba510,Tollgate,security;agents
+a10a54cf-669c-45b8-831a-82d9d8151e97,nearbags,defi;thesis
+a17e6cec-863a-426f-828b-c6c117fc5c0c,Euthyna,privacy;business;security;agents;realworld;social
+a1b7211e-f7ad-499a-b10c-c30d34f19d13,Key proof,security
+a1bf1936-7bdc-41a7-985f-c54c0ba3be85,Pump Rider,games
+a1c44172-2705-428c-96cb-e7096d06c0a1,PayShield-NEAR,security;agents
+a2757faf-3453-4d4f-98dc-3c18598dcdf9,Quittance,defi;privacy;realworld;open
+a29ed9d6-a596-4918-a56b-aef5f6ee8484,NOVA Copy-Trading,privacy;security;agents
+a373a235-8a24-4f52-84bb-2668b7263d9a,LEASH,privacy;business;security;agents
+a395a485-5c23-43ac-b1b5-5e27887c3124,Swarmpad,defi;swarms;agents;memecoins
+a3b2b90b-b618-4176-9e14-fa65d5f0d48c,Give forward,realworld;social
+a3d582e7-9e8b-493a-8257-5d077f167f98,Passpot,realworld;social
+a3e4c9d9-d587-4498-be6e-453a41003578,Escrow Gate for Agent Work,open
+a43bb8d2-0958-442d-b1c1-9fa408b94a5f,Sotechy,realworld;nfts;social;open
+a45d441f-4a25-49a4-ab9f-df2e83da8a35,KINU LP Guardian,defi;security;agents
+a4623a29-c81b-4b68-beaf-d4809ea70863,NexusGuard,business;swarms;security;agents
+a4bb3581-03a4-4963-986e-6dbbb8e486d7,Merchants of NEAR,games
+a4fb47cc-2f16-49b9-92cd-b4fef4924e1d,AJO ON NEAR,realworld
+a5ef5b48-73d3-47c6-b13b-52ca5a25a5c7,$GRIND - Agent Utility Memecoin,agents;memecoins
+a62b3db2-1ad8-4c1b-8948-250d8a2d71c8,Mnemon Payment Agent,privacy;security;agents;realworld
+a64d9e27-ed99-4e1e-b8dc-3a7a4c52df0b,ZiniPay,business;security;agents;realworld;social
+a6afccf9-90b4-4938-9556-e08c468c3e41,NearSplit,realworld;social
+a6fb646f-7458-4780-90b6-9ce763627599,SpendGuard,security;agents
+a75772fe-1deb-415f-944c-7e38a14879ae,Capybazaar,swarms;agents;games;nfts
+a832f6b8-b553-4e63-b996-91c082cc7417,Mandate,business;security;agents
+a87a5760-680c-4e98-ae4e-87fb1de04258,Rota,privacy;security;realworld;open
+a8a488e9-4993-4f37-afd0-15265073fdcc,Bizgent,business;security;realworld
+a96cded3-a635-4ea0-aa96-4a7339812289,AI-Shtat Pay,business;agents;realworld
+aa60a3fd-686b-4da8-bb5d-1aaba29a5221,Clausehold,swarms;security;agents;realworld;social
+aab1bb9e-ab36-4d8c-920f-62487b5b7714,Allowance,security;agents
+ab25271d-0c98-455d-b88e-a15523066068,"Saku: an AI agent's budget, enforced on NEAR",security;agents
+ab3211b7-3bbd-4b2d-8a86-75e5c46a669d,Trope.fun,business;security;nfts;social;open
+abe27d2f-1615-4025-9e0c-e78e28519207,Allowance,business;security;agents
+ac17b595-5ee7-4a73-9260-1c266c2a6d9b,SealedChoice,privacy;security;realworld
+ac7254d5-15e4-47cb-9eb9-c400486f9b49,Near Degen toolkit,defi
+ac9f26f5-42aa-4027-ab2d-3c0b064fba85,Feral,swarms;security;agents;games;nfts;memecoins
+acbd537d-69d0-4ecf-b87b-8d63dce6619e,PayGuard,security;agents
+acbd7f76-f26a-487b-8a0c-45e5ebdc846f,Kheer,agents;nfts
+acc5fdf7-9bbd-4d2e-97de-41e8463116f4,TheRascalsDotFun,defi;agents;memecoins;social;open
+adaab461-2220-4afb-b535-a3304b887709,Hearthmarket,business;swarms;security;agents;games
+ae4fcc6b-beb2-47ca-9f04-75c840f9bea5,near-threshold-guardian,security
+ae705c2e-32e8-412c-afd9-9a3b04fa40d1,x402-near,security;agents;realworld
+aef056fc-48e1-40b4-a4b9-1555b1502432,Verdict,privacy;swarms
+af36ad33-d6eb-4ca3-b3e3-67ea07abfb4a,NEAR Saboteur,agents;games;memecoins
+af66ae4f-7589-41c8-9c83-09841bdad7a5,Buddies Blitz,games;nfts
+af71df2a-6661-459d-a7a8-39a43a411270,Handoff,agents
+b075dd6e-2a1f-478e-b201-0d78f3f1e52a,NEAR Thesis Scorecard,thesis
+b0f03077-7902-4704-a2bd-96611a7499fc,Coop Tycoon,games;memecoins;social
+b11fb494-3e91-48af-843e-9a8e6d20ff28,HoldUp,security;realworld;open
+b1e981ab-2f74-4580-a887-9f70571fbd8a,Flowmint,business;security;agents;open
+b256610a-41f1-4fa5-955a-c703b4530c98,NEAR PHOENIX v5.0,security
+b2a653cd-5f26-44c0-a307-645615e23f39,AllTrades,business;agents;realworld
+b2a799ca-eff3-4e24-98a7-66d03a920402,NEARAuth,privacy
+b3c89a06-5736-4aef-a75c-9d2b40dbcd4a,Recall Wallet Agent,defi;business;security;agents
+b3dad4a2-4107-4ea5-8965-22a6c9c6a31a,Galeon,defi;swarms;agents
+b4a31d89-6f52-4610-8662-8b63a9d355c4,CONSUME,nfts;memecoins;open
+b53437ab-0092-48e0-9a0a-d1fc2d66f545,Lockstep,realworld;social
+b55b5319-6292-43ca-8651-747b04d11c4a,NEAR Demand Ledger,thesis
+b5e7fe4a-fd7c-4a94-bcb4-2e6e1b8d2ab9,Leash,security;agents
+b5e92055-8e69-4edc-aab9-aa965d69d42d,Swarm-for-Hire,swarms;agents
+b604fc35-3f7b-4a0b-8478-41243dcd4470,Drakarys: AI Competition Platform,swarms;games;open
+b72fd348-8834-4739-a29c-0a109798168c,NEAR-Midnight Privacy Bridge,defi;privacy;realworld
+b743bd60-eee7-46b1-b86d-81ca9f709ff5,Capgrate,business;security;agents
+b7631219-3f31-4dbc-be11-fc92574b89d4,Callsign,privacy;security
+b7b2dda7-6b60-4eb8-8dee-b7b27aecd045,VRX,defi;privacy;business;realworld;open
+b8b63a36-d57f-4178-9aeb-e7222bb02007,KredoFi,defi;privacy;realworld
+b96e9f4e-8b35-4cd3-9a0b-5df13491ee25,Plinth,defi;security;agents
+b9882517-35e2-413f-b417-8fe9998dc735,Veyra,realworld;games;nfts
+b9dbbfb9-6c08-4651-bed2-ac657ae12164,DeepSea Hunter,games;nfts
+ba294e8d-7260-4812-bae1-a2fb80b03fba,Purpose Money,security;realworld;social
+ba5f7cf4-6faa-4f82-8d7f-48fe76a0472c,Mandate Lab,security
+ba9e160b-47b4-453d-8e09-aa99fbfabc74,Racer,defi;privacy;swarms
+bb1f5a0e-303f-4f2d-bb36-e9d6b76f3b37,Ejecto,memecoins
+bb739197-c903-456a-b25c-4e97ffe5495f,Tripwire,memecoins
+bb820ece-0a55-4faa-8df5-cf25b8a6122d,Preday,defi;realworld
+bb93bc5f-eac7-4049-8c58-8e94cf73cb06,Intented,privacy;security;agents
+bc231b23-f0ce-4428-ba4b-7138fa5613ab,NEARland,games;open
+bcd11306-4a6c-46bc-98b9-333e0527820f,Nearverse,games
+bdb7ff9f-4c40-4036-8e05-0e12e8be9f2b,TEE Receipts,privacy;open
+bdb91e35-1235-4ad8-bedd-eb0faaa34c34,Forwend,realworld
+bded2b2b-2963-45c4-8440-a3d9d905eb06,LIFO,memecoins
+bf540568-d7a5-4255-822c-0863edb9c2d8,Vault Check,defi;security;open
+bf5a3e43-97c8-419e-97e3-01ba355c8d66,Bonded,business;security;agents
+bfd74897-d0a2-4891-9f2c-0638a1a63331,NearQuery,thesis
+c01bf5a6-5479-4126-88ad-4f31439fc248,NearScope,thesis
+c0773acd-3aaf-4a5c-8f77-48bf23480c9a,Bonfire by replaycourt,memecoins
+c1705e3d-260d-41c1-9370-3cd561c6a920,Leash,security
+c1c7b574-850a-4f47-9af9-22a49339df07,Grind District,games;open
+c1cdec4a-cf17-4391-9e2d-863076917cd0,Hive,business;swarms;security;agents
+c3811444-35d2-4567-adc1-c93088436716,Relay,agents
+c3b9ce53-478a-4ebd-8fd1-a70c91ab9d40,frenzypay,realworld
+c3deca64-850b-4fb8-a614-251ca121fb69,Zinc,nfts
+c494cedf-c2e5-4d14-ba7e-35975183bc83,NearJev,security;agents
+c4f4956e-02e4-4fd4-b6dd-6e8582b8020a,Mandate,swarms;security;agents
+c50680b6-192f-4ff0-8f10-fa6e87ed9429,Headcount,social
+c57bf7d4-36ea-4ac6-95b6-18de9b06874e,Crucible,security;games
+c5996e1e-be9a-4805-aabf-1c975b68abcf,Staffless,business;agents
+c5b7a2a3-1fb8-40c4-8474-c138a85cb588,Kimaex,defi;realworld;memecoins
+c5ec5006-2ccc-4d63-ac26-e3003124e68e,Zcastor,defi;privacy;business;swarms;security;agents;open
+c6b6afc6-50c7-4f17-b9b3-9435ed964d75,Tontine,defi;thesis;business;swarms;security;agents
+c6e0eae6-af9a-45ff-b262-9dc722f6a979,Infinito Absoluto — The Business That Audits Itself,business;agents
+c74ea7aa-a1d6-4d4d-94e6-87bac2985137,Bridgen,defi;realworld
+c7810584-8e1d-4024-a18e-68af0b52394e,Policy Signer,security;agents
+c7db48a2-b63b-4486-9ea7-7e05d97eae30,ClearSend Intents,realworld
+c84b87e6-7df0-4dc0-80a5-854a851ee916,MIRA,memecoins
+c8696c03-b917-46ae-b98a-541f3dd7fb20,Squeek Market — Squeek Bird + NEAR Economy,games
+c87aa7e6-2d26-490a-8e5b-29b268d1828b,Incorpr,business;security;agents;nfts
+c8b4d257-6657-46fd-9511-a1f8bd1d54d8,Krypt,security;agents
+c94136e5-eaeb-4cb1-94ea-a71cfe5f11d0,SETTLENEAR,defi;business;swarms;agents
+c9415fe6-4f12-4434-a353-58e687f53072,near-bail,security;agents;games
+c9b94b3a-218d-44db-a04e-46b2f9822235,AgentVault,agents
+ca0fa8a1-c97c-4a2e-a2d1-bbb24c3f97bd,ÁUREA CONTRACT FOR PRIVACY,privacy
+ca704363-64af-497f-85d7-aebb1eafb66f,WARD,security
+ca889cc5-5780-4b78-8eaa-fd8b386b1f79,Fiatwallet,defi;realworld
+ca990997-155c-4b5e-ade7-88f646c2ed98,LineFair,realworld
+cb2c6cc5-6f0d-4c19-8c29-a6a9be1b1425,PipTradeDex Private Intent,defi;privacy;security
+cb88c8e8-5724-40f8-a0b9-842a562c324b,$HACK,security;agents;memecoins
+cbe3ec14-568f-4944-b4d9-b9efede91dfb,Tidepool,open
+cc23b126-2a61-4135-845d-480234a84773,Private Preflight,privacy;security
+cc6e7b0e-d946-49f6-8e3a-84c974ffff01,OddsHedge,defi;agents
+cc936172-28bf-4063-9fa8-8969e59023ee,Hasp,business;agents;realworld
+cd2d2645-ba45-4dde-929d-1a2dcb06e87a,Rescue Room,security;agents;social
+cd9582b9-fe1a-46a4-b595-1d30597bd48c,GhosterDex,privacy;agents
+ce16019c-3270-43c2-9c4e-12ec3c59cfad,BastionKey,security
+cf21f377-dfbe-41f2-a493-c1256effba69,NEAR Thesis Lab,thesis
+cf37357e-ba05-4992-bbdc-2ff8858bd71e,Settl,defi;realworld;open
+cfd1da7e-73ec-4a22-b0e1-801c87952e27,Ashes of the Ninth Heaven,agents;games;nfts;open
+d01a3b13-a62b-412c-a6f8-f86f59850c5e,Aegis,open
+d02472d3-65c0-462c-acaf-cedf13da00f8,Kyrona,security;agents
+d06bb20e-e7da-4d89-9be4-9de3d707e7ca,Dues,security;agents;realworld
+d0be7cbf-8e1b-4ca0-9346-7e41b52023d3,Banbo,privacy;security;agents;open
+d101d790-a77d-4feb-93cc-a95f038c2f1f,"Near2Cash — your NEAR, in your local currency",realworld
+d192c30b-ab40-421c-b800-6c38170ad60b,PACTRA,business;agents
+d22dfe73-a2cc-4c9a-8770-3651e3b84e4a,LatchGuard,security
+d2675571-004a-490c-9693-217b4d018bae,x402Interop,business;agents;realworld;open
+d2db35be-04a2-496c-9585-920c97676f72,Boyun,privacy;swarms;social;open
+d32938c4-f4c7-467d-ae21-49b021324f7e,Bound Wallet,business;security;agents
+d338fbf1-1897-4684-80a0-077109bf776c,Gateflow,privacy;security;realworld
+d3bb0acb-0529-4c30-9955-ba1de0f62567,TAINT,privacy;security;realworld
+d4b7fede-d382-47f6-ba50-6c20674a418e,Marks,defi;thesis;privacy;realworld;nfts;social;open
+d544680a-48f4-411f-9073-f12eff207af7,LisDao,security;agents;social
+d56cc76d-871b-445d-ba3c-db891f8ff43e,AgentEscrow,security;agents
+d69c576e-7283-4636-b282-b17611eab088,Leash,security;agents
+d7468e54-2c34-4138-8613-a587af2d3f1b,Potluck,social
+d77c18bd-46e3-4de2-8bcd-ad98669843ab,Tune Up Research Desk,thesis;agents
+d787ccb0-efaa-463f-a6d1-958b18f7ad4a,nearswaps checkout,realworld;open
+d7b06ad9-a662-4d99-97d7-ae8125b319f3,Tripwire,security;agents
+d7b5e9e4-bb7e-4ce9-8e0a-10359193c4e5,Scam Guardian,security
+d8e4c912-5faf-4591-98fe-dc8c9c285b39,X PrimeFlow: cross-chain trading with NEAR Intents,defi
+d8fe089c-2931-4055-84ad-5bd613d45d60,Pull Up,realworld
+d917daa9-bb54-4051-a5a3-3ba8e9dd3322,Bridle,business;security;agents
+d96eb111-3fb9-4840-9047-4cfaf8249ee0,FlashFirm,business;swarms;security;agents
+d98c7de0-daf9-4fc4-9277-b2bc52f99a1a,Fixseal,security;open
+d9905453-4216-49f9-b100-d6a7268b9ed9,Unpair,defi;privacy
+d9eafab3-18e9-4c8f-9676-143d13df9289,Emporium,business;swarms;security;agents;realworld;open
+da0d6965-a1e5-4b6c-8c26-057feffcdacc,Logline,defi
+da5deb59-ae0c-4b08-8511-75360f4a0a17,NEAR Investment Thesis: the evidence,thesis
+da66e1e4-d49e-421e-a73f-2b8b1b6fbfa9,Intents Desk,thesis;privacy;agents;realworld;open
+db0af9eb-789a-405b-9950-a299453f30e5,PFWA,defi;realworld;open
+db861ff6-9f1a-49d4-9be7-2ba0e2c55d93,nearagent,defi;privacy;security;open
+dbedb794-5294-4c07-a914-074eead64668,SealedSwarm,privacy;business;swarms;security;agents;open
+dc953975-7c41-474c-b44b-6cac8149f04e,GRAM-402,security;agents
+dcdde902-6fe8-4634-9668-fd0ce223ab97,TokenGo,games
+dd0fea75-b29a-4ad1-b2d3-bdc1ae456fd1,PROVEN,open
+dd592d8d-7291-444a-a939-68f24b469a13,Bag worker,nfts
+ddc189c4-1753-4d1b-ae4c-faf03b6c4739,Near Legion - NFT Staking & Market in Telegram,nfts
+ddc424b3-7716-4138-b9fd-3fbabc37c0d6,Correlation,swarms;security
+de2b5217-8d85-4052-a0d2-0e8e8066c2a5,Aegis,security
+def55673-2bc5-491f-b85c-ed7d267164e3,Jurat,privacy;realworld
+df4dee6c-a4d8-49a8-a7ea-df2fd9d15ba4,Mintiq,business;nfts
+e0358b10-9c10-4860-9412-6c12228aa560,Satchel: membership cards that are wallets,nfts
+e0770ba5-ecaf-4ebd-8df7-08eb68b4e837,Taply.,realworld
+e0d4e5a0-7b7d-40d4-9530-4bbd6412d844,Sumplus CATS Service Pass,security;agents
+e0f7582b-c257-425d-9f4c-3dea19be71ba,TabWrit,security;agents;realworld
+e11d68a3-2e49-42c5-ad25-9f7e91039300,Tripwire,security;agents
+e1de2c8e-7452-4cb7-b8be-c4c26f8e8bec,Bluffalo,agents;games
+e20ab0f1-86d0-438b-bd77-0859ffb3b934,AllTogether,social
+e21768e9-1fdd-4b16-8d8b-80a1f27fac35,rector-arena,security;agents;open
+e29480a7-0c0e-46da-b577-263a26e549b9,Phylaxtag,realworld;nfts;open
+e2ad2235-8ea1-47af-8bf0-dd01158ea564,Fric — The AI Community,business;swarms;agents
+e2eda711-0154-4560-bcee-2504e4152ac2,SCOGÉ Universe,games;nfts;open
+e2f5775a-449c-4deb-966c-352dd948e431,whoami,privacy;security;open
+e3848b30-81f4-4865-98fb-434e7cf08798,Penstock,privacy;realworld
+e3a70e67-8135-41c9-b2db-7a80b9fb42ab,Autonomous Treasury Mesh (TreasuryMesh),business;security;agents
+e3abfe5a-e38f-479d-85e9-e68f3caa0221,SpactVault,defi;security;agents
+e408ca93-5786-4c45-b538-8ddf51f84f7e,Throughput Treasury,privacy;business;security;agents
+e4224cb4-eefc-40ab-bfdd-25880c05c09e,BlindBench,privacy
+e4a1b9c2-5f38-4d67-9a81-2c4e7b8d9012,Afterlight,games;nfts
+e4af217b-7468-46c3-a756-fde5900c550b,Agent Allowance Guard,security
+e5350ed5-b9f3-4751-9825-7449a1cc6180,Heist,security;agents
+e57ee21f-4601-4fad-878b-d81519dc8a4f,Agent Crash Lab,security
+e588de82-5947-4ea6-9f43-d8673147fe68,Sheda solutions,nfts
+e5be6759-eaf7-4884-aa75-b0d135f30f96,Tijar app,business
+e5e9f0d6-16a4-483d-937d-4287b66a01c9,ReelOS Studio,agents;realworld;open
+e5f93118-da83-4ff4-bdbc-c83116f011b1,Scion,defi;thesis;privacy;business;security;agents;open
+e6948038-61ac-44e4-b4a2-a948767e48b3,BACKED,defi;security;open
+e7cfc31a-e944-4f49-92ba-eb95e4165a98,NEAR Intents Value Accrual Thesis,thesis
+e7d4c287-3945-4aa6-8b17-f85e0bfe71ce,KAVREN,security;agents
+e8887d91-2536-4322-9890-6c9e5f4533f4,Project L1 Prime on Near,defi;privacy;games;nfts
+e8a069fd-8960-4ced-bba6-ff37b36162ea,Dark Vault: Pay Anywhere,privacy
+e8d8d832-2a1f-4026-afba-111e6bd7316b,NEAR Claim Check,open
+e9e9e8ae-3843-4592-8987-249bb295163b,PayGuard,security;agents
+ea024787-2260-40d2-95ce-210633f0bfb5,Skyll,privacy
+ea1c1594-d16c-4ce2-8087-3d788cbd97f9,AgentGuard,security
+ea335fdf-95f0-43e7-bff1-0f1f91fb678c,Herald,social
+ea3b249b-220f-4435-9f9a-67c2929384c7,BountyGuard,security;agents
+ea4a5728-aa32-43d0-b63b-4c57128c624e,Byline,defi;agents;nfts
+eaab06b8-2ec0-41d5-ab11-be1d4cc37f0f,AL-AMANAH FORTRESS,security;agents
+eaf765d1-81d6-499d-99ca-ff50729648da,OwnGround,social
+eb35d9ff-ad51-42ac-b679-0ddd5e0cd6b2,Neslos,defi;privacy;swarms;security
+ebacde79-c454-41c4-b5ef-27917cf242e3,Patch Fund,security;social
+ebbb6d2f-d3ab-427f-8768-4aa49c55ca38,$MELT,memecoins
+ec6015e5-1030-4d41-9b6d-0e9901bccb05,Leash: on-chain spending limits for AI agents,security
+eca1f579-9dc4-412c-9250-c1aedbe6e2fe,ProofPay,business;agents;realworld
+ecbdc52c-d6b7-480b-8e56-65e554ede735,Glassbox,security
+ed43301f-a53c-44a8-bfe3-71db7206e358,INPay,business;agents;realworld
+edf8d564-61d8-4c64-936f-2e9ca88cadf7,SwarmShop,business;swarms;agents
+eecf45ed-abe3-4e3b-8326-41448de21783,Payproof Global,business;realworld;open
+eedd8b7b-6dd4-4d6d-b07f-3307d89a7496,AgentGuard,security;agents
+eef74cf6-0cfe-433f-9a0c-0d5b24b5532f,ProofRail,privacy;business;security;agents
+ef2f6858-ddf3-43c4-8148-5f29e67fdb7a,Merit,nfts;social
+ef521e2d-d7e2-48a5-93b2-4168e856435d,Intent Firewall,defi;security
+ef546624-dbb8-427b-bb03-5ecd4b8bc3ec,SwarmBid,business;swarms;agents
+ef56a5ba-a33e-4738-8494-b61169e34ed8,Gachard,games;nfts;open
+efc28b7c-f550-4ac8-919d-9989674e5e6f,RunOva,business
+efc90a1e-09d2-4cbb-b216-2fc0b6ca2fac,SafeSpend,security;agents
+f0dc8734-b89a-4a8a-a94a-47220007bb2b,Agent-Receipt,business;security;agents
+f106d27f-984e-4890-85bb-991e23956fcb,Intents Watchtower,defi;security;open
+f1445a66-2304-40a0-8949-0e0e9f0338e1,ZeroDelta,defi;business;swarms;security
+f154b2eb-0d25-48d4-8f91-ea960751077c,Coinsel,privacy;business;security;realworld;social
+f1605e5a-23ce-4b4f-9985-c10079441806,Blast Radius Zero — Agent Wallet Edition,security
+f1b09ee0-bca5-4336-9a0b-8cc6a258cbf1,Agent NFT,security;nfts
+f206fa10-94e3-4537-a8e6-912a712697a9,NEXUS AiOS,swarms;security;agents
+f25d92c9-acf5-406e-8a59-a70befb2ca4a,Take The L,social;open
+f4139235-358b-42af-be21-c382a9b023dd,"The Bear Case, Run Live",thesis;security;open
+f455e11c-b027-4315-81dd-f86c6609f1f8,stealthPay,defi;privacy
+f47ccc66-c323-400d-a13a-4abfce097a26,Meter,security;realworld
+f500fb94-a1e7-4dd2-9e80-b9702686d9d2,Delivered,security;agents;open
+f51768cc-80ac-4be3-a71c-dde94ad0f494,TreasureHunt,games
+f56a032f-a3dd-4097-b315-1cc5d1368c51,Satchel (satchelnft.xyz),defi;nfts;social;open
+f5845a0c-9142-4572-904e-a4f58403af50,it-depends-909,business;security;agents
+f5be5a9d-66da-450f-a96d-0e5c419dc6e7,GRIP,memecoins
+f5c2e9b1-0815-40a9-8aa5-0bd97523170e,NEAR Spending Vault,security
+f5d25a2e-6b32-4145-a151-837b33c73002,Forseti,defi;privacy;open
+f614d7ab-6eaa-47ac-bf38-85039209468f,Payee lock,security;realworld
+f629c466-eaae-4763-a4f7-bbd9b4b9cc0c,Weave,realworld;open
+f63cc81d-53d4-43ab-934b-8d9caa66e690,Accord,privacy;business;swarms;security;agents
+f6bd2d41-873e-4b16-90a7-8500590c8051,Realsies,privacy;games;memecoins
+f6f03337-2cc5-4529-9285-94354029deaf,KratonOS,defi;privacy;security;agents
+f759b731-d170-4556-9e17-f6c4c83804c2,arif,privacy
+f7a9c397-afcf-4ac4-832b-0254390cd34a,IntentGuard,security;open
+f7e0b566-0b2c-499e-8c4e-c2945beb1a7b,Clean Exit,security;agents
+f82bca91-89a5-4f03-9f35-7d2dc73ec3c3,NEAR Usage Thesis,thesis
+f85c82df-dba7-4415-bdbf-e6b480ca6f0e,NEAR Agent,security;agents
+f876d5e2-ed83-4671-9950-88d7bc03d843,Trezo,games;nfts
+f8ed5c05-2ce8-4599-b263-2384b923797d,Heir,realworld;open
+f99af62b-0c12-4b7f-a50c-7da4825b5e6a,CapFare,defi;realworld;open
+f9b3e1db-59fb-4161-917a-39c28d6861c9,Intent Sentinel,defi;security;open
+f9b8288e-ff34-4a2f-b8f6-1f89ce613a57,Blindsight,privacy;business
+f9cc9a89-f50a-4513-aa2a-da289aedf0e3,Laurel,privacy;agents;open
+fa098f68-cb10-4fcb-971f-09824e36fa11,Pactora,privacy;business;swarms;security;agents;realworld;games
+fa54da13-e260-4391-ad42-937e28fa2031,777 giros gratis,defi;thesis;agents;realworld;games;memecoins;social;open
+fa6703a5-2e4c-4721-9bdb-8f22915922f5,Flock,swarms;agents
+fa9b456e-4566-4731-85c5-05a906a51c02,Hallmark,defi;security
+fab81a4b-9c1f-4434-a1cc-cc0933f8d37f,IntentGuard,security
+fba141a8-62bf-4588-8280-f6bc091f6d33,Tenor,defi;security
+fc0f38b0-882c-41be-87c3-5dfd213b7b71,Payday,business;realworld
+fc122909-2cd5-4d03-ae5d-7df09aa93f1d,IntentFolio,defi;open
+fc49123b-2dfc-4089-9fed-1de6a22c4aec,NEAR Easy,open
+fc7ad669-fe67-48e1-b82d-c9f8efdb20c0,NEARShield – AI-Powered Traffic Attack Detection,security
+fcac65b4-91e0-4602-bf36-dc6a1b53aa78,Ratify,security
+fccff195-e468-4424-a5f0-6bf8785f051a,EarnPatch,realworld;open
+fd1fed10-78bf-4255-b44f-bbcdcd5c40c1,MannyFi,defi;realworld
+fd751e55-7d14-44d1-8eb9-7a354ee46007,NEAR Agent Spend Guard,business;security;agents
+fd8bbe1a-b3fd-4188-80cc-d07f9c601037,FUTURESCOUT AI,defi;business;swarms;security;agents
+fda85f72-004a-44cd-a28f-525b91ed0053,Leash,security
+fde9ac19-13da-4b0f-84e7-8e9bc19c63ef,SpendGuard,business;security;agents
+fe292050-bdfa-482d-ab08-4d1355e49f3f,Nims,games
+fe3ad6ca-dc32-486e-a00f-87af1cc1f8d7,QuorumGuard,security;social;open
+fe4d4ec3-b5d2-4f0e-8ea8-f568e7b71389,AgentGuard,security;agents
+fe82d60a-5665-4c90-95c8-ce1d7405897a,Payables,security;realworld;social
+fe8a03ca-439a-4f14-ac20-2a84c925d84c,Near-LEASH,security
+fe99e55a-7b7e-4f55-8029-73c2a4ddfce9,nearbi,thesis;business
+fea85fb1-5eea-4414-abc8-5d60a913cfac,Digi Swarm Treasury,business;swarms;security;agents
+ff4096e0-82f9-468d-8592-ea13a28fb4c4,AgentGuard,privacy;business;security;agents
+ff82502b-0e5a-4e6a-aec5-8668e01354e2,Veil,privacy;games
+ffdac293-b24f-442f-9c52-b76feb505788,AgentPay Guard,security;agents
