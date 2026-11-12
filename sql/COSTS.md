@@ -56,3 +56,10 @@
 - Total billed: **710.4 GB**.
 - BigQuery sandbox allowance: 1,000 GB/month (decimal GB, as logged). Estimated headroom for Nov 2026: **289.6 GB** (assumes no other usage on the project).
 - Approval rule from here on: any new or re-run query needs a dry-run, plus the lead's OK if over 20 GB.
+| 2026-11-12 20:15 | `gha_type_volume` | 15.07 | dry run |
+| 2026-11-12 20:15 | `gha_type_volume` | 15.07 | dry run |
+| 2026-11-12 20:15 | `gha_type_volume` | 15.07 | ACTUAL billed (estimate 15.07 GB, cache hit False) |
+| 2026-11-12 20:16 | `gha_pushpr_volume 2021-2026` | 86.91 | dry run |
+| 2026-11-12 20:16 | `gha_pushpr_volume 2023-2026` | 57.21 | dry run |
+| 2026-11-12 20:17 | `gha_pushpr_volume 2021-2026` | 86.91 | dry run |
+| 2026-11-12 20:17 | `gha_pushpr_volume 2021-2026` | 86.91 | ACTUAL billed (estimate 86.91 GB, cache hit False) |
