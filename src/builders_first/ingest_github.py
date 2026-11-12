@@ -9,12 +9,12 @@ Every response is cached under data/raw/github/ (resumable: cached pages are nev
 Respects X-RateLimit-Remaining / X-RateLimit-Reset and Retry-After.
 
 Writes:
-  data/cache/hackathon_commits.csv   repo, sha, author_login, author_date, ai_trailer, ai_tool
+  data/cache/hackathon_commits.csv   repo, sha, author_dev, is_bot, author_date, ai_tool, ai_trailer
   data/cache/hackathon_repos.csv     repo, status, commits
-  data/cache/hackathon_authors.csv   login, created_at
-  data/cache/hackathon_author_events.csv  login, feed_oldest, prior_repos
-     (GET /users/{login}/events/public, last 90 days: repos touched before 2026-10-19, used to correct
-      the GH Archive coverage drop in Aug-Oct 2026 when classifying authors as new vs returning)
+  data/cache/hackathon_authors.csv   dev, created_at, feed_* (summary of GET /users/{login}/events/public:
+     last 90 days / max 300 events; feed_prior_near = a Push/PR event on a NEAR-ecosystem repo before
+     2026-10-19, used to correct the GH Archive coverage drop when classifying authors as new vs returning)
+Logins are stored only as dev_hash(login); raw responses stay in gitignored data/raw/github/.
 Commit messages are not copied into the cache; only the trailer flag and matched tool are kept.
 """
 from __future__ import annotations
@@ -29,9 +29,11 @@ import pandas as pd
 import requests
 from dotenv import load_dotenv
 
+from .ids import dev_hash
 from .paths import CACHE, RAW, ROOT
 
 SINCE = "2026-10-19T00:00:00Z"
+FEED_CAP = 300  # GitHub serves at most 300 public events per user
 API = "https://api.github.com"
 OUT = RAW / "github"
 
@@ -144,17 +146,58 @@ def fetch_events(gh: GH, login: str) -> dict:
     return out
 
 
-def author_events(gh: GH, logins: list[str]) -> pd.DataFrame:
+def feed_summary(d: dict, near_repos: set[str]) -> dict:
+    """Summarise one author's public event feed without keeping repo names or logins."""
+    ev = [e for e in d["events"] if e.get("created_at")]
+    prior = [e for e in ev if e["created_at"] < SINCE and e["type"] in ("PushEvent", "PullRequestEvent")]
+    oldest = min((e["created_at"] for e in ev), default="")
+    return {
+        "feed_status": d["status"],
+        "feed_events": len(ev),
+        "feed_capped": len(ev) >= FEED_CAP,
+        "feed_reaches_before": bool(oldest) and oldest < SINCE,
+        "feed_prior_events": len(prior),
+        "feed_prior_near": any(e["repo"].lower() in near_repos for e in prior),
+    }
+
+
+def build_cache(gh: GH | None, repos: pd.DataFrame) -> None:
+    """Build the committed caches from data/raw/github. Logins are replaced by dev_hash()."""
+    commits, repo_rows = [], []
+    for o, r in zip(repos.gh_owner, repos.gh_repo):
+        d = fetch_commits(gh, o, r)
+        n = 0
+        for page in d["pages"]:
+            for c in page:
+                n += 1
+                login = ((c.get("author") or {}).get("login") or "").lower()
+                commits.append({
+                    "repo": f"{o}/{r}".lower(),
+                    "sha": c.get("sha"),
+                    "author_dev": dev_hash(login) if login else "",
+                    "is_bot": is_bot(login),
+                    "author_date": ((c.get("commit") or {}).get("author") or {}).get("date"),
+                    "ai_tool": ai_match((c.get("commit") or {}).get("message") or ""),
+                    "_login": login,
+                })
+        repo_rows.append({"repo": f"{o}/{r}".lower(), "status": d["status"], "commits": n})
+
+    cdf = pd.DataFrame(commits).drop_duplicates(["repo", "sha"])
+    cdf["ai_trailer"] = cdf.ai_tool != ""
+    logins = sorted(set(cdf.loc[(cdf._login != "") & ~cdf.is_bot, "_login"]))
+    cdf.drop(columns="_login").sort_values(["repo", "author_date", "sha"]).to_csv(CACHE / "hackathon_commits.csv", index=False)
+    pd.DataFrame(repo_rows).sort_values("repo").to_csv(CACHE / "hackathon_repos.csv", index=False)
+
+    near_repos = set(pd.read_csv(CACHE / "repos_near.csv", usecols=["repo"]).repo.str.lower())
     rows = []
     for lg in logins:
-        d = fetch_events(gh, lg)
-        ev = d["events"]
-        prior = sorted({e["repo"].lower() for e in ev
-                        if e["created_at"] and e["created_at"] < SINCE and e["type"] in ("PushEvent", "PullRequestEvent")})
-        rows.append({"login": lg, "status": d["status"], "events": len(ev),
-                     "feed_oldest": min((e["created_at"] for e in ev if e["created_at"]), default=""),
-                     "prior_repos": ";".join(prior)})
-    return pd.DataFrame(rows)
+        u = fetch_user(gh, lg)
+        rows.append({"dev": dev_hash(lg), "created_at": u.get("created_at"), **feed_summary(fetch_events(gh, lg), near_repos)})
+    pd.DataFrame(rows).sort_values("dev").to_csv(CACHE / "hackathon_authors.csv", index=False)
+    old = CACHE / "hackathon_author_events.csv"
+    if old.exists():
+        old.unlink()
+    print(f"repos={len(repo_rows)} commits={len(cdf)} authors={len(rows)}")
 
 
 def main() -> None:
@@ -162,41 +205,10 @@ def main() -> None:
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
         raise SystemExit("GITHUB_TOKEN is not set (see .env.example)")
-    gh = GH(token)
     proj = pd.read_csv(CACHE / "hackathon_projects.csv", dtype=str).fillna("")
     repos = proj[proj.gh_owner != ""][["gh_owner", "gh_repo"]].drop_duplicates()
     repos = repos.assign(k=(repos.gh_owner + "/" + repos.gh_repo).str.lower()).drop_duplicates("k")
-
-    commits, repo_rows = [], []
-    for i, (o, r) in enumerate(zip(repos.gh_owner, repos.gh_repo), 1):
-        d = fetch_commits(gh, o, r)
-        n = 0
-        for page in d["pages"]:
-            for c in page:
-                n += 1
-                msg = (c.get("commit") or {}).get("message") or ""
-                commits.append({
-                    "repo": f"{o}/{r}".lower(),
-                    "sha": c.get("sha"),
-                    "author_login": ((c.get("author") or {}).get("login") or "").lower(),
-                    "author_date": ((c.get("commit") or {}).get("author") or {}).get("date"),
-                    "ai_tool": ai_match(msg),
-                })
-        repo_rows.append({"repo": f"{o}/{r}".lower(), "status": d["status"], "commits": n})
-        if i % 25 == 0:
-            print(f"repos {i}/{len(repos)}", flush=True)
-
-    cdf = pd.DataFrame(commits).drop_duplicates(["repo", "sha"])
-    cdf["ai_trailer"] = cdf.ai_tool != ""
-    cdf["is_bot"] = cdf.author_login.map(is_bot)
-    cdf.sort_values(["repo", "author_date", "sha"]).to_csv(CACHE / "hackathon_commits.csv", index=False)
-    pd.DataFrame(repo_rows).sort_values("repo").to_csv(CACHE / "hackathon_repos.csv", index=False)
-
-    logins = sorted(set(cdf.loc[(cdf.author_login != "") & ~cdf.is_bot, "author_login"]))
-    users = [fetch_user(gh, lg) for lg in logins]
-    pd.DataFrame(users)[["login", "created_at"]].to_csv(CACHE / "hackathon_authors.csv", index=False)
-    author_events(gh, logins).to_csv(CACHE / "hackathon_author_events.csv", index=False)
-    print(f"repos={len(repo_rows)} commits={len(cdf)} authors={len(logins)}")
+    build_cache(GH(token), repos)
 
 
 if __name__ == "__main__":

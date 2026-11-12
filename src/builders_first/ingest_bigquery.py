@@ -14,13 +14,13 @@ Usage: python -m builders_first.ingest_bigquery [load-repos|dryrun|gha|near|all]
 from __future__ import annotations
 
 import argparse
-import hashlib
 import io
 from datetime import date
 
 import pandas as pd
 
 from . import bq
+from .ids import dev_hash
 from .ingest_ecosystems import ECOSYSTEMS, slug
 from .paths import CACHE, RAW
 
@@ -119,11 +119,6 @@ def near(approved_gb: float) -> None:
     m["month"] = pd.to_datetime(m["month"]).dt.strftime("%Y-%m")
     m.sort_values("month").to_csv(CACHE / "near_deploys_monthly.csv", index=False)
     print(f"near_deploys_monthly.csv: {len(m)} months")
-
-
-def dev_hash(login: str) -> str:
-    """Stable pseudonymous id for a GitHub login (lower-cased)."""
-    return hashlib.sha256(login.lower().encode("utf-8")).hexdigest()[:12]
 
 
 def oct_prior() -> None:
