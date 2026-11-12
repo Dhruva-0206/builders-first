@@ -7,10 +7,15 @@ import html
 import re
 
 import plotly.graph_objects as go
+import plotly.io as pio
 
 from . import report
 from .ingest_ecosystems import ECOSYSTEMS, PEERS
 from .paths import ROOT, SITE
+
+# Deterministic HTML: use the stdlib JSON encoder whether or not orjson is installed (they format
+# floats differently), so CI can diff a fresh build against the committed site.
+pio.json.config.default_engine = "json"
 
 PLOTLY_CDN = "https://cdn.plot.ly/plotly-2.35.2.min.js"
 # Categorical slots 1-5 (validated: scripts/validate_palette.js, light surface #fcfcfb).
@@ -34,10 +39,27 @@ def _layout(fig: go.Figure, title: str, ytitle: str, height: int = 380, **kw) ->
     return fig
 
 
-def _end_labels(fig: go.Figure, series: dict[str, tuple[list, list, str]]) -> None:
-    """Direct labels at the right end of each line (text in ink, a colored mark beside it)."""
-    for name, (xs, ys, color) in series.items():
-        fig.add_annotation(x=xs[-1], y=ys[-1], text=f"<span style='color:{color}'>●</span> {name}",
+def _end_labels(fig: go.Figure, series: dict[str, tuple[list, list, str]], log: bool = False,
+                plot_px: int = 270, min_gap_px: int = 14) -> None:
+    """Direct labels at the right end of each line (text in ink, a colored mark beside it).
+
+    Labels are nudged apart vertically (in pixels) so they never overlap. On a log axis Plotly
+    expects annotation y in log10 units.
+    """
+    import math
+
+    tr = (lambda v: math.log10(v)) if log else (lambda v: v)
+    allv = [tr(v) for _, ys, _ in series.values() for v in ys if v and v > 0]
+    lo, hi = min(allv), max(allv)
+    span = (hi - lo) or 1.0
+    ends = sorted(((tr(ys[-1]), name, xs[-1], color) for name, (xs, ys, color) in series.items()))
+    placed = []
+    for y, name, x, color in ends:
+        px = (y - lo) / span * plot_px
+        if placed and px - placed[-1] < min_gap_px:
+            px = placed[-1] + min_gap_px
+        placed.append(px)
+        fig.add_annotation(x=x, y=round(y, 4), yshift=round(px - (y - lo) / span * plot_px, 2), text=f"<span style='color:{color}'>●</span> {name}",
                            showarrow=False, xanchor="left", xshift=6, font=dict(size=11, color=INK))
 
 
@@ -52,7 +74,9 @@ def fig_mad(c: dict) -> go.Figure:
         ends[e] = (xs, ys, COLORS[e])
     _end_labels(fig, ends)
     _layout(fig, "Monthly active developers by ecosystem", "developers / month")
-    fig.update_layout(updatemenus=[dict(type="buttons", direction="right", x=0, y=1.13, xanchor="left", showactive=True,
+    fig.update_layout(margin=dict(l=56, r=86, t=56, b=78),
+                      updatemenus=[dict(type="buttons", direction="right", x=1, y=-0.14, xanchor="right", yanchor="top",
+                                        showactive=True, font=dict(size=11),
                                         buttons=[dict(label="Linear", method="relayout", args=[{"yaxis.type": "linear"}]),
                                                  dict(label="Log", method="relayout", args=[{"yaxis.type": "log"}])])])
     return fig
@@ -88,7 +112,7 @@ def fig_c2(c: dict) -> go.Figure:
 
     def idx(vals):
         b = sum(vals[m] for m in base) / len(base)
-        return [vals[m] / b * 100 for m in months]
+        return [round(vals[m] / b * 100, 3) for m in months]
 
     series = {
         "Active developers": (idx(mad), S1),
@@ -101,7 +125,7 @@ def fig_c2(c: dict) -> go.Figure:
         fig.add_trace(go.Scatter(x=months, y=ys, name=name, mode="lines", line=dict(color=col, width=2),
                                  hovertemplate=f"{name}: %{{y:.0f}}<extra></extra>"))
         ends[name] = (months, ys, col)
-    _end_labels(fig, ends)
+    _end_labels(fig, ends, log=True)
     _layout(fig, "NEAR developers vs contract deployments (index, 2022 average = 100, log scale)", "index")
     fig.update_yaxes(type="log")
     return fig
@@ -138,14 +162,15 @@ def fig_hackathon(c: dict) -> go.Figure:
     cats = ["New to NEAR", "Returning (GH Archive)", "Returning (feed only)"]
     vals = [b["authors_new"], b["authors_prior_gha"], b["authors_prior_feed_only"]]
     fig.add_trace(go.Bar(y=cats, x=vals, orientation="h", marker=dict(color=S1, cornerradius=4), name="Authors",
-                         text=vals, textposition="outside", xaxis="x", yaxis="y", hovertemplate="%{y}: %{x}<extra></extra>"))
+                         text=vals, textposition="outside", cliponaxis=False, xaxis="x", yaxis="y", hovertemplate="%{y}: %{x}<extra></extra>"))
     tn = [k for k in tools]
     fig.add_trace(go.Bar(y=tn, x=[tools[k] for k in tn], orientation="h", marker=dict(color=S2, cornerradius=4),
                          name="AI-trailer commits", text=[f"{tools[k]:,}" for k in tn], textposition="outside",
-                         xaxis="x2", yaxis="y2", hovertemplate="%{y}: %{x:,} commits<extra></extra>"))
+                         cliponaxis=False, xaxis="x2", yaxis="y2", hovertemplate="%{y}: %{x:,} commits<extra></extra>"))
     _layout(fig, f"NEAR HACKATHON cohort: {b['authors']} commit authors, {b['commits_non_bot']:,} non-bot commits", "", height=360,
             showlegend=False, hovermode="closest",
-            xaxis=dict(domain=[0, 0.44]), xaxis2=dict(domain=[0.56, 1], showgrid=False),
+            xaxis=dict(domain=[0, 0.42], range=[0, max(vals) * 1.25]),
+            xaxis2=dict(domain=[0.58, 1], showgrid=False, range=[0, max(tools.values()) * 1.3]),
             yaxis=dict(anchor="x", autorange="reversed"), yaxis2=dict(anchor="x2", autorange="reversed"))
     fig.update_yaxes(title=None)
     fig.add_annotation(x=0.22, y=-0.16, xref="paper", yref="paper", text="authors", showarrow=False, font=dict(color=INK2))
