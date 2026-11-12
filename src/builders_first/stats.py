@@ -73,7 +73,9 @@ def dlog(s: pd.Series) -> pd.Series:
 def adf_pvalue(x: pd.Series) -> float:
     from statsmodels.tsa.stattools import adfuller
 
-    return float(adfuller(x.dropna(), autolag="AIC")[1])
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", FutureWarning)
+        return float(adfuller(x.dropna(), autolag="AIC")[1])
 
 
 def cross_correlation(x: pd.Series, y: pd.Series, max_lag: int = 6) -> dict[int, float]:
@@ -119,6 +121,17 @@ def out_of_sample(y: pd.Series, x: pd.Series, p: int, train_end: str) -> dict:
 
 
 # ---------------------------------------------------------------- C3a
+
+def wilson_ci(successes: int, n: int, z: float = 1.96) -> tuple[float, float]:
+    """95% Wilson score interval for a proportion."""
+    if n == 0:
+        return (float("nan"), float("nan"))
+    ph = successes / n
+    den = 1 + z * z / n
+    centre = (ph + z * z / (2 * n)) / den
+    half = z * np.sqrt(ph * (1 - ph) / n + z * z / (4 * n * n)) / den
+    return (float(centre - half), float(centre + half))
+
 
 def mann_whitney_p(a: pd.Series, b: pd.Series) -> float:
     from scipy.stats import mannwhitneyu

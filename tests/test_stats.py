@@ -44,3 +44,8 @@ def test_out_of_sample_prefers_true_model():
     y = (0.9 * x.shift(1)).fillna(0) + 0.2 * pd.Series(rng.normal(size=150), index=idx)
     r = stats.out_of_sample(y, x, p=1, train_end="2022-12")
     assert r["rmse_ratio"] < 0.5 and r["n_test"] > 0
+
+
+def test_wilson_ci():
+    lo, hi = stats.wilson_ci(12, 100)
+    assert 0.06 < lo < 0.12 < hi < 0.21

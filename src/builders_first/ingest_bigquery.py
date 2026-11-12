@@ -6,6 +6,8 @@
   oct          NEAR logins active 2026-10-01..18 (daily tables) -> data/raw/gha/near_oct_prior.csv
   prepare      raw chunks -> data/cache/activity.csv.gz (ecosystem, month, dev=sha256(login)[:12])
                and data/cache/near_prior_oct.csv (hashed)
+  volume       monthly PushEvent/PullRequestEvent counts (reads only `type`) -> data/cache/gha_pushpr_volume.csv
+               (skipped if the file exists; ~102 GB for 2021-01..2026-10 on first build)
   coverage     GH Archive events per month from table metadata (free) -> data/cache/gha_coverage.csv
   near         NEAR deploys + unique deployers per month (yearly chunks) -> data/cache/near_deploys_monthly.csv
 
@@ -162,9 +164,27 @@ def coverage() -> None:
     print(f"gha_coverage.csv: {len(rows)} months")
 
 
+def volume(approved_gb: float) -> None:
+    """Push/PR volume per month for the coverage rule. Runs once; an existing cache file is never rebuilt."""
+    path = CACHE / "gha_pushpr_volume.csv"
+    if path.exists():
+        print(f"skip cached {path.name}")
+        return
+    end = _today()
+    months = [f"{y}{m:02d}" for y in range(GHA_START_YEAR, end.year + 1) for m in range(1, 13)
+              if f"{y}{m:02d}" < f"{end.year}{end.month:02d}"]
+    sql = bq.sql_text("gha_pushpr_volume", months=", ".join(f"'{m}'" for m in months))
+    df, est, billed = bq.run(sql, "gha_pushpr_volume", approved_gb)
+    df["month"] = df.month.str.slice(0, 4) + "-" + df.month.str.slice(4, 6)
+    v = df.pivot_table(index="month", columns="type", values="events", aggfunc="sum").reset_index()
+    v = v.rename(columns={"PushEvent": "push_events", "PullRequestEvent": "pr_events"})[["month", "push_events", "pr_events"]]
+    v.to_csv(path, index=False)
+    _check_overrun("gha_pushpr_volume", est, billed)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("step", nargs="?", default="all", choices=["load-repos", "dryrun", "gha", "oct", "prepare", "coverage", "near", "all"])
+    ap.add_argument("step", nargs="?", default="all", choices=["load-repos", "dryrun", "gha", "oct", "prepare", "coverage", "volume", "near", "all"])
     ap.add_argument("--approved-gb", type=float, default=bq.ASK_LIMIT_GB)
     a = ap.parse_args()
     if a.step in ("load-repos", "all"):
@@ -181,6 +201,8 @@ def main() -> None:
         prepare()
     if a.step in ("coverage", "all"):
         coverage()
+    if a.step in ("volume", "all"):
+        volume(a.approved_gb)
 
 
 if __name__ == "__main__":
