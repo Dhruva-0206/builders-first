@@ -12,6 +12,9 @@ Writes:
   data/cache/hackathon_commits.csv   repo, sha, author_login, author_date, ai_trailer, ai_tool
   data/cache/hackathon_repos.csv     repo, status, commits
   data/cache/hackathon_authors.csv   login, created_at
+  data/cache/hackathon_author_events.csv  login, feed_oldest, prior_repos
+     (GET /users/{login}/events/public, last 90 days: repos touched before 2026-10-19, used to correct
+      the GH Archive coverage drop in Aug-Oct 2026 when classifying authors as new vs returning)
 Commit messages are not copied into the cache; only the trailer flag and matched tool are kept.
 """
 from __future__ import annotations
@@ -122,6 +125,38 @@ def fetch_user(gh: GH, login: str) -> dict:
     return out
 
 
+def fetch_events(gh: GH, login: str) -> dict:
+    """Public events of a user (GitHub serves at most the last 90 days / 300 events)."""
+    path = _cache_path("events", f"{login.lower()}.json")
+    if path.exists():
+        return json.loads(path.read_text(encoding="utf-8"))
+    events, url, params, status = [], f"{API}/users/{login}/events/public", {"per_page": 100}, 200
+    while url:
+        r = gh.get(url, params)
+        status = r.status_code
+        if status != 200:
+            break
+        events.extend({"type": e.get("type"), "repo": (e.get("repo") or {}).get("name", ""), "created_at": e.get("created_at")}
+                      for e in r.json())
+        url, params = r.links.get("next", {}).get("url"), None
+    out = {"login": login, "status": status, "events": events}
+    path.write_text(json.dumps(out), encoding="utf-8")
+    return out
+
+
+def author_events(gh: GH, logins: list[str]) -> pd.DataFrame:
+    rows = []
+    for lg in logins:
+        d = fetch_events(gh, lg)
+        ev = d["events"]
+        prior = sorted({e["repo"].lower() for e in ev
+                        if e["created_at"] and e["created_at"] < SINCE and e["type"] in ("PushEvent", "PullRequestEvent")})
+        rows.append({"login": lg, "status": d["status"], "events": len(ev),
+                     "feed_oldest": min((e["created_at"] for e in ev if e["created_at"]), default=""),
+                     "prior_repos": ";".join(prior)})
+    return pd.DataFrame(rows)
+
+
 def main() -> None:
     load_dotenv(ROOT / ".env")
     token = os.environ.get("GITHUB_TOKEN")
@@ -160,6 +195,7 @@ def main() -> None:
     logins = sorted(set(cdf.loc[(cdf.author_login != "") & ~cdf.is_bot, "author_login"]))
     users = [fetch_user(gh, lg) for lg in logins]
     pd.DataFrame(users)[["login", "created_at"]].to_csv(CACHE / "hackathon_authors.csv", index=False)
+    author_events(gh, logins).to_csv(CACHE / "hackathon_author_events.csv", index=False)
     print(f"repos={len(repo_rows)} commits={len(cdf)} authors={len(logins)}")
 
 

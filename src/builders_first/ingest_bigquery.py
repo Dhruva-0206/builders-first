@@ -6,6 +6,7 @@
   oct          NEAR logins active 2026-10-01..18 (daily tables) -> data/raw/gha/near_oct_prior.csv
   prepare      raw chunks -> data/cache/activity.csv.gz (ecosystem, month, dev=sha256(login)[:12])
                and data/cache/near_prior_oct.csv (hashed)
+  coverage     GH Archive events per month from table metadata (free) -> data/cache/gha_coverage.csv
   near         NEAR deploys + unique deployers per month (yearly chunks) -> data/cache/near_deploys_monthly.csv
 
 Usage: python -m builders_first.ingest_bigquery [load-repos|dryrun|gha|near|all] [--approved-gb N]
@@ -151,9 +152,24 @@ def prepare() -> None:
     print(f"activity.csv.gz: {len(act)} rows; near_prior_oct.csv: {octp.login.nunique()} devs")
 
 
+def coverage() -> None:
+    """Events per GH Archive monthly table, read from table metadata (no query, no bytes billed)."""
+    c = bq.client()
+    rows = []
+    for y in range(GHA_START_YEAR, _today().year + 1):
+        for m in range(1, 13):
+            tid = f"{y}{m:02d}"
+            if tid > f"{_today().year}{_today().month:02d}":
+                break
+            t = c.get_table(f"githubarchive.month.{tid}")
+            rows.append({"month": f"{y}-{m:02d}", "events": t.num_rows})
+    pd.DataFrame(rows).to_csv(CACHE / "gha_coverage.csv", index=False)
+    print(f"gha_coverage.csv: {len(rows)} months")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("step", nargs="?", default="all", choices=["load-repos", "dryrun", "gha", "oct", "prepare", "near", "all"])
+    ap.add_argument("step", nargs="?", default="all", choices=["load-repos", "dryrun", "gha", "oct", "prepare", "coverage", "near", "all"])
     ap.add_argument("--approved-gb", type=float, default=bq.ASK_LIMIT_GB)
     a = ap.parse_args()
     if a.step in ("load-repos", "all"):
@@ -168,6 +184,8 @@ def main() -> None:
         near(a.approved_gb)
     if a.step in ("prepare", "all"):
         prepare()
+    if a.step in ("coverage", "all"):
+        coverage()
 
 
 if __name__ == "__main__":
