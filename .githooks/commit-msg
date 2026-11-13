@@ -1,9 +1,0 @@
-#!/bin/sh
-# Strip co-author / AI attribution lines from the commit message.
-sed -i.bak \
-  -e '/^[Cc][Oo]-[Aa][Uu][Tt][Hh][Oo][Rr][Ee][Dd]-[Bb][Yy]:/d' \
-  -e '/Generated with Claude/d' \
-  -e '/Generated with \[Claude/d' \
-  -e '/^🤖/d' \
-  -e '/^Claude-Session:/d' \
-  "$1" && rm -f "$1.bak"
