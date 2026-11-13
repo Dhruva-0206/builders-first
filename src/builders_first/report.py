@@ -381,7 +381,7 @@ def how_built(c: dict) -> list[str]:
         f"of the thesis entries used: developer data instead of fees and price.",
         "I pre-registered the claims with kill criteria and committed them before pulling any data (`333ea0c`), so the "
         "verdict could not be tuned afterwards.",
-        "I set the BigQuery budget and approved each spend. When GH Archive turned out to have coverage breaks, I paid "
+        "I set the BigQuery budget and approved each spend. When GH Archive turned out to have coverage breaks, I approved the larger query "
         "for one consistent push and pull-request coverage index across the whole period rather than a cheaper mixed "
         "method.",
         "I added the FRAGILE rule: if raw and coverage-adjusted results disagree, the claim is reported as fragile "

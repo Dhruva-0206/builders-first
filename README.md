@@ -104,7 +104,7 @@ Full definitions, and every change I made to the method with its date and reason
 <!-- BEGIN GENERATED: how-built (do not edit by hand; `make site` rewrites this) -->
 - I surveyed the 764 public NEAR HACKATHON submissions and picked the angle none of the thesis entries used: developer data instead of fees and price.
 - I pre-registered the claims with kill criteria and committed them before pulling any data (`333ea0c`), so the verdict could not be tuned afterwards.
-- I set the BigQuery budget and approved each spend. When GH Archive turned out to have coverage breaks, I paid for one consistent push and pull-request coverage index across the whole period rather than a cheaper mixed method.
+- I set the BigQuery budget and approved each spend. When GH Archive turned out to have coverage breaks, I approved the larger query for one consistent push and pull-request coverage index across the whole period rather than a cheaper mixed method.
 - I added the FRAGILE rule: if raw and coverage-adjusted results disagree, the claim is reported as fragile instead of taking the favourable result.
 - I kept the results when they came out neutral to bearish, and I cut an overclaim ("developers follow usage") that the statistics did not support.
 - I directed AI coding agents (Claude Code) to implement the pipeline, tests and site, reviewed every phase, and approved every change.
