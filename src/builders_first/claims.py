@@ -250,7 +250,7 @@ def compute() -> dict:
 
 def main() -> None:
     res = compute()
-    (CACHE / "claims.json").write_text(json.dumps(res, indent=1, sort_keys=False) + "\n", encoding="utf-8")
+    (CACHE / "claims.json").write_text(json.dumps(res, indent=1, sort_keys=False) + "\n", encoding="utf-8", newline="\n")
     print(f"verdict={res['verdict']} statuses={res['statuses']}")
     print(" C1:", res["C1"]["measured"])
     print(" C2:", res["C2"]["measured"])
