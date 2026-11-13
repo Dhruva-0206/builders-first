@@ -7,7 +7,7 @@
 A NEAR investment thesis built from developer data instead of fees or price. By Dhruva Somen Chakrabarty, for the NEAR HACKATHON Investment Thesis track.
 
 <!-- BEGIN GENERATED: one-liner (do not edit by hand; `make site` rewrites this) -->
-I tested three pre-registered claims about NEAR's developer base. One holds, barely; two fail. The surprise: almost every hackathon builder is new to NEAR (97.2%), and at least a third of their repos show AI co-authorship (34.2%), but developers do not lead onchain usage; the reverse direction is suggestive but not significant.
+I tested three pre-registered claims about NEAR's developer base. One holds, barely; two fail. The surprise: almost every hackathon builder is new to the NEAR repos I track (97.2%), and at least a third of their repos show AI co-authorship (34.2%), but developers do not lead onchain usage; the reverse direction is suggestive but not significant.
 <!-- END GENERATED: one-liner -->
 
 Live dashboard: https://dhruva-0206.github.io/builders-first/

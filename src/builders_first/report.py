@@ -98,7 +98,7 @@ def one_liner(c: dict) -> str:
     b = c["C3b"]
     return (f"I tested three pre-registered claims about NEAR's developer base. {NUM_WORD[n]} holds"
             f"{', barely' if c['C1']['robustness']['peer_median_inside_near_ci'] and c['statuses']['C1'] == 'HOLDS' else ''}; "
-            f"{NUM_WORD[3 - n].lower()} fail. The surprise: almost every hackathon builder is new to NEAR "
+            f"{NUM_WORD[3 - n].lower()} fail. The surprise: almost every hackathon builder is new to the NEAR repos I track "
             f"({pct(b['new_share_all'])}), and at least a third of their repos show AI co-authorship "
             f"({pct(b['ai_repo_share'])}), but developers do not lead onchain usage; the reverse direction is suggestive "
             f"but not significant.")
@@ -202,6 +202,18 @@ def chart_titles(c: dict) -> dict[str, tuple[str, str]]:
                      f"analysis stops at {cov['last_good_month']}",
                      "Monthly push and pull-request events relative to the median of the previous 12 months"),
     }
+
+
+def month_name(ym: str) -> str:
+    """'2026-02' -> 'Feb 2026'."""
+    names = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    return f"{names[int(ym[5:7]) - 1]} {ym[:4]}"
+
+
+def data_short(c: dict) -> str:
+    d = c["data_as_of"]
+    return (f"Data through {month_name(d['gha_last_good_month'])} (GitHub activity) and "
+            f"{month_name(d['near_deploys_last_month'])} (NEAR deployments). Details below.")
 
 
 def data_as_of(c: dict) -> str:

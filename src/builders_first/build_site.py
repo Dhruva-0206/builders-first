@@ -473,7 +473,7 @@ a {{ color:var(--accent); }}
 <h1>Builders First</h1>
 <p class="subtitle">A NEAR investment thesis built from developer data instead of fees or price.</p>
 <p class="byline">By <a href="{AUTHOR_URL}">{AUTHOR}</a> · NEAR HACKATHON, November 2026</p>
-<p class="asof">Data as of: {_md_inline(report.data_as_of(c))}</p>
+<p class="asof">{_md_inline(report.data_short(c))}</p>
 <div class="verdict"><span class="badge">Verdict: {v}</span><span>{c['claims_holding']} of 3 top-level claims hold</span></div>
 <p class="meta">{_md_inline(report.VERDICT_RULE)}</p>
 <p class="meta">{_md_inline(report.PREREG)}</p>
@@ -513,7 +513,7 @@ a {{ color:var(--accent); }}
 
 <section aria-labelledby="h-more">
 <h2 id="h-more">Method and caveats</h2>
-{_details("Method in brief", _ul(report.method_brief(c)))}
+{_details("Method in brief", _ul(report.method_brief(c) + ["Data as of: " + report.data_as_of(c)]))}
 {_details("Methodology changes, with dates and commit hashes", _methodology_changes())}
 {_details("Exploratory results (not pre-registered)", _ul(report.exploratory(c)))}
 {_details("Limitations", _ul(report.limitations(c)))}
