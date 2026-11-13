@@ -369,9 +369,29 @@ def md_results(c: dict) -> str:
     return "\n".join(parts)
 
 
-def md_readme_table(c: dict) -> str:
+def md_readme_verdict(c: dict) -> str:
     return (f"**Verdict: {c['verdict']}** ({c['claims_holding']} of 3 top-level claims hold). {VERDICT_RULE}\n\n"
-            f"{PREREG}\n\n" + md_scorecard(c))
+            f"{PREREG}\n\n" + "\n".join(f"- {h}" for h in headlines(c)))
+
+
+def how_built(c: dict) -> list[str]:
+    """My role, stated factually. Numbers come from claims.json."""
+    return [
+        f"I surveyed the {c['C3b']['submissions_official']} public NEAR HACKATHON submissions and picked the angle none "
+        f"of the thesis entries used: developer data instead of fees and price.",
+        "I pre-registered the claims with kill criteria and committed them before pulling any data (`333ea0c`), so the "
+        "verdict could not be tuned afterwards.",
+        "I set the BigQuery budget and approved each spend. When GH Archive turned out to have coverage breaks, I paid "
+        "for one consistent push and pull-request coverage index across the whole period rather than a cheaper mixed "
+        "method.",
+        "I added the FRAGILE rule: if raw and coverage-adjusted results disagree, the claim is reported as fragile "
+        "instead of taking the favourable result.",
+        "I kept the results when they came out neutral to bearish, and I cut an overclaim (\"developers follow usage\") "
+        "that the statistics did not support.",
+        "I directed AI coding agents (Claude Code) to implement the pipeline, tests and site, reviewed every phase, and "
+        "approved every change.",
+        "All code in this repository was written during NEAR HACKATHON, November 2026.",
+    ]
 
 
 def replace_block(text: str, name: str, body: str) -> str:
@@ -392,7 +412,11 @@ def render_docs(c: dict) -> dict[str, str]:
     out["THESIS.md"] = t
     r = (ROOT / "README.md").read_text(encoding="utf-8")
     r = replace_block(r, "one-liner", one_liner(c))
-    r = replace_block(r, "claims", md_readme_table(c))
+    r = replace_block(r, "verdict", md_readme_verdict(c))
     r = replace_block(r, "implication", " ".join(implication(c)))
+    r = replace_block(r, "claims", md_scorecard(c))
+    r = replace_block(r, "method", "\n".join(f"- {x}" for x in method_brief(c)))
+    r = replace_block(r, "limitations", "\n".join(f"- {x}" for x in limitations(c)))
+    r = replace_block(r, "how-built", "\n".join(f"- {x}" for x in how_built(c)))
     out["README.md"] = r
     return out
