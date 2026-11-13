@@ -3,7 +3,7 @@
 A NEAR investment thesis from developer data, built during NEAR HACKATHON (Investment Thesis track).
 
 <!-- BEGIN GENERATED: one-liner (do not edit by hand; `make site` rewrites this) -->
-We tested three pre-registered claims about NEAR's developer base. One holds, barely; two fail. The surprise: almost every hackathon builder is new to NEAR (97%), and at least a third of their repos show AI co-authorship (34%), but developers follow usage rather than lead it.
+We tested three pre-registered claims about NEAR's developer base. One holds, barely; two fail. The surprise: almost every hackathon builder is new to NEAR (97.2%), and at least a third of their repos show AI co-authorship (34.2%), but developers do not lead onchain usage; the reverse direction is suggestive but not significant.
 <!-- END GENERATED: one-liner -->
 
 Every NEAR thesis asks whether fees reach the token. This one asks the earlier question: are developers coming to NEAR, staying, and shipping, and does that lead onchain usage? Three claims, each with a kill criterion, were committed before any data was pulled ([THESIS.md](THESIS.md), see its git history) and are rebuilt from public data with one command.
@@ -24,15 +24,17 @@ On Windows without GNU make, the same targets run as `python -m builders_first.c
 ## Claims and verdict
 
 <!-- BEGIN GENERATED: claims (do not edit by hand; `make site` rewrites this) -->
-**Verdict: Neutral** (1 of 3 pre-registered claims hold)
+**Verdict: Neutral** (1 of 3 top-level claims hold). The verdict counts the three top-level claims C1–C3: Bull if at least 2 hold, Neutral if 1, Bear if 0; FRAGILE claims do not count. C3 holds only if both C3a and C3b hold, so C3b holding on its own does not add to the count.
+
+Claims C1–C3 were committed in `333ea0c` before any data was pulled; C3a's >10% threshold was added in `4d4fc58`, after the deployment series had been seen (see Methodology changes, item 6, in THESIS.md).
 
 | Claim | Kill criterion | Measured | Status |
 |---|---|---|---|
-| **C1** New NEAR developers retain at least as well as peers (Solana, Sui, Aptos, Base) | NEAR 6-month retention below peer median | 12.0% vs peer median 12.0% | **HOLDS (statistical tie)**<br>Statistical tie: margin +0.01 pp, NEAR 95% CI 11.3%–12.8% contains the peer median. Smoothed 6-month: 17.9% vs 18.7% (fails). 12-month: 7.9% vs 9.0% (fails). |
-| **C2** NEAR monthly active developers lead contract deployments by 1–6 months | No lag with p < 0.0083 (0.05 / 6, Bonferroni) | min Granger p 0.0907 raw / 0.124 adjusted (Bonferroni threshold 0.0083) | **KILLED**<br>Raw and coverage-adjusted MAD agree. |
-| **C3** AI-era funnel: (a) and (b) both hold | (a) or (b) killed | see C3a, C3b | **KILLED** |
-| &nbsp;&nbsp;↳ **C3a** Contracts deployed per MAD rose since 2025 | Post-2025 mean not more than 1.10× the 2023–24 mean | contracts per MAD 0.67x pre-period (raw), 0.56x (coverage-adjusted) | **KILLED**<br>Mann-Whitney p = 0.705 (raw), not part of the criterion. |
-| &nbsp;&nbsp;↳ **C3b** A majority of NEAR HACKATHON authors are new to NEAR | New-to-NEAR authors < 50% (stricter of two shares) | 97.2% of 319 authors; 97.4% excluding 11 with truncated event feeds | **HOLDS**<br>AI co-authored: ≥41.4% of commits, 34.2% of repos. |
+| **C1** New NEAR developers retain at least as well as peers (Solana, Sui, Aptos, Base) | NEAR 6-month retention below peer median | 12.04% vs peer median 12.03% | **HOLDS (statistical tie)**<br>Statistical tie: margin +0.01 pp, NEAR 95% CI 11.34%–12.78% contains the peer median. Fragility: smoothed 6-month 17.86% vs 18.68% (fails); 12-month 7.91% vs 9.03% (fails). |
+| **C2** NEAR monthly active developers (MAD) lead contract deployments by 1–6 months | No lag with p < 0.0083 (0.05 / 6, Bonferroni) | best p 0.091 raw / 0.124 coverage-adjusted | **KILLED**<br>Raw and coverage-adjusted MAD agree. |
+| **C3** AI-era funnel: needs both C3a and C3b | C3a or C3b killed | see C3a, C3b | **KILLED** |
+| &nbsp;&nbsp;↳ **C3a** Contracts deployed per MAD rose since 2025 | Post-2025 mean not above 1.10× the 2023–24 mean | 0.67× raw, 0.56× coverage-adjusted | **KILLED**<br>Mann-Whitney p = 0.705 (raw), not part of the criterion. |
+| &nbsp;&nbsp;↳ **C3b** A majority of NEAR HACKATHON authors are new to NEAR | New-to-NEAR authors fewer than 50% of the cohort (stricter of two shares) | 97.2% (310/319); 97.4% excluding 11 authors with truncated event feeds | **HOLDS**<br>AI co-authored: ≥41.4% of commits, 34.2% of repos (125/366 repos with at least one non-bot commit). |
 <!-- END GENERATED: claims -->
 
 Headline findings, the conditions that would flip each claim, an exploratory section, the bear case and limitations are in [THESIS.md](THESIS.md) and on the dashboard. All of it is generated from [`data/cache/claims.json`](data/cache/claims.json) by [`src/builders_first/report.py`](src/builders_first/report.py); `tests/test_generated.py` fails if any figure in this README or THESIS.md differs from a fresh computation.

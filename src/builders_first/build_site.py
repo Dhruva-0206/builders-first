@@ -90,11 +90,11 @@ def fig_retention(c: dict) -> go.Figure:
     fig = go.Figure()
     for p in PEERS:
         fig.add_trace(go.Scatter(x=ks, y=cur[p], name=p, mode="lines", line=dict(color=COLORS[p], width=1),
-                                 opacity=0.55, hovertemplate=f"{p}: %{{y:.1%}}<extra></extra>"))
+                                 opacity=0.55, hovertemplate=f"{p}: %{{y:.2%}}<extra></extra>"))
     fig.add_trace(go.Scatter(x=ks, y=peer_med, name="Peer median", mode="lines", line=dict(color=INK2, width=2, dash="dash"),
-                             hovertemplate="Peer median: %{y:.1%}<extra></extra>"))
+                             hovertemplate="Peer median: %{y:.2%}<extra></extra>"))
     fig.add_trace(go.Scatter(x=ks, y=cur["NEAR"], name="NEAR", mode="lines+markers", line=dict(color=COLORS["NEAR"], width=3),
-                             marker=dict(size=8), hovertemplate="NEAR: %{y:.1%}<extra></extra>"))
+                             marker=dict(size=8), hovertemplate="NEAR: %{y:.2%}<extra></extra>"))
     fig.add_vline(x=6, line=dict(color=MUTED, width=1, dash="dot"))
     fig.add_annotation(x=6, y=1, yref="paper", text="pre-registered test: month 6", showarrow=False, xanchor="left",
                        xshift=4, font=dict(size=11, color=INK2))
@@ -242,7 +242,7 @@ def build_html(c: dict) -> str:
     months = sorted(mad["NEAR"])
     mad_tbl = _table(["month", *ECOSYSTEMS], [[m, *[mad[e].get(m, "") for e in ECOSYSTEMS]] for m in months])
     cur = c["C1"]["curve"]
-    ret_tbl = _table(["k (months)", *ECOSYSTEMS], [[k + 1, *[f"{cur[e][k]:.1%}" for e in ECOSYSTEMS]] for k in range(len(cur["NEAR"]))])
+    ret_tbl = _table(["k (months)", *ECOSYSTEMS], [[k + 1, *[report.ret(cur[e][k]) for e in ECOSYSTEMS]] for k in range(len(cur["NEAR"]))])
     g = c["C2"]
     lag_rows = []
     for lag in range(1, g["max_lag"] + 1):
@@ -251,15 +251,21 @@ def build_html(c: dict) -> str:
                          f"{g['adjusted']['deploys']['granger_p'][L]:.3f}", f"{g['adjusted']['unique_deployers']['granger_p'][L]:.3f}",
                          f"{g['raw']['deploys']['ccf'][L]:+.2f}", f"{g['raw']['deploys']['reverse_granger_p'][L]:.3f}"])
     lag_tbl = _table(["lag", "p deploys (raw)", "p deployers (raw)", "p deploys (adj.)", "p deployers (adj.)",
-                      "corr dev→deploys", "reverse p (exploratory)"], lag_rows)
+                      "Correlation: developers → deploys (lag k)", "reverse p (exploratory)"], lag_rows)
     a = c["C3a"]
     c3a_tbl = _table(["month", "raw", "adjusted"], [[m, a["series"]["raw"][m], a["series"]["adjusted"][m]] for m in sorted(a["series"]["raw"])])
     cov_tbl = _table(["month", "push events", "PR events", "push ratio", "PR ratio", "good"],
                      [[r["month"], f"{r['push_events']:,}", f"{r['pr_events']:,}", r["push_ratio"] if r["push_ratio"] is not None else "",
                        r["pr_ratio"] if r["pr_ratio"] is not None else "", "yes" if r["good"] else "no"] for r in c["coverage"]["series"]])
     b = c["C3b"]
-    hk_tbl = _table(["measure", "value"], [[k, v] for k, v in b.items() if not isinstance(v, dict)] +
-                    [[f"AI commits: {k}", v] for k, v in b["ai_by_tool"].items()])
+    def _fmt(k, v):
+        if isinstance(v, bool):
+            return "yes" if v else "no"
+        if isinstance(v, float):
+            return report.pct(v)
+        return f"{v:,}" if isinstance(v, int) else v
+    hk_tbl = _table(["measure", "value"], [[k, _fmt(k, v)] for k, v in b.items() if not isinstance(v, dict)] +
+                    [[f"AI commits: {k}", _fmt(k, v)] for k, v in b["ai_by_tool"].items()])
     li = lambda xs: "<ul>" + "".join(f"<li>{_md_inline(x)}</li>" for x in xs) + "</ul>"
     v = c["verdict"]
     d = c["data_as_of"]
@@ -299,16 +305,16 @@ a {{ color:var(--accent); }}
 <body><main>
 <h1>Builders First</h1>
 <p class="lede">{_md_inline(report.one_liner(c))}</p>
-<div class="verdict">Verdict: {v} ({c['claims_holding']} of 3 claims hold)</div>
-<p class="meta">Data as of: NEAR deployments to {d['near_deploys_last_month']} · GH Archive reliable to {d['gha_last_good_month']} ·
-hackathon data fetched {d['hackathon_fetched_at'][:10]} · Open Dev Data commit <code>{d['open_dev_data_commit']}</code>.
-Every number on this page is read from <code>data/cache/claims.json</code>.</p>
+<div class="verdict">Verdict: {v} ({c['claims_holding']} of 3 top-level claims hold)</div>
+<p class="meta">{_md_inline(report.VERDICT_RULE)}</p>
+<p class="meta"><strong>Pre-registration:</strong> {_md_inline(report.PREREG)}</p>
+<p class="meta">Data as of: {_md_inline(report.data_as_of(c))} Every number on this page is read from <code>data/cache/claims.json</code>.</p>
 
 <h2>Headline findings</h2>
 <div class="box">{li(report.headlines(c))}</div>
 
 <h2>Claims scorecard</h2>
-<p class="meta">Claims, thresholds and methods were committed before the results (see THESIS.md and its git history). Verdict rule: Bull if ≥2 claims hold, Neutral if 1, Bear if 0; FRAGILE claims do not count.</p>
+<p class="meta">{_md_inline(report.VERDICT_RULE)}</p>
 <div class="tw"><table><thead><tr><th>Claim</th><th>Kill criterion</th><th>Measured</th><th>Status</th></tr></thead><tbody>{score}</tbody></table></div>
 
 <h2>Developers: NEAR vs peers</h2>

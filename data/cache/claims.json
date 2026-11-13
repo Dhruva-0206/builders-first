@@ -1799,6 +1799,8 @@
   "ai_commits": 6604,
   "ai_repo_share": 0.3415,
   "ai_repos": 125,
+  "ai_repo_denominator": 366,
+  "repos_only_bot_commits": 1,
   "ai_by_tool": {
    "Claude": 6481,
    "Codex": 0,

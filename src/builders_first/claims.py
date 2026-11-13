@@ -195,8 +195,11 @@ def c3b(act: pd.DataFrame) -> dict:
         "ai_commits": int(len(ai)),
         "ai_repo_share": _f(repos_any.mean()),
         "ai_repos": int(repos_any.sum()),
+        "ai_repo_denominator": int(len(repos_any)),
+        "repos_only_bot_commits": int(len(repos) - len(repos_any)),
         "ai_by_tool": {g: int(groups.get(g, 0)) for g in ("Claude", "Codex", "Copilot", "Cursor", "Other")},
-        "holds": bool(strict > 0.5),
+        # Pre-registered kill: new-to-NEAR authors "fewer than 50%" -> holds at >= 50%.
+        "holds": bool(strict >= 0.5),
     }
     out["status"] = _status(out["holds"])
     return out
