@@ -40,3 +40,10 @@ def test_verdict_consistent_with_statuses():
     assert c["verdict"] == claims.verdict(list(c["statuses"].values()))
     assert c["C3"]["status"] == ("KILLED" if "KILLED" in (c["C3a"]["status"], c["C3b"]["status"]) else
                                  "FRAGILE" if c["C3a"]["status"] == "FRAGILE" else "HOLDS")
+
+
+def test_implication_present():
+    c = report.load_claims()
+    text = " ".join(report.implication(c))
+    for path in ("THESIS.md", "README.md"):
+        assert text in (ROOT / path).read_text(encoding="utf-8")

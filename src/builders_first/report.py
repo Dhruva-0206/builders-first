@@ -118,6 +118,27 @@ def headlines(c: dict) -> list[str]:
     ]
 
 
+def implication(c: dict) -> list[str]:
+    """Investment implication: reads only claims.json."""
+    c1, a, b = c["C1"], c["C3a"], c["C3b"]
+    k6 = c1["by_k"]["6"]
+    lo, hi = sorted([a["raw"]["ratio"], a["adjusted"]["ratio"]])
+    need = (1 + a["min_rise"]) * a["raw"]["pre_mean"]
+    return [
+        f"Developer data alone does not support a bull case for NEAR today. New developers stay only at par with "
+        f"peers (6-month retention {ret(k6['near'])} vs {ret(k6['peer_median'])}), developers do not lead onchain usage "
+        f"(C2 {c['C2']['status'].lower()}), and output per developer fell to {times(lo)}–{times(hi)} its 2023–24 level.",
+        "Any bull case therefore has to rest on usage-side evidence, such as NEAR Intents volume and fees, which this "
+        "thesis does not measure, rather than on developer momentum.",
+        f"The one leading indicator worth watching is the AI-assisted newcomer wave: {pct(b['new_share_all'])} of "
+        f"hackathon commit authors ({frac(b['authors_new'], b['authors'])}) were new to tracked NEAR repos, and at least "
+        f"{pct(b['ai_repo_share'])} of repos ({frac(b['ai_repos'], b['ai_repo_denominator'])}) show AI co-authorship. "
+        f"If those builders ship to mainnet and contracts per developer rises above {need:.2f} (the C3a flip threshold; "
+        f"{a['raw']['post_mean']:.2f} raw and {a['adjusted']['post_mean']:.2f} adjusted today), the verdict moves toward bullish.",
+        "This is not investment advice.",
+    ]
+
+
 def data_as_of(c: dict) -> str:
     d, b = c["data_as_of"], c["C3b"]
     return (f"GH Archive (GHA) developer data usable through {d['gha_last_good_month']} (coverage rule); NEAR contract "
@@ -300,10 +321,12 @@ def render_docs(c: dict) -> dict[str, str]:
     out = {}
     t = (ROOT / "THESIS.md").read_text(encoding="utf-8")
     t = replace_block(t, "headlines", "\n".join(f"- {h}" for h in headlines(c)))
+    t = replace_block(t, "implication", " ".join(implication(c)))
     t = replace_block(t, "results", md_results(c))
     out["THESIS.md"] = t
     r = (ROOT / "README.md").read_text(encoding="utf-8")
     r = replace_block(r, "one-liner", one_liner(c))
     r = replace_block(r, "claims", md_readme_table(c))
+    r = replace_block(r, "implication", " ".join(implication(c)))
     out["README.md"] = r
     return out

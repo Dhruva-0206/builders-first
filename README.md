@@ -37,6 +37,12 @@ Claims C1–C3 were committed in `333ea0c` before any data was pulled; C3a's >10
 | &nbsp;&nbsp;↳ **C3b** A majority of NEAR HACKATHON authors are new to NEAR | New-to-NEAR authors fewer than 50% of the cohort (stricter of two shares) | 97.2% (310/319); 97.4% excluding 11 authors with truncated event feeds | **HOLDS**<br>AI co-authored: ≥41.4% of commits, 34.2% of repos (125/366 repos with at least one non-bot commit). |
 <!-- END GENERATED: claims -->
 
+## Investment implication
+
+<!-- BEGIN GENERATED: implication (do not edit by hand; `make site` rewrites this) -->
+Developer data alone does not support a bull case for NEAR today. New developers stay only at par with peers (6-month retention 12.04% vs 12.03%), developers do not lead onchain usage (C2 killed), and output per developer fell to 0.56×–0.67× its 2023–24 level. Any bull case therefore has to rest on usage-side evidence, such as NEAR Intents volume and fees, which this thesis does not measure, rather than on developer momentum. The one leading indicator worth watching is the AI-assisted newcomer wave: 97.2% of hackathon commit authors (310/319) were new to tracked NEAR repos, and at least 34.2% of repos (125/366) show AI co-authorship. If those builders ship to mainnet and contracts per developer rises above 1.66 (the C3a flip threshold; 1.01 raw and 0.84 adjusted today), the verdict moves toward bullish. This is not investment advice.
+<!-- END GENERATED: implication -->
+
 Headline findings, the conditions that would flip each claim, an exploratory section, the bear case and limitations are in [THESIS.md](THESIS.md) and on the dashboard. All of it is generated from [`data/cache/claims.json`](data/cache/claims.json) by [`src/builders_first/report.py`](src/builders_first/report.py); `tests/test_generated.py` fails if any figure in this README or THESIS.md differs from a fresh computation.
 
 ## Data sources

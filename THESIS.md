@@ -13,6 +13,12 @@ Generated from `data/cache/claims.json` after the analysis ran; the claims below
 - **Output per developer fell to 0.56×–0.67× its 2023–24 level** (contracts deployed per monthly active developer (MAD), coverage-adjusted and raw).
 <!-- END GENERATED: headlines -->
 
+## Investment implication
+
+<!-- BEGIN GENERATED: implication (do not edit by hand; `make site` rewrites this) -->
+Developer data alone does not support a bull case for NEAR today. New developers stay only at par with peers (6-month retention 12.04% vs 12.03%), developers do not lead onchain usage (C2 killed), and output per developer fell to 0.56×–0.67× its 2023–24 level. Any bull case therefore has to rest on usage-side evidence, such as NEAR Intents volume and fees, which this thesis does not measure, rather than on developer momentum. The one leading indicator worth watching is the AI-assisted newcomer wave: 97.2% of hackathon commit authors (310/319) were new to tracked NEAR repos, and at least 34.2% of repos (125/366) show AI co-authorship. If those builders ship to mainnet and contracts per developer rises above 1.66 (the C3a flip threshold; 1.01 raw and 0.84 adjusted today), the verdict moves toward bullish. This is not investment advice.
+<!-- END GENERATED: implication -->
+
 ## Thesis
 
 Developers come before usage. If NEAR is gaining and keeping developers, and those developers lead onchain activity, that is an early sign of long-term demand for blockspace, and so for the token, that fee data alone shows only later. Most NEAR theses start from fees. This one starts one step earlier.

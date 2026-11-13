@@ -313,6 +313,9 @@ a {{ color:var(--accent); }}
 <h2>Headline findings</h2>
 <div class="box">{li(report.headlines(c))}</div>
 
+<h2>Investment implication</h2>
+<p>{" ".join(_md_inline(x) for x in report.implication(c))}</p>
+
 <h2>Claims scorecard</h2>
 <p class="meta">{_md_inline(report.VERDICT_RULE)}</p>
 <div class="tw"><table><thead><tr><th>Claim</th><th>Kill criterion</th><th>Measured</th><th>Status</th></tr></thead><tbody>{score}</tbody></table></div>
