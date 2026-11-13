@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # tests/test_style.py checks the pre-registered text against commit 333ea0c
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"

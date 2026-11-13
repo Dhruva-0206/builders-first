@@ -1,0 +1,12 @@
+group,measure,value
+authors,new_to_near,310
+authors,returning_gh_archive,8
+authors,returning_feed_only,1
+ai_trailer_commits,claude,6481
+ai_trailer_commits,codex,0
+ai_trailer_commits,copilot,25
+ai_trailer_commits,cursor,97
+ai_trailer_commits,other,1
+commits,non_bot,15960
+repos,with_ai_trailer,125
+repos,with_non_bot_commit,366

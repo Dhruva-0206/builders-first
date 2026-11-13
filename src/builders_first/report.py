@@ -147,6 +147,63 @@ def implication(c: dict) -> list[str]:
     ]
 
 
+def method_brief(c: dict) -> list[str]:
+    """Plain-language method summary with each term defined once."""
+    cov, al = c["coverage"], alpha_(c["C2"]["raw"]["deploys"]["bonferroni_alpha"])
+    return [
+        "Pre-registration: I wrote down each claim and the result that would disprove it, and committed them before "
+        "pulling any data.",
+        "Developer activity comes from GH Archive, a public record of GitHub events. A monthly active developer (MAD) "
+        "is a GitHub account that pushed code or opened a pull request in one of an ecosystem's repos that month. The "
+        "repo lists come from Open Dev Data by Electric Capital.",
+        f"C1 compares the share of new developers still active 3, 6 and 12 months later, NEAR against the median of "
+        f"Solana, Sui, Aptos and Base, for monthly cohorts from {c['C1']['cohort_start']}.",
+        f"C2 uses Granger tests, which ask whether past values of one series improve forecasts of another, on monthly "
+        f"changes in NEAR MAD and contract deployments at lags 1 to 6. With six tests, a Bonferroni correction (dividing "
+        f"the 0.05 significance level by the number of tests) sets the bar at p < {al}.",
+        "C3a divides monthly contract deployments by MAD. C3b checks every hackathon commit author for earlier NEAR "
+        "activity in GH Archive and in their GitHub event feed, and counts commits that carry AI co-author trailers.",
+        f"GH Archive's own volume breaks in {cov['level_break_month']} and collapses after {cov['last_good_month']}. A "
+        f"coded rule stops the series at {cov['last_good_month']}, and I re-ran C2 and C3a on coverage-adjusted MAD.",
+    ]
+
+
+def chart_titles(c: dict) -> dict[str, tuple[str, str]]:
+    """Per chart: (takeaway title stating what the chart shows, neutral description)."""
+    c1, a, b, cov = c["C1"], c["C3a"], c["C3b"], c["coverage"]
+    k6 = c1["by_k"]["6"]
+    nm = c["mad"]["NEAR"]
+    months = sorted(nm)
+    peak_m = max(nm, key=nm.get)
+    if k6["near"] >= k6["peer_median"]:
+        how = "about as well as" if c1["robustness"]["peer_median_inside_near_ci"] else "better than"
+    else:
+        how = "less well than"
+    led = "lead" if c["C2"]["status"] == "HOLDS" else "do not lead"
+    pre, post = a["raw"]["pre_mean"], a["raw"]["post_mean"]
+    collapse = next((r["month"] for r in cov["series"] if r["month"] > cov["last_good_month"] and not r["good"]), None)
+    return {
+        "mad": (f"NEAR had {nm[months[-1]]:,} monthly active developers in {months[-1]}, "
+                f"{'down' if nm[months[-1]] < nm[peak_m] else 'level'} from a peak of {nm[peak_m]:,} in {peak_m}",
+                f"Monthly active developers (MAD) by ecosystem, {months[0]} to {months[-1]}"),
+        "retention": (f"NEAR keeps new developers {how} its peers (6-month retention {ret(k6['near'])} vs "
+                      f"{ret(k6['peer_median'])})",
+                      f"Share of each monthly cohort of new developers still active k months later, cohorts from "
+                      f"{c1['cohort_start']}, NEAR vs peers and their median"),
+        "c2": (f"NEAR developer counts {led} contract deployments (best p = {pval(c2_best(c, 'raw'))}, needed "
+               f"p < {alpha_(c['C2']['raw']['deploys']['bonferroni_alpha'])})",
+               "NEAR developers (MAD), contracts deployed and unique deployer accounts, each scaled so its 2022 average is 100 (log scale)"),
+        "c3a": (f"Contracts deployed per NEAR developer averaged {post:.2f} a month from 2025, "
+                f"{'down' if post < pre else 'up'} from {pre:.2f} in 2023–24 (raw MAD)",
+                "Contracts deployed per MAD each month; dotted lines are period means, the dashed line is the C3a threshold"),
+        "hackathon": (f"{frac(b['authors_new'], b['authors'])} NEAR HACKATHON commit authors were new to tracked NEAR repos",
+                      "Commit authors by prior NEAR activity, and commits with an AI co-author trailer by tool"),
+        "coverage": (f"GH Archive volume broke in {cov['level_break_month']} and fell away from {collapse}, so the "
+                     f"analysis stops at {cov['last_good_month']}",
+                     "Monthly push and pull-request events relative to the median of the previous 12 months"),
+    }
+
+
 def data_as_of(c: dict) -> str:
     d, b = c["data_as_of"], c["C3b"]
     return (f"GH Archive (GHA, a public record of GitHub events) usable through {d['gha_last_good_month']} (coverage rule); NEAR contract "

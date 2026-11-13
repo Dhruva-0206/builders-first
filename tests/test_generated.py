@@ -47,3 +47,10 @@ def test_implication_present():
     text = " ".join(report.implication(c))
     for path in ("THESIS.md", "README.md"):
         assert text in (ROOT / path).read_text(encoding="utf-8")
+
+
+def test_chart_csvs_match_render():
+    c = report.load_claims()
+    for name, text in build_site.chart_csvs(c).items():
+        for d in (CACHE / "charts", SITE / "data"):
+            assert (d / name).read_text(encoding="utf-8") == text, f"{d.name}/{name} is stale: run `make site`"
