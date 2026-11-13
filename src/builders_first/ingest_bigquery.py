@@ -8,7 +8,6 @@
                and data/cache/near_prior_oct.csv (hashed)
   volume       monthly PushEvent/PullRequestEvent counts (reads only `type`) -> data/cache/gha_pushpr_volume.csv
                (skipped if the file exists; ~102 GB for 2021-01..2026-10 on first build)
-  coverage     GH Archive events per month from table metadata (free) -> data/cache/gha_coverage.csv
   near         NEAR deploys + unique deployers per month (yearly chunks) -> data/cache/near_deploys_monthly.csv
 
 Usage: python -m builders_first.ingest_bigquery [load-repos|dryrun|gha|near|all] [--approved-gb N]
@@ -149,21 +148,6 @@ def prepare() -> None:
     print(f"activity.csv.gz: {len(act)} rows; near_prior_oct.csv: {octp.login.nunique()} devs")
 
 
-def coverage() -> None:
-    """Events per GH Archive monthly table, read from table metadata (no query, no bytes billed)."""
-    c = bq.client()
-    rows = []
-    for y in range(GHA_START_YEAR, _today().year + 1):
-        for m in range(1, 13):
-            tid = f"{y}{m:02d}"
-            if tid > f"{_today().year}{_today().month:02d}":
-                break
-            t = c.get_table(f"githubarchive.month.{tid}")
-            rows.append({"month": f"{y}-{m:02d}", "events": t.num_rows})
-    pd.DataFrame(rows).to_csv(CACHE / "gha_coverage.csv", index=False)
-    print(f"gha_coverage.csv: {len(rows)} months")
-
-
 def volume(approved_gb: float) -> None:
     """Push/PR volume per month for the coverage rule. Runs once; an existing cache file is never rebuilt."""
     path = CACHE / "gha_pushpr_volume.csv"
@@ -184,7 +168,7 @@ def volume(approved_gb: float) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("step", nargs="?", default="all", choices=["load-repos", "dryrun", "gha", "oct", "prepare", "coverage", "volume", "near", "all"])
+    ap.add_argument("step", nargs="?", default="all", choices=["load-repos", "dryrun", "gha", "oct", "prepare", "volume", "near", "all"])
     ap.add_argument("--approved-gb", type=float, default=bq.ASK_LIMIT_GB)
     a = ap.parse_args()
     if a.step in ("load-repos", "all"):
@@ -199,8 +183,6 @@ def main() -> None:
         near(a.approved_gb)
     if a.step in ("prepare", "all"):
         prepare()
-    if a.step in ("coverage", "all"):
-        coverage()
     if a.step in ("volume", "all"):
         volume(a.approved_gb)
 
