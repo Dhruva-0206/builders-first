@@ -12,7 +12,7 @@ Every NEAR thesis asks whether fees reach the token. This one asks the earlier q
 
 1. `git clone https://github.com/Dhruva-0206/builders-first.git && cd builders-first && make setup && make all`
    → the claims are recomputed from `data/cache/`, `site/index.html` is written, and pytest ends with `N passed`. No credentials or network needed beyond `pip install`.
-2. Open `site/index.html` in a browser
+2. Open `site/index.html` in a browser (or the hosted copy: https://dhruva-0206.github.io/builders-first/)
    → the verdict badge, the claims scorecard, six charts (developers by ecosystem, retention, developers vs deployments, output per developer, hackathon cohort, GH Archive coverage) and a table view under each chart.
 3. Optional, needs credentials: `make setup-data && make data` (with `GITHUB_TOKEN`, `GCP_PROJECT`, `GOOGLE_APPLICATION_CREDENTIALS` in `.env`, see `.env.example`), then `make all`
    → rebuilds every cached file from the sources; `git diff data/cache` shows what changed.
@@ -72,6 +72,10 @@ pandas, NumPy, SciPy, statsmodels, Plotly (Python, and plotly.js from its CDN on
 ## Built at NEAR HACKATHON
 
 Built during NEAR HACKATHON (Nov 2026); all code in this repository was written in the hackathon window.
+
+## Also by this team
+
+[Bet on Beliefs](https://github.com/Dhruva-0206/bet-on-beliefs): a futarchy-governed memecoin treasury on NEAR testnet, also built at NEAR HACKATHON.
 
 ## License
 
