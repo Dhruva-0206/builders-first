@@ -16,11 +16,12 @@ BEGIN = "<!-- BEGIN GENERATED: {name} (do not edit by hand; `make site` rewrites
 END = "<!-- END GENERATED: {name} -->"
 
 # Commit hashes that prove the order of pre-registration (git facts, not data).
-PREREG = ("Claims C1–C3 were committed in `333ea0c` before any data was pulled; C3a's >10% threshold was added "
-          "in `4d4fc58`, after the deployment series had been seen (see Methodology changes, item 6, in THESIS.md).")
-VERDICT_RULE = ("The verdict counts the three top-level claims C1–C3: Bull if at least 2 hold, Neutral if 1, Bear if 0; "
-                "FRAGILE claims do not count. C3 holds only if both C3a and C3b hold, so C3b holding on its own does "
-                "not add to the count.")
+PREREG = ("I pre-registered the three claims: I wrote each one down with the result that would disprove it and "
+          "committed them in `333ea0c` before pulling any data. One threshold came later. I added C3a's >10% rule in "
+          "`4d4fc58`, after I had seen the deployment series (THESIS.md, Methodology changes, item 6).")
+VERDICT_RULE = ("The verdict counts the three top-level claims C1 to C3: Bull if at least two hold, Neutral if one, "
+                "Bear if none. A claim marked FRAGILE (raw and coverage-adjusted results disagree) does not count. C3 "
+                "holds only if both C3a and C3b hold, so C3b holding on its own does not add to the count.")
 
 
 def load_claims() -> dict:
@@ -45,6 +46,11 @@ def pp(x: float) -> str:
 
 def times(x: float) -> str:
     return f"{x:.2f}×"
+
+
+def times_range(a: float, b: float) -> str:
+    lo, hi = sorted([a, b])
+    return f"{lo:.2f} to {hi:.2f}×"
 
 
 def pval(x: float) -> str:
@@ -90,7 +96,7 @@ def ai_repos(b: dict) -> str:
 def one_liner(c: dict) -> str:
     n = c["claims_holding"]
     b = c["C3b"]
-    return (f"We tested three pre-registered claims about NEAR's developer base. {NUM_WORD[n]} holds"
+    return (f"I tested three pre-registered claims about NEAR's developer base. {NUM_WORD[n]} holds"
             f"{', barely' if c['C1']['robustness']['peer_median_inside_near_ci'] and c['statuses']['C1'] == 'HOLDS' else ''}; "
             f"{NUM_WORD[3 - n].lower()} fail. The surprise: almost every hackathon builder is new to NEAR "
             f"({pct(b['new_share_all'])}), and at least a third of their repos show AI co-authorship "
@@ -100,21 +106,23 @@ def one_liner(c: dict) -> str:
 
 def headlines(c: dict) -> list[str]:
     b, a, rg = c["C3b"], c["C3a"], reverse_granger(c)
-    lo, hi = sorted([a["raw"]["ratio"], a["adjusted"]["ratio"]])
-    rev = (f"the reverse direction is suggestive (p = {pval(rg['lo'])}–{pval(rg['hi'])} at lags {lag_range(rg['lags'])}) "
-           f"but not significant after Bonferroni, so it is exploratory, not a finding" if rg["lags"] else
-           "the reverse direction is not significant either")
+    al = alpha_(c["C2"]["raw"]["deploys"]["bonferroni_alpha"])
+    rev = (f"The reverse direction, deployments leading developers, is suggestive (p = {pval(rg['lo'])} to "
+           f"{pval(rg['hi'])} at lags {lag_range(rg['lags'])}) but not significant, so I treat it as exploratory."
+           if rg["lags"] else "The reverse direction is not significant either.")
     return [
-        f"**{pct(b['new_share_all'])} ({frac(b['authors_new'], b['authors'])}) of NEAR HACKATHON commit authors had no "
-        f"prior public activity in NEAR repos tracked by Open Dev Data, an upper bound on newness** "
-        f"(authors of {b['repos_github']} GitHub repos; work in repos the taxonomy does not list is not seen).",
-        f"**≥{pct(b['ai_commit_share'])} of hackathon commits are AI co-authored** "
-        f"({frac(b['ai_commits'], b['commits_non_bot'])} non-bot commits; at least one such commit in {ai_repos(b)}). "
-        f"A lower bound: trailers are easy to strip, and this repo strips its own.",
-        f"**Developers do not lead onchain usage** (C2 {c['C2']['status'].lower()}: best p = {pval(c2_best(c, 'raw'))} raw, "
-        f"Bonferroni threshold {alpha_(c['C2']['raw']['deploys']['bonferroni_alpha'])}); {rev}.",
-        f"**Output per developer fell to {times(lo)}–{times(hi)} its 2023–24 level** "
-        f"(contracts deployed per monthly active developer (MAD), coverage-adjusted and raw).",
+        f"{pct(b['new_share_all'])} ({frac(b['authors_new'], b['authors'])}) of NEAR HACKATHON commit authors had no "
+        f"prior public activity in NEAR repos tracked by Open Dev Data, an upper bound on newness. Work in repos the "
+        f"taxonomy does not list is invisible to this check.",
+        f"At least {pct(b['ai_commit_share'])} of hackathon commits are AI co-authored "
+        f"({frac(b['ai_commits'], b['commits_non_bot'])} non-bot commits), and {ai_repos(b)} contain at least one such "
+        f"commit. Both are lower bounds: trailers are easy to strip, and this repo strips its own.",
+        f"Developers do not lead onchain usage. A Granger test asks whether past developer counts help predict "
+        f"deployments; the best result was p = {pval(c2_best(c, 'raw'))}, against a Bonferroni threshold of {al} "
+        f"(0.05 split across the 6 lags tested). {rev}",
+        f"Output per developer fell to {times_range(a['raw']['ratio'], a['adjusted']['ratio'])} its 2023–24 level, "
+        f"measured as contracts deployed per monthly active developer (MAD: a GitHub account that pushed code or opened "
+        f"a pull request in an ecosystem repo that month).",
     ]
 
 
@@ -127,9 +135,9 @@ def implication(c: dict) -> list[str]:
     return [
         f"Developer data alone does not support a bull case for NEAR today. New developers stay only at par with "
         f"peers (6-month retention {ret(k6['near'])} vs {ret(k6['peer_median'])}), developers do not lead onchain usage "
-        f"(C2 {c['C2']['status'].lower()}), and output per developer fell to {times(lo)}–{times(hi)} its 2023–24 level.",
-        "Any bull case therefore has to rest on usage-side evidence, such as NEAR Intents volume and fees, which this "
-        "thesis does not measure, rather than on developer momentum.",
+        f"(C2 {c['C2']['status'].lower()}), and output per developer fell to {times_range(lo, hi)} its 2023–24 level.",
+        "A bull case would have to rest on usage-side evidence, such as NEAR Intents volume and fees, which I did not "
+        "measure here. Developer momentum does not carry it.",
         f"The one leading indicator worth watching is the AI-assisted newcomer wave: {pct(b['new_share_all'])} of "
         f"hackathon commit authors ({frac(b['authors_new'], b['authors'])}) were new to tracked NEAR repos, and at least "
         f"{pct(b['ai_repo_share'])} of repos ({frac(b['ai_repos'], b['ai_repo_denominator'])}) show AI co-authorship. "
@@ -141,7 +149,7 @@ def implication(c: dict) -> list[str]:
 
 def data_as_of(c: dict) -> str:
     d, b = c["data_as_of"], c["C3b"]
-    return (f"GH Archive (GHA) developer data usable through {d['gha_last_good_month']} (coverage rule); NEAR contract "
+    return (f"GH Archive (GHA, a public record of GitHub events) usable through {d['gha_last_good_month']} (coverage rule); NEAR contract "
             f"deployments through {d['near_deploys_last_month']} (current month partial; C2 and C3a use months through "
             f"{d['gha_last_good_month']} to match GHA); hackathon cohort fetched {d['hackathon_fetched_at'][:10]}; "
             f"Open Dev Data commit `{d['open_dev_data_commit']}`.")
@@ -195,18 +203,18 @@ def flips(c: dict) -> list[str]:
     need_adj = (1 + a["min_rise"]) * a["adjusted"]["pre_mean"]
     al = alpha_(c2["raw"]["deploys"]["bonferroni_alpha"])
     return [
-        f"**C1 ({c1['status']})** flips to KILLED if NEAR's 6-month retention drops below the peer median "
+        f"C1 ({c1['status']}) flips to KILLED if NEAR's 6-month retention drops below the peer median "
         f"(today {ret(k6['near'])} vs {ret(k6['peer_median'])}, a margin of {pp(c1['margin_6m_pp'])}). "
         f"Watch it: the margin is inside sampling error.",
-        f"**C2 ({c2['status']})** flips to HOLDS if any lag 1–6 reaches p < {al} for deploys or unique deployers, "
+        f"C2 ({c2['status']}) flips to HOLDS if any lag 1–6 reaches p < {al} for deploys or unique deployers, "
         f"on both raw and coverage-adjusted MAD (on only one: FRAGILE). Best today: "
         f"{pval(c2_best(c, 'raw'))} raw, {pval(c2_best(c, 'adjusted'))} adjusted.",
-        f"**C3a ({a['status']})** flips to HOLDS if mean contracts per MAD from 2025-01 is above "
+        f"C3a ({a['status']}) flips to HOLDS if mean contracts per MAD from 2025-01 is above "
         f"{times(1 + a['min_rise'])} the 2023–24 mean: above {need:.2f} raw (today {a['raw']['post_mean']:.2f}) and above "
         f"{need_adj:.2f} adjusted (today {a['adjusted']['post_mean']:.2f}).",
-        f"**C3b ({b['status']})** flips to KILLED if new-to-NEAR authors are fewer than 50% of a future cohort "
+        f"C3b ({b['status']}) flips to KILLED if new-to-NEAR authors are fewer than 50% of a future cohort "
         f"(today {pct(b['new_share_strict'])}, stricter of the two shares).",
-        f"**Verdict ({c['verdict']})** becomes Bull if one more top-level claim holds. That means either C2 holds, or "
+        f"The verdict ({c['verdict']}) becomes Bull if one more top-level claim holds. That means either C2 holds, or "
         f"C3a holds, which makes C3 hold because C3b already does. It becomes Bear if C1 flips to KILLED.",
     ]
 
@@ -237,11 +245,11 @@ def bear_case(c: dict) -> list[str]:
         f"{months[-1]}, the last month with reliable GHA coverage.",
         "Developers do not lead onchain usage (C2 killed), so in this data developer counts give no early warning of "
         "usage, which removes the main reason to watch them as a signal for the token.",
-        f"Output per developer fell ({times(a['raw']['ratio'])} raw, {times(a['adjusted']['ratio'])} adjusted), so fewer "
+        f"Output per developer fell ({times(a['raw']['ratio'])} raw, {times(a['adjusted']['ratio'])} adjusted). Fewer "
         f"developers are not being offset by more contracts each.",
-        "NEAR's retention is no better than peers' (a statistical tie at 6 months; behind at 12 months).",
+        "NEAR's retention is no better than its peers'. It is a statistical tie at 6 months and behind at 12.",
         f"The hackathon brought {b['authors']} mostly new authors, but a two-week cohort says nothing yet about "
-        f"whether they stay; C1 suggests about {ret(c['C1']['by_k']['6']['near'])} of new NEAR developers are "
+        f"whether they stay. C1 suggests about {ret(c['C1']['by_k']['6']['near'])} of new NEAR developers are "
         f"still active six months later.",
     ]
 
@@ -256,9 +264,10 @@ def limitations(c: dict) -> list[str]:
         "Developer identity is the GHA actor of a push or PR on a repo listed in Open Dev Data. Electric Capital "
         "counts original commit authors, so levels differ from the Developer Report. Private repos and unlisted repos "
         "are invisible.",
-        "History starts 2021-01 (budget), so some 2022 \"new\" developers are returning ones.",
-        "Deployments are transaction-level DEPLOY_CONTRACT only; factory-created contracts are excluded on purpose "
-        "(see THESIS.md methodology, item 4).",
+        "I started the history at 2021-01 to stay within the BigQuery budget, so some developers counted as new in "
+        "2022 had been active before 2021.",
+        "Deployments are transaction-level DEPLOY_CONTRACT only. I excluded factory-created contracts on purpose "
+        "(THESIS.md, Methodology changes, item 4).",
         f"C3b covers {b['repos_github']} repos with a GitHub link out of {b['nearhunt_projects']} nearhunt.xyz projects "
         f"({b['submissions_official']} official submissions); {b['commits_no_login']:,} commits had no linked GitHub "
         f"account. {b['authors_feed_capped']} authors hit GitHub's 300-event feed cap; {b['authors_truncated']} of them "
@@ -266,8 +275,8 @@ def limitations(c: dict) -> list[str]:
         f"AI co-authorship is detected from commit trailers only, a lower bound. The repo share uses repos with at least "
         f"one non-bot commit ({b['ai_repo_denominator']} of {b['repos_github']}); {b['repos_only_bot_commits']} repo's "
         f"only author has a login ending in \"-bot\" and is removed by the bot filter.",
-        "The C3a threshold (>10%) was fixed after the deployment series had been seen; see THESIS.md methodology item 6 "
-        "for the exact order of events with commit hashes.",
+        "I fixed the C3a threshold (>10%) after I had seen the deployment series. THESIS.md, Methodology changes, "
+        "item 6, gives the exact order of events with commit hashes.",
     ]
 
 
@@ -276,8 +285,8 @@ def limitations(c: dict) -> list[str]:
 def md_scorecard(c: dict) -> str:
     out = ["| Claim | Kill criterion | Measured | Status |", "|---|---|---|---|"]
     for r in scorecard(c):
-        name = ("&nbsp;&nbsp;↳ " if r["indent"] else "") + f"**{r['id']}** {r['claim']}"
-        status = f"**{r['status']}**" + (f"<br>{r['note']}" if r["note"] else "")
+        name = ("&nbsp;&nbsp;↳ " if r["indent"] else "") + f"{r['id']}: {r['claim']}"
+        status = r["status"] + (f"<br>{r['note']}" if r["note"] else "")
         out.append(f"| {name} | {r['kill']} | {r['measured']} | {status} |")
     return "\n".join(out)
 
@@ -291,7 +300,7 @@ def md_results(c: dict) -> str:
         f"[`data/cache/claims.json`](data/cache/claims.json), produced by `make analysis`.", "",
         md_scorecard(c), "",
         "## What would change the verdict", "",
-        "Each line is the threshold that flips a claim on the next re-run (`make data && make all`).", "",
+        "Each line gives the threshold that would flip a claim on the next rebuild (`make data && make all`).", "",
         *[f"- {f}" for f in flips(c)], "",
         "## Exploratory, not pre-registered", "",
         *[f"- {e}" for e in exploratory(c)], "",
