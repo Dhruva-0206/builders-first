@@ -246,7 +246,7 @@ def data_why(c: dict) -> str:
 
 
 def md_exec_summary(c: dict) -> str:
-    lines = [f"- **{k}:** {v}" if i == 0 else f"- {k}: {v}" for i, (k, v) in enumerate(executive_summary(c))]
+    lines = [f"- {k}: {v}" for k, v in executive_summary(c)]
     return ("**Executive summary for judges**\n\n" + "\n".join(lines) +
             f"\n\nDemo video (1:34): {VIDEO_URL} · Not investment advice.")
 

@@ -9,7 +9,7 @@ A NEAR investment thesis built from developer data instead of fees or price. By 
 <!-- BEGIN GENERATED: exec-summary (do not edit by hand; `make site` rewrites this) -->
 **Executive summary for judges**
 
-- **Question:** Are developers coming to NEAR, staying and shipping, and does that lead onchain usage?
+- Question: Are developers coming to NEAR, staying and shipping, and does that lead onchain usage?
 - Verdict: Neutral (1 of 3 pre-registered claims hold).
 - Investment call: No developer-driven reason to buy NEAR today. Do not add to a NEAR position on developer momentum; base any position on usage evidence such as NEAR Intents revenue.
 - Upgrade trigger: Re-rate toward bullish if contracts deployed per monthly active developer rises above 1.66 (now 1.01 raw / 0.84 adjusted), or if a re-run shows developers leading deployments at p < 0.0083.
