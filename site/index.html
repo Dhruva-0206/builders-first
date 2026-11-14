@@ -27,6 +27,12 @@ h3 { font-size:18px; margin:0; line-height:1.35; }
 .byline, .asof, .meta { font-size:14px; color:var(--ink2); margin:4px 0; }
 .verdict { display:flex; flex-wrap:wrap; gap:10px; align-items:baseline; margin:20px 0 6px; }
 .badge { display:inline-block; padding:6px 14px; border-radius:6px; font-weight:700; font-size:18px; background:#f3f2ee; border:2px solid var(--ink); }
+.exec { border:2px solid var(--ink); border-radius:8px; padding:4px 20px 8px; margin-top:28px; max-width:68ch; background:#fafaf8; }
+.exec h2 { margin:14px 0 8px; font-size:20px; }
+.exec dl { margin:0; display:grid; grid-template-columns:max-content 1fr; gap:6px 14px; }
+.exec dt { font-weight:700; } .exec dd { margin:0; }
+@media (max-width: 600px) { .exec dl { grid-template-columns:1fr; } .exec dd { margin-bottom:6px; } }
+.video { font-size:15px; margin:6px 0; } .video a { font-weight:600; }
 .findings li { margin:10px 0; }
 .tw { overflow-x:auto; -webkit-overflow-scrolling:touch; }
 table { border-collapse:collapse; width:100%; font-size:14px; }
@@ -66,11 +72,18 @@ a { color:var(--accent); }
 <h1>Builders First</h1>
 <p class="subtitle">A NEAR investment thesis built from developer data instead of fees or price.</p>
 <p class="byline">By <a href="https://github.com/Dhruva-0206">Dhruva Somen Chakrabarty</a> · NEAR HACKATHON, November 2026</p>
-<p class="asof">Data through Feb 2026 (GitHub activity) and Nov 2026 (NEAR deployments). Details below.</p>
+<p class="asof">Data through Feb 2026 (GitHub activity) and Nov 2026 (NEAR deployments). Details below. The GitHub series ends in Feb 2026 because the public GH Archive source has a coverage break after that month (shown in the data-quality chart below); the NEAR deployment data runs to Nov 2026.</p>
+<p class="video"><a href="https://x.com/Dhruva_0206/status/2121583776333787179">Demo video (1:34)</a></p>
 <div class="verdict"><span class="badge">Verdict: Neutral</span><span>1 of 3 top-level claims hold</span></div>
 <p class="meta">The verdict counts the three top-level claims C1 to C3: Bull if at least two hold, Neutral if one, Bear if none. A claim marked FRAGILE (raw and coverage-adjusted results disagree) does not count. C3 holds only if both C3a and C3b hold, so C3b holding on its own does not add to the count.</p>
 <p class="meta">I pre-registered the three claims: I wrote each one down with the result that would disprove it and committed them in <code>333ea0c</code> before pulling any data. One threshold came later. I added C3a's &gt;10% rule in <code>4d4fc58</code>, after I had seen the deployment series (THESIS.md, Methodology changes, item 6).</p>
 </header>
+
+<section class="exec" aria-labelledby="h-exec">
+<h2 id="h-exec">Executive summary for judges</h2>
+<dl><dt>Question</dt><dd>Are developers coming to NEAR, staying and shipping, and does that lead onchain usage?</dd><dt>Verdict</dt><dd>Neutral (1 of 3 pre-registered claims hold).</dd><dt>Investment call</dt><dd>No developer-driven reason to buy NEAR today. Do not add to a NEAR position on developer momentum; base any position on usage evidence such as NEAR Intents revenue.</dd><dt>Upgrade trigger</dt><dd>Re-rate toward bullish if contracts deployed per monthly active developer rises above 1.66 (now 1.01 raw / 0.84 adjusted), or if a re-run shows developers leading deployments at p &lt; 0.0083.</dd><dt>Verify in 2 minutes</dt><dd>open the live dashboard (https://dhruva-0206.github.io/builders-first/) or run <code>make setup &amp;&amp; make all</code> to rebuild every number offline from cached data.</dd></dl>
+<p class="meta">Not investment advice.</p>
+</section>
 
 <section aria-labelledby="h-find">
 <h2 id="h-find">Headline findings</h2>

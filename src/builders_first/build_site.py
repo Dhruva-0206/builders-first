@@ -434,6 +434,12 @@ h3 {{ font-size:18px; margin:0; line-height:1.35; }}
 .byline, .asof, .meta {{ font-size:14px; color:var(--ink2); margin:4px 0; }}
 .verdict {{ display:flex; flex-wrap:wrap; gap:10px; align-items:baseline; margin:20px 0 6px; }}
 .badge {{ display:inline-block; padding:6px 14px; border-radius:6px; font-weight:700; font-size:18px; background:#f3f2ee; border:2px solid var(--ink); }}
+.exec {{ border:2px solid var(--ink); border-radius:8px; padding:4px 20px 8px; margin-top:28px; max-width:68ch; background:#fafaf8; }}
+.exec h2 {{ margin:14px 0 8px; font-size:20px; }}
+.exec dl {{ margin:0; display:grid; grid-template-columns:max-content 1fr; gap:6px 14px; }}
+.exec dt {{ font-weight:700; }} .exec dd {{ margin:0; }}
+@media (max-width: 600px) {{ .exec dl {{ grid-template-columns:1fr; }} .exec dd {{ margin-bottom:6px; }} }}
+.video {{ font-size:15px; margin:6px 0; }} .video a {{ font-weight:600; }}
 .findings li {{ margin:10px 0; }}
 .tw {{ overflow-x:auto; -webkit-overflow-scrolling:touch; }}
 table {{ border-collapse:collapse; width:100%; font-size:14px; }}
@@ -473,11 +479,18 @@ a {{ color:var(--accent); }}
 <h1>Builders First</h1>
 <p class="subtitle">A NEAR investment thesis built from developer data instead of fees or price.</p>
 <p class="byline">By <a href="{AUTHOR_URL}">{AUTHOR}</a> · NEAR HACKATHON, November 2026</p>
-<p class="asof">{_md_inline(report.data_short(c))}</p>
+<p class="asof">{_md_inline(report.data_short(c))} {_md_inline(report.data_why(c))}</p>
+<p class="video"><a href="{report.VIDEO_URL}">Demo video (1:34)</a></p>
 <div class="verdict"><span class="badge">Verdict: {v}</span><span>{c['claims_holding']} of 3 top-level claims hold</span></div>
 <p class="meta">{_md_inline(report.VERDICT_RULE)}</p>
 <p class="meta">{_md_inline(report.PREREG)}</p>
 </header>
+
+<section class="exec" aria-labelledby="h-exec">
+<h2 id="h-exec">Executive summary for judges</h2>
+<dl>{"".join(f"<dt>{html.escape(k)}</dt><dd>{_md_inline(v)}</dd>" for k, v in report.executive_summary(c))}</dl>
+<p class="meta">Not investment advice.</p>
+</section>
 
 <section aria-labelledby="h-find">
 <h2 id="h-find">Headline findings</h2>

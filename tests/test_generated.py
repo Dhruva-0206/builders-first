@@ -54,3 +54,11 @@ def test_chart_csvs_match_render():
     for name, text in build_site.chart_csvs(c).items():
         for d in (CACHE / "charts", SITE / "data"):
             assert (d / name).read_text(encoding="utf-8") == text, f"{d.name}/{name} is stale: run `make site`"
+
+
+def test_exec_summary_present():
+    c = report.load_claims()
+    readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    site = (SITE / "index.html").read_text(encoding="utf-8")
+    assert report.md_exec_summary(c) in readme
+    assert "Executive summary for judges" in site and report.VIDEO_URL in site and report.VIDEO_URL in readme

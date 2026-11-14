@@ -216,6 +216,41 @@ def data_short(c: dict) -> str:
             f"{month_name(d['near_deploys_last_month'])} (NEAR deployments). Details below.")
 
 
+VIDEO_URL = "https://x.com/Dhruva_0206/status/2121583776333787179"
+SITE_URL = "https://dhruva-0206.github.io/builders-first/"
+
+
+def executive_summary(c: dict) -> list[tuple[str, str]]:
+    """Five labelled lines for judges, all figures from claims.json."""
+    a = c["C3a"]
+    need = (1 + a["min_rise"]) * a["raw"]["pre_mean"]
+    al = alpha_(c["C2"]["raw"]["deploys"]["bonferroni_alpha"])
+    return [
+        ("Question", "Are developers coming to NEAR, staying and shipping, and does that lead onchain usage?"),
+        ("Verdict", f"{c['verdict']} ({c['claims_holding']} of 3 pre-registered claims hold)."),
+        ("Investment call", "No developer-driven reason to buy NEAR today. Do not add to a NEAR position on developer "
+                            "momentum; base any position on usage evidence such as NEAR Intents revenue."),
+        ("Upgrade trigger", f"Re-rate toward bullish if contracts deployed per monthly active developer rises above "
+                            f"{need:.2f} (now {a['raw']['post_mean']:.2f} raw / {a['adjusted']['post_mean']:.2f} adjusted), "
+                            f"or if a re-run shows developers leading deployments at p < {al}."),
+        ("Verify in 2 minutes", f"open the live dashboard ({SITE_URL}) or run `make setup && make all` to rebuild every "
+                                f"number offline from cached data."),
+    ]
+
+
+def data_why(c: dict) -> str:
+    d = c["data_as_of"]
+    return (f"The GitHub series ends in {month_name(d['gha_last_good_month'])} because the public GH Archive source "
+            f"has a coverage break after that month (shown in the data-quality chart below); the NEAR deployment data "
+            f"runs to {month_name(d['near_deploys_last_month'])}.")
+
+
+def md_exec_summary(c: dict) -> str:
+    lines = [f"- **{k}:** {v}" if i == 0 else f"- {k}: {v}" for i, (k, v) in enumerate(executive_summary(c))]
+    return ("**Executive summary for judges**\n\n" + "\n".join(lines) +
+            f"\n\nDemo video (1:34): {VIDEO_URL} · Not investment advice.")
+
+
 def data_as_of(c: dict) -> str:
     d, b = c["data_as_of"], c["C3b"]
     return (f"GH Archive (GHA, a public record of GitHub events) usable through {d['gha_last_good_month']} (coverage rule); NEAR contract "
@@ -424,6 +459,8 @@ def render_docs(c: dict) -> dict[str, str]:
     out["THESIS.md"] = t
     r = (ROOT / "README.md").read_text(encoding="utf-8")
     r = replace_block(r, "one-liner", one_liner(c))
+    r = replace_block(r, "exec-summary", md_exec_summary(c))
+    r = replace_block(r, "data-why", f"{data_short(c).replace(' Details below.', '')} {data_why(c)}")
     r = replace_block(r, "verdict", md_readme_verdict(c))
     r = replace_block(r, "implication", " ".join(implication(c)))
     r = replace_block(r, "claims", md_scorecard(c))

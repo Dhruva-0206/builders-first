@@ -6,11 +6,27 @@
 
 A NEAR investment thesis built from developer data instead of fees or price. By Dhruva Somen Chakrabarty, for the NEAR HACKATHON Investment Thesis track.
 
+<!-- BEGIN GENERATED: exec-summary (do not edit by hand; `make site` rewrites this) -->
+**Executive summary for judges**
+
+- **Question:** Are developers coming to NEAR, staying and shipping, and does that lead onchain usage?
+- Verdict: Neutral (1 of 3 pre-registered claims hold).
+- Investment call: No developer-driven reason to buy NEAR today. Do not add to a NEAR position on developer momentum; base any position on usage evidence such as NEAR Intents revenue.
+- Upgrade trigger: Re-rate toward bullish if contracts deployed per monthly active developer rises above 1.66 (now 1.01 raw / 0.84 adjusted), or if a re-run shows developers leading deployments at p < 0.0083.
+- Verify in 2 minutes: open the live dashboard (https://dhruva-0206.github.io/builders-first/) or run `make setup && make all` to rebuild every number offline from cached data.
+
+Demo video (1:34): https://x.com/Dhruva_0206/status/2121583776333787179 · Not investment advice.
+<!-- END GENERATED: exec-summary -->
+
 <!-- BEGIN GENERATED: one-liner (do not edit by hand; `make site` rewrites this) -->
 I tested three pre-registered claims about NEAR's developer base. One holds, barely; two fail. The surprise: almost every hackathon builder is new to the NEAR repos I track (97.2%), and at least a third of their repos show AI co-authorship (34.2%), but developers do not lead onchain usage; the reverse direction is suggestive but not significant.
 <!-- END GENERATED: one-liner -->
 
-Live dashboard: https://dhruva-0206.github.io/builders-first/
+Live dashboard: https://dhruva-0206.github.io/builders-first/ · [Demo video (1:34)](https://x.com/Dhruva_0206/status/2121583776333787179)
+
+<!-- BEGIN GENERATED: data-why (do not edit by hand; `make site` rewrites this) -->
+Data through Feb 2026 (GitHub activity) and Nov 2026 (NEAR deployments). The GitHub series ends in Feb 2026 because the public GH Archive source has a coverage break after that month (shown in the data-quality chart below); the NEAR deployment data runs to Nov 2026.
+<!-- END GENERATED: data-why -->
 
 [![First screen of the Builders First dashboard](docs/img/dashboard.png)](https://dhruva-0206.github.io/builders-first/)
 
